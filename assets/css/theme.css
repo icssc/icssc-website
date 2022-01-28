@@ -1,0 +1,26 @@
+@media (prefers-color-scheme: dark) {
+  html:not(.light) body {
+    background-color: rgb(13, 17, 23);
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  html:not(.light) .bg-light {
+    background-color: rgb(18, 24, 32) !important;
+  }
+
+  html:not(.light) .u-bg-arrow-bottom::before {
+    border-color: rgb(13, 17, 23) transparent transparent;
+  }
+
+  html:not(.light) .border-class {
+    background-color: rgb(35, 41, 48);
+    box-shadow: none;
+  }
+
+  html:not(.light) .form-control {
+    background-color: rgb(13, 17, 23);
+    color: rgba(255, 255, 255, 0.8);
+    border-color: #191816;
+  }
+
+}
