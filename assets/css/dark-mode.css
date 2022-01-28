@@ -14,7 +14,7 @@
 
   .border-class {
     background-color: rgb(35, 41, 48);
-    box-shadow: none;
+    box-shadow: none !important;
   }
 
   .form-control {
