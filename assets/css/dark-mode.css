@@ -35,4 +35,12 @@
     background: #2e2e2a;
   }
 
+  .u-icon-block__col--left-brd {
+    border-left-color: #333;
+  }
+
+  .u-icon-block {
+    border-bottom-color: #222;
+  }
+
 }
