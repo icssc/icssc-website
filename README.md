@@ -6,7 +6,8 @@
 - Create a pull request explaining the changes you made. We'll review your changes and — if they look good — merge them in!
 
 ### Future plans for the website
-- [ ] Add Dark Mode (currently in review)
+- [x] Add Dark Mode
 - [ ] Add new logo and branding once that's been finalized
+- [ ] Create Projects page featuring all of Projects Committee's work
 - [ ] Rewrite in React for greater maintainability and ease of development
 - [ ] Configure GitHub Pages to automatically deploy on pushes to main (possibly with a GitHub Action)
