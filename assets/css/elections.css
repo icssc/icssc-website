@@ -1,0 +1,48 @@
+.u-content-space, .u-content-space-bottom, .u-content-space-top {
+    margin-bottom: 0;
+    padding-bottom: 2em;
+    padding-top: 0em;
+}
+
+.container {
+    padding-top: 0;
+}
+
+.btn-primary {
+    color: #333333 !important;
+    background-color: #F6F9FC !important;
+    border-color: #F6F9FC !important;
+    border-radius: 0 !important;
+}
+
+.btn-primary strong {
+    font-size: 2em;
+}
+
+.btn-primary::after {
+    content: "\f107";
+    font-size: 1.5em;
+    font-family: "FontAwesome";
+}
+
+.btn-primary[aria-expanded="true"]::after {
+    font-size: 2em;
+    content: "\f106";
+}
+
+.card-body {
+    font-size: 1.25em;
+}
+
+.card-body img {
+    margin: 0 auto;
+    width: 150px;
+}
+
+.election-percent {
+    color: #000000 !important;
+}
+
+.election-percent b {
+    color: #FF0000 !important;
+}
