@@ -7,3 +7,12 @@
 .container {
     padding-top: 0;
 }
+
+.election-percent {
+    color: #000000 !important;
+    font-size: 1.25em;
+}
+
+.election-percent b {
+    color: #007BFF !important;
+}
