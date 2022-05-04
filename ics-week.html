@@ -26,14 +26,18 @@
 
     <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.css">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="assets/vendors/slick-carousel/slick.css">
-    <link rel="stylesheet" type="text/css" href="assets/vendors/fullcalendar/fullcalendar.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/min.styles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/dark-mode.css">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/ics-week.css">
   </head>
+  <style>
+    tbody div span {
+      font-weight: normal;
+    }
+  </style>
 
   <body>
     <header>
@@ -112,21 +116,12 @@
         </div>
       </nav>
 
-      <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white" style="background-image: url(assets/img/bg/bg1.jpg);">
+      <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-white" style="background-image: url(assets/img/bg/bg3.jpg);">
         <div class="container u-overlay__inner u-ver-center u-content-space">
           <div class="row justify-content-center">
             <div class="col-12">
               <div class="text-center">
-                <p class="text-uppercase u-letter-spacing-sm mb-0">ICS Student Council</p>
-                <h1 class="display-sm-4 display-lg-3 mb-3"><span class="js-display-typing"></span> students.</h1>
-                <a class="btn btn-lg btn-primary btn--pill mb-md-0 mb-3 mx-2" href="#js-scroll-to-section">
-                  <i class="far fa-calendar"></i> Events
-                </a>
-                <!--
-                <a class="btn btn-lg btn-primary btn--pill mx-2" href="https://www.icsday.com">
-                  <i class="far fa-calendar"></i> ICS Week
-                </a>
-                -->
+                <h1 class="display-sm-4 display-lg-3">ICS Week</h1>
               </div>
             </div>
           </div>
@@ -134,108 +129,73 @@
       </section>
     </header>
 
-     <!-- Election banner -->
-    <!-- <div class="alert bg-primary text-white fade show rounded-0" role="alert">
-        <div class="container d-flex">
-          <div class="alert__icon mr-3">
-            <i class="fas fa-vote-yea"></i>
-          </div>
-
-           <div class="align-self-center mr-3"><a class="text-white" href="candidates.html"> Check out our 2020 election candidates! <i class="fas fa-external-link-alt"></i></a></div>
-
-          <div class="ml-auto">
-            <button type="button" class="alert__close alert__close--light" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-        </div>
-      </div> -->
-
-      <!-- ICS Week banner -->
-      <div class="alert bg-primary text-white fade show rounded-0" role="alert">
-        <div class="container d-flex">
-          <div class="alert__icon mr-3">
-            <i class="fas fa-laptop"></i>
-          </div>
-          <div class="align-self-center mr-3"><a class="text-white" href="/ics-week">Check out ICS Week! &nbsp;<i class="fas fa-external-link-alt"></i></a></div>
-          <div class="ml-auto">
-            <button type="button" class="alert__close alert__close--light" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-      <section class="u-content-space">
+    <main role="main">
+      <section class="text-center bg-light u-content-space">
         <div class="container">
           <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">About Us</h2>
+            <h2 class="h1">ICS Week</h2>
           </header>
-
-          <div class="row text-center justify-content-center">
-            <div class="col-lg-10">
-              <p>
-                ICS Student Council was founded by students to better serve the
-                ICS student body. We work to improve the lives of the students
-                professionally, socially, and academically and deepen the connections
-                students have with the Donald Bren School of Information and Computer Sciences
-                and UCI Alumni.
-              </p>
-
-              <!-- <a class="btn btn-lg btn-primary btn--pill mb-md-0 mb-3 mx-2" href="mission.html">
-                Learn more about our mission!
-              </a> -->
-            </div>
+          <div>
+            <a class="fab fa-instagram" href="" target="_blank"></a>
+            <a class="fab fa-facebook" href="" target="_blank"></a>
+            <a class="fab fa-discord" href="/discord" target="_blank"></a>
+          </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Monday (5/9)</th>
+                <th scope="col">Tuesday (5/10)</th>
+                <th scope="col">Wednesday (5/11)</th>
+                <th scope="col">Thursday (5/12)</th>
+                <th scope="col">Friday (5/13)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td onclick="ShowEventInfo('WICS', 0)"><strong>WICS CrowdStrike Roundtable</strong><br/>(6 PM - 9 PM)</td>
+                <td onclick="ShowEventInfo('ICSSC', 0)"><strong>ICS Professor Q&A</strong><br/>(6 PM - 7 PM)</td>
+                <td onclick="ShowEventInfo('AI', 0)"><strong>AI@UCI Jeopardy Event</strong><br/>(6 PM - 7 PM)</td>
+                <td onclick="ShowEventInfo('MAISS', 0)"><strong>MAISS Intro to Technical Project Management Workshop</strong><br/>(5 PM - 6 PM)</td>
+                <td onclick="ShowEventInfo('Design', 0)"><strong>Design at UCI Picnic in Aldrich Park</strong><br/>(1 PM - 3 PM)</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td onclick="ShowEventInfo('Data', 0)"><strong>Data@UCI Python For Data Analysis Workshop</strong><br/>(7 PM - 8 PM)</td>
+                <td onclick="ShowEventInfo('ICSSC', 1)"><strong>ICSSC Typing Competition</strong><br/>(7 PM - 9 PM)</td>
+                <td onclick="ShowEventInfo('Hack', 0)"><strong>Hack@UCI Scratch-A-Thon</strong><br/>(7 PM - 8 PM)</td>
+                <td onclick="ShowEventInfo('Blockchain', 0)"><strong>Blockchain at UCI Petr NFT</strong><br/>(4 PM - 5 PM)</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td onclick="ShowEventInfo('VGDC', 0)"><strong>VGDC Game Night</strong><br/>(8 PM - 10 PM)</td>
+                <td onclick="ShowEventInfo('ICSSC', 2)"><strong>ICS Prom</strong><br/>(6 PM - 9 PM)</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
 
-
-      <section class="u-content-space" id="js-scroll-to-section">
+      <section class="bg-light u-content-space" style="padding-top: 0;">
         <div class="container">
-          <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">Event Calendar</h2>
-            <p class="h5">Check out our upcoming events below!</p>
-          </header>
-
-          <div class="row text-center justify-content-center">
-            <div class="col-lg-10">
-              <div id='calendar'></div>
+          <div class="row">
+            <div class="col-lg-6 align-self-center ">
+                <img id="poster-img" style="display: none"/>
             </div>
-        </div>
-      </section>
-
-      <section class="bg-light u-content-space">
-        <div class="container">
-          <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">Thanks to Our Sponsors</h2>
-          </header>
-
-          <div class="js-clients-2 u-clients mb-4">
-            <div>
-              <a href="sponsors.html#ardent">
-                <img class="u-clients__image" src="assets/img/sponsors/ardent-labs.jpg" alt="Ardent Labs Logo">
-              </a>
-            </div>
-            <div>
-              <a href="sponsors.html#deloitte">
-                <img class="u-clients__image" src="assets/img/sponsors/deloitte-logo.jpg" alt="Deloitte Logo">
-              </a>
-            </div>
-            <div>
-              <a href="sponsors.html#neudesic">
-                <img class="u-clients__image" src="assets/img/sponsors/neudesic-square.png" alt="Neudesic Logo">
-              </a>
-            </div>
-            <div>
-              <a href="sponsors.html#wolfram">
-                <img class="u-clients__image" src="assets/img/sponsors/wolframlogo.png" alt="Wolfram Logo">
-              </a>
+            <div class="col-lg-6 align-self-centermb-5 mb-lg-0 pr-lg-5">
+              <h2 id="event-title"></h2>
+              <span id="event-date"></span><br/>
+              <span id="event-time"></span><br/>
+              <span id="event-location"></span><br/>
+              <a id="rsvp-link" style="display: none"></a><br/>
+              <a id="zoom-link" style="display: none"></a><br/>
             </div>
           </div>
         </div>
       </section>
-
+      
+      <script src="assets/js/ics-week.js"></script>
     </main>
 
     <footer class="bg-dark py-5">
@@ -268,60 +228,18 @@
       </div>
     </footer>
 
+
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/vendors/jquery.migrate.min.js"></script>
     <script src="assets/vendors/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="assets/vendors/jquery.parallax.js"></script>
-    <script src="assets/vendors/jquery.smooth-scroll.min.js"></script>
-    <script src="assets/vendors/typedjs/typed.min.js"></script>
     <script src="assets/vendors/slick-carousel/slick.min.js"></script>
-    <script src="assets/vendors/counters/waypoint.min.js"></script>
-    <script src="assets/vendors/counters/counterup.min.js"></script>
 
     <script src="assets/js/global.js"></script>
 
-    <script src="assets/js/vendors/moment.min.js"></script>
-    <script src="assets/js/vendors/fullcalendar.min.js"></script>
-    <script src="assets/js/vendors/gcal.min.js"></script>
     <script src="assets/js/vendors/parallax.js"></script>
     <script src="assets/js/vendors/carousel.js"></script>
-    <script src="assets/js/vendors/counters.js"></script>
-
-    <script>
-      $(document).on('ready', function () {
-        $(".js-display-typing").typed({
-          strings: [
-            "For",
-            "By",
-          ],
-          typeSpeed: 60,
-          backSpeed: 100,
-          loop: true,
-          backDelay: 2000,
-          showCursor: false
-        });
-        $('#calendar').fullCalendar({
-          defaultView: 'agendaWeek',
-          minTime: '12:00',
-          maxTime: '24:00',
-          height: 'auto',
-          googleCalendarApiKey: 'AIzaSyCNPn9Hn2TWa-jGIWuR7iBm7ACyFB3dtsQ',
-          eventSources: [
-            {
-              //ICSSC Events Calendar
-              googleCalendarId: 'c_qs7rsl2doup84lrplnbpb0dnvg@group.calendar.google.com',
-              color: '#4282fb'
-            } ,
-            {
-              //ICS Composite Calendar
-              googleCalendarId: 'uci.edu_gbicf1j49g57v1q812143kb3jc@group.calendar.google.com',
-              color: '#7986cb'
-            }
-          ]
-        });
-      });
-    </script>
   </body>
 </html>
