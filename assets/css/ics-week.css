@@ -1,0 +1,7 @@
+td:hover {
+  cursor: pointer;
+}
+
+td:hover > strong {
+	color: #4282FB;
+}
