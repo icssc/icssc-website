@@ -103,7 +103,7 @@ const EVENTS = {
       name: "VGDC Game Night",
       time: "8 PM - 10 PM",
       date: 3,
-      location: "TBD",
+      location: "DBH 1412",
       rsvp: "",
       zoom: "",
       blurb: "",
