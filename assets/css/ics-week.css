@@ -5,3 +5,8 @@ td:hover {
 td:hover > strong {
 	color: #4282FB;
 }
+
+thead {
+  background-color: #324256;
+  color: #FAFCFD;
+}
