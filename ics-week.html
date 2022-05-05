@@ -128,18 +128,30 @@
         </div>
       </section>
     </header>
+    <!-- ICS Week banner -->
+    <div class="alert bg-primary text-white fade show rounded-0" role="alert">
+      <div class="container d-flex">
+        <div class="alert__icon mr-3">
+          <i class="fab fa-instagram" style="font-size: 2em;"></i>
+        </div>
+        <div class="align-self-center mr-3"><a class="text-white" href="https://www.instagram.com/icssc.uci/" target="_blank">
+          <strong>Follow us on Instagram and post stories throughout the entire week for a chance to win prizes!</strong> &nbsp;
+          <i class="fas fa-external-link-alt"></i>
+        </a></div>
+        <div class="ml-auto">
+          <button type="button" class="alert__close alert__close--light" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+      </div>
+    </div>
 
     <main role="main">
-      <section class="text-center bg-light u-content-space">
+      <section class="text-center bg-light u-content-space" style="padding-top: 2em;">
         <div class="container">
           <header class="text-center w-md-50 mx-auto mb-8">
             <h2 class="h1">ICS Week</h2>
           </header>
-          <div>
-            <a class="fab fa-instagram" href="" target="_blank"></a>
-            <a class="fab fa-facebook" href="" target="_blank"></a>
-            <a class="fab fa-discord" href="/discord" target="_blank"></a>
-          </div>
           <table class="table">
             <thead>
               <tr>
@@ -152,7 +164,7 @@
             </thead>
             <tbody>
               <tr>
-                <td onclick="ShowEventInfo('WICS', 0)"><strong>WICS CrowdStrike Roundtable</strong><br/>(6 PM - 9 PM)</td>
+                <td onclick="ShowEventInfo('WICS', 0)"><strong>WICS CrowdStrike Roundtable</strong><br/>(6:30 PM - 8 PM)</td>
                 <td onclick="ShowEventInfo('ICSSC', 0)"><strong>ICS Professor Q&A</strong><br/>(6 PM - 7 PM)</td>
                 <td onclick="ShowEventInfo('AI', 0)"><strong>AI@UCI Jeopardy Event</strong><br/>(6 PM - 7 PM)</td>
                 <td onclick="ShowEventInfo('MAISS', 0)"><strong>MAISS Intro to Technical Project Management Workshop</strong><br/>(5 PM - 6 PM)</td>
@@ -187,9 +199,10 @@
               <h2 id="event-title"></h2>
               <span id="event-date"></span><br/>
               <span id="event-time"></span><br/>
-              <span id="event-location"></span><br/>
-              <a id="rsvp-link" style="display: none"></a><br/>
-              <a id="zoom-link" style="display: none"></a><br/>
+              <span id="event-location"></span><br/><br/>
+              <span id="event-blurb"></span><br/>
+              <a id="rsvp-link" style="display: none; font-size: 1.5em;" target="_blank"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a id="zoom-link" style="display: none; font-size: 1.5em;" target="_blank"></a>
             </div>
           </div>
         </div>
