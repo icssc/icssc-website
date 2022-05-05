@@ -9,12 +9,13 @@ const EVENTS = {
   WICS: [
     {
       name: "WICS Crowdstrike Roundtable",
-      time: "6 PM - 7 PM",
+      time: "6:30 PM - 8 PM",
       date: 0,
-      location: "TBD",
-      rsvp: "",
+      location: "DBH 6011",
+      rsvp: "https://bit.ly/WICSxCrowdstrike",
       zoom: "",
-      poster: ""
+      blurb: "Ever wonder what it's like to work for any industry leader in cybersecurity? Join us Monday 5/9! 6:30 - 8 PM in DBH 6011.",
+      poster: "assets/img/icsweek/crowdstrike.png"
     }
   ],
   ICSSC: [
@@ -22,27 +23,30 @@ const EVENTS = {
       name: "ICS Professor Q&A",
       time: "6 PM - 7 PM",
       date: 1,
-      location: "TBD",
+      location: "DBH 6011",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     },
     {
       name: "ICSSC Typing Competition",
       time: "6 PM - 7 PM",
       date: 2,
-      location: "TBD",
-      rsvp: "",
+      location: "DBH 6011",
+      rsvp: "https://bit.ly/TypingTournament22",
       zoom: "",
+      blurb: "Think you have the fastest fingers in ICS? Crown yourself the WPM winner of our typeracer tournament happening on Wednesday 5/11 from 7-9 PM at DBH 6011!",
       poster: ""
     },
     {
       name: "ICS Prom",
       time: "6 PM - 9 PM",
       date: 4,
-      location: "TBD",
-      rsvp: "",
-      zoom: "",
+      location: "DBH 6011",
+      rsvp: "https://bit.ly/ICSProm",
+      zoom: "hello",
+      blurb: "Want to meet new people and make new relationships (platonically and romantically 👀)? Did COVID ruin your chances at your in-person Prom/Dances? If your answer is yes to either of these questions, come out and participate in our ICS Prom during ICS week on Friday, May 13th at 6:30PM. We will have fun activities including : dancing, eating, and socializing! As this is like many other proms, you should dress to impress - just like you’re impressing a date. You can still come without dressing up, but know that your fictional date will be disappointed. Hope to see everyone there!",
       poster: ""
     }
   ],
@@ -51,9 +55,10 @@ const EVENTS = {
       name: "Data@UCI Python for Data Analysis Workshop",
       time: "7 PM - 8 PM",
       date: 1,
-      location: "TBD",
+      location: "DBH 6011",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -65,6 +70,7 @@ const EVENTS = {
       location: "TBD",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -76,6 +82,7 @@ const EVENTS = {
       location: "TBD",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -87,6 +94,7 @@ const EVENTS = {
       location: "TBD",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -95,9 +103,10 @@ const EVENTS = {
       name: "VGDC Game Night",
       time: "8 PM - 10 PM",
       date: 3,
-      location: "TBD",
+      location: "DBH 1412",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -106,9 +115,10 @@ const EVENTS = {
       name: "Design at UCI Picnic in Aldrich Park",
       time: "1 PM - 3 PM",
       date: 4,
-      location: "TBD",
+      location: "Aldrich Park",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -120,6 +130,7 @@ const EVENTS = {
       location: "TBD",
       rsvp: "",
       zoom: "",
+      blurb: "",
       poster: ""
     }
   ],
@@ -136,7 +147,7 @@ function ShowEventInfo(club, eventIdx) {
   let rsvpLink = document.getElementById("rsvp-link");
   if (eventInfo.rsvp !== "") {
     rsvpLink.href = eventInfo.rsvp;
-    rsvpLink.innerText = "RSVP"
+    rsvpLink.innerHTML = "<strong>RSVP</strong>"
     rsvpLink.style.display = "inline-block";
   }
   else {
@@ -148,7 +159,7 @@ function ShowEventInfo(club, eventIdx) {
   let zoomLink = document.getElementById("zoom-link");
   if (eventInfo.zoom !== "") {
     zoomLink.href = eventInfo.zoom;
-    zoomLink.innerText = "Zoom"
+    zoomLink.innerHTML = "<strong>Zoom</strong>"
     zoomLink.style.display = "inline-block";
   }
   else {
@@ -157,11 +168,20 @@ function ShowEventInfo(club, eventIdx) {
     zoomLink.style.display = "none";
   }
 
+  let eventBlurb = document.getElementById("event-blurb");
+  if (eventInfo.blurb !== "") {
+    eventBlurb.style.display = "block";
+    eventBlurb.innerText = eventInfo.blurb;
+  }
+  else {
+    eventBlurb.style.display = "none";
+    eventBlurb.innerText = "";
+  }
+
   let posterImg = document.getElementById("poster-img");
   if (eventInfo.poster !== "") {
     posterImg.src = eventInfo.poster;
     posterImg.style.display = "inline-block";
-    console.log(eventInfo.width);
 
     if (eventInfo.width !== undefined) {
       posterImg.style.width = eventInfo.width;
@@ -181,6 +201,6 @@ function ShowEventInfo(club, eventIdx) {
     posterImg.src = "";
     posterImg.style.display = "none";
   }
-
-  document.getElementById("event-title").scrollIntoView({behavior: "smooth"});
+  
+  document.getElementsByTagName("footer")[0].scrollIntoView({behavior: "smooth"});
 }
