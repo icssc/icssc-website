@@ -45,7 +45,7 @@ const EVENTS = {
       date: 4,
       location: "DBH 6011",
       rsvp: "https://bit.ly/ICSProm",
-      zoom: "hello",
+      zoom: "",
       blurb: "Want to meet new people and make new relationships (platonically and romantically 👀)? Did COVID ruin your chances at your in-person Prom/Dances? If your answer is yes to either of these questions, come out and participate in our ICS Prom during ICS week on Friday, May 13th at 6:30PM. We will have fun activities including : dancing, eating, and socializing! As this is like many other proms, you should dress to impress - just like you’re impressing a date. You can still come without dressing up, but know that your fictional date will be disappointed. Hope to see everyone there!",
       poster: ""
     }
