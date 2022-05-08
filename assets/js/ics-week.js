@@ -105,7 +105,7 @@ const EVENTS = {
       location: "<a href='https://goo.gl/maps/5smLR77dkm8EM42j8' target='_blank'>DBH 1412</a>",
       rsvp: "",
       zoom: "",
-      blurb: "",
+      blurb: "Come join the Video Game Development Club for a Game Night, this Thursday, May 12th, from 8-10pm! We will have our very own Game Lab open at DBH 1412 for you to play some games our past members have made, as well as compete against each other Smash, Mario Kart, and Jackbox. Stop by to see what our club is all about!",
       poster: ""
     }
   ],
