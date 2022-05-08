@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+table {
+  font-family: "Comfortaa", sans-serif;
+}
+
 td:hover {
   cursor: pointer;
 }
@@ -7,6 +14,23 @@ td:hover > strong {
 }
 
 thead {
+  font-family: "Audiowide", sans-serif;
   background-color: #324256;
   color: #FAFCFD;
+}
+
+.ics-week {
+  font-family: "Comfortaa", sans-serif;
+}
+
+.ics-week #event-title {
+  font-family: "Audiowide", sans-serif;
+}
+
+.ics-week #rsvp-link {
+  font-family: "Audiowide", sans-serif;
+}
+
+.ics-week #zoom-link {
+  font-family: "Audiowide", sans-serif;
 }

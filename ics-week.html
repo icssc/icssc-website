@@ -128,38 +128,38 @@
         </div>
       </section>
     </header>
-    <!-- ICS Week banner -->
-    <div class="alert bg-primary text-white fade show rounded-0" role="alert">
-      <div class="container d-flex">
-        <div class="alert__icon mr-3">
-          <i class="fab fa-instagram" style="font-size: 2em;"></i>
-        </div>
-        <div class="align-self-center mr-3"><a class="text-white" href="https://www.instagram.com/icssc.uci/" target="_blank">
-          <strong>Follow us on Instagram and post stories throughout the entire week for a chance to win prizes!</strong> &nbsp;
-          <i class="fas fa-external-link-alt"></i>
-        </a></div>
-        <div class="ml-auto">
-          <button type="button" class="alert__close alert__close--light" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-      </div>
-    </div>
 
     <main role="main">
-      <section class="text-center bg-light u-content-space" style="padding-top: 2em;">
+      <!-- ICS Week banner -->
+      <div class="alert bg-primary text-white fade show rounded-0" role="alert" style="margin-bottom: 0;">
+        <div class="container d-flex">
+          <div class="alert__icon mr-3">
+            <i class="fab fa-instagram" style="font-size: 2em;"></i>
+          </div>
+          <div class="align-self-center mr-3"><a class="text-white" href="https://www.instagram.com/icssc.uci/" target="_blank">
+            <strong>Follow us on Instagram and post stories throughout the entire week for a chance to win prizes!</strong> &nbsp;
+            <i class="fas fa-external-link-alt"></i>
+          </a></div>
+          <div class="ml-auto">
+            <button type="button" class="alert__close alert__close--light" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <section class="text-center bg-light u-content-space" style="padding-top: 2.5em;">
         <div class="container">
           <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">ICS Week</h2>
+            <img src="assets/img/icsweek/ics-week-logo.svg" width="30%"/>
           </header>
           <table class="table">
             <thead>
               <tr>
-                <th scope="col">Monday (5/9)</th>
-                <th scope="col">Tuesday (5/10)</th>
-                <th scope="col">Wednesday (5/11)</th>
-                <th scope="col">Thursday (5/12)</th>
-                <th scope="col">Friday (5/13)</th>
+                <th scope="col">Monday <br/>(5/9)</th>
+                <th scope="col">Tuesday <br/>(5/10)</th>
+                <th scope="col">Wednesday <br/>(5/11)</th>
+                <th scope="col">Thursday <br/>(5/12)</th>
+                <th scope="col">Friday <br/>(5/13)</th>
               </tr>
             </thead>
             <tbody>
@@ -173,7 +173,7 @@
               <tr>
                 <td></td>
                 <td onclick="ShowEventInfo('Data', 0)"><strong>Data@UCI Python For Data Analysis Workshop</strong><br/>(7 PM - 8 PM)</td>
-                <td onclick="ShowEventInfo('ICSSC', 1)"><strong>ICSSC Typing Competition</strong><br/>(7 PM - 9 PM)</td>
+                <td onclick="ShowEventInfo('ICSSC', 1)"><strong>ICSSC Typing Competition</strong><br/>(7:30 PM - 8:30 PM)</td>
                 <td onclick="ShowEventInfo('Hack', 0)"><strong>Hack@UCI Scratch-A-Thon</strong><br/>(7 PM - 8 PM)</td>
                 <td onclick="ShowEventInfo('Blockchain', 0)"><strong>Blockchain at UCI Petr NFT</strong><br/>(4 PM - 5 PM)</td>
               </tr>
@@ -195,7 +195,7 @@
             <div class="col-lg-6 align-self-center ">
                 <img id="poster-img" style="display: none"/>
             </div>
-            <div class="col-lg-6 align-self-centermb-5 mb-lg-0 pr-lg-5">
+            <div class="col-lg-6 align-self-centermb-5 mb-lg-0 pr-lg-5 ics-week">
               <h2 id="event-title"></h2>
               <span id="event-date"></span><br/>
               <span id="event-time"></span><br/>
