@@ -25,7 +25,7 @@ const EVENTS = {
       location: "<a href='https://goo.gl/maps/5smLR77dkm8EM42j8' target='_blank'>DBH 6011</a>",
       rsvp: "",
       zoom: "",
-      blurb: "",
+      blurb: "Want to get to know your Professor outside of school? Are you interested in how they came to their professional career?  Come to the ICS Professor Q&A on Tuesday, May 10th from 6-7 in DBH 6011, featuring Professor Alfaro and Professor Navarro! Come find out how Professor Alfaro has ran multiple marathons or learn more about Professor Navarro and her iconic partner Robert!",
       poster: ""
     },
     {
