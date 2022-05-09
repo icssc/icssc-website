@@ -5,7 +5,9 @@ export default function Layout({ children }) {
   return (
     <>
       <NavBar />
-      {children}
+      <div style={{marginTop: "75px"}}>
+        {children}
+      </div>
       <Footer />
     </>
   )
