@@ -1,0 +1,57 @@
+[
+    {
+        "id": "acm",
+        "name": "Association For Computing Machinery",
+        "logo": "/assets/img/clubs/acm.png"
+    },
+    {
+        "id": "ai",
+        "name": "AI at UCI",
+        "logo": "/assets/img/clubs/ai.png"
+    },
+    {
+        "id": "blockchain",
+        "name": "Blockchain at UCI",
+        "logo": "/assets/img/clubs/blockchain.png"
+    },
+    {
+        "id": "ctc",
+        "name": "Commit the Change",
+        "logo": "/assets/img/clubs/ctc.png"
+    },
+    {
+        "id": "cyber",
+        "name": "Cyber @ UCI",
+        "logo": "/assets/img/clubs/cyber.png"
+    },
+    {
+        "id": "hack",
+        "name": "Hack at UCI",
+        "logo": "/assets/img/clubs/hack.png"
+    },
+    {
+        "id": "maiss",
+        "name": "Management Information Student Society",
+        "logo": "/assets/img/clubs/maiss.png"
+    },
+    {
+        "id": "udsa",
+        "name": "Undergraduate Data Science Association",
+        "logo": "/assets/img/clubs/udsa.png"
+    },
+    {
+        "id": "vgdc",
+        "name": "Video Game Development Club",
+        "logo": "/assets/img/clubs/vgdc.png"
+    },
+    {
+        "id": "vrdc",
+        "name": "Virtual REality Development Club",
+        "logo": "/assets/img/clubs/vrdc.png"
+    },
+    {
+        "id": "wics",
+        "name": "Women in Information and Computer Science",
+        "logo": "/assets/img/clubs/wics.png"
+    }
+]
