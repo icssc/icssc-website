@@ -64,12 +64,12 @@ const EVENTS = {
   AI: [
     {
       name: "AI@UCI Jeopardy Event",
-      time: "6 PM - 7 PM",
+      time: "6 PM - 7:30 PM",
       date: 2,
-      location: "TBD",
+      location: "<a href='https://goo.gl/maps/LRJaQVRiQyPomdA87' target='_blank'>ICS 428</a>",
       rsvp: "",
       zoom: "",
-      blurb: "",
+      blurb: "This week is ICS Week! There will be a number of special events hosted by different ICS Student Organizations. We'll be hosting an AI-themed Jeopardy Game with prizes in ICS 428 from 6:00pm-7:30pm...hope to see you there!",
       poster: ""
     }
   ],
