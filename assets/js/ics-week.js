@@ -106,7 +106,7 @@ const EVENTS = {
       rsvp: "",
       zoom: "",
       blurb: "Come join the Video Game Development Club for a Game Night, this Thursday, May 12th, from 8-10pm! We will have our very own Game Lab open at DBH 1412 for you to play some games our past members have made, as well as compete against each other Smash, Mario Kart, and Jackbox. Stop by to see what our club is all about!",
-      poster: ""
+      poster: "assets/img/icsweek/gamenight.png"
     }
   ],
   Design: [
