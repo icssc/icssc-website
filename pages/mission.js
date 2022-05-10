@@ -4,8 +4,8 @@ import { FaRegHandshake, FaRegLightbulb } from "react-icons/fa";
 import styles from '/styles/Mission.module.css';
 import Clubs from '../assets/data/clubs.json';
 
-function Affiliate({club}) {
-  const { id, logo, name } = club
+function Affiliate(props) {
+  const { id, logo, name } = props
   return (
     <a href={`affiliates.html#${id}`} className={styles["affiliate-icon"]}>
       <Image
@@ -95,7 +95,7 @@ export default function Mission() {
 
           <div className={styles.affiliates}>
             {
-              Clubs.map(club => <Affiliate club={club} />)
+              Clubs.map(club => <Affiliate {...club} />)
             }
           </div>
         </Container>

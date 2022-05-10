@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ellie Lee",
+        "email": "elizayl4@uci.edu",
+        "image": "/assets/img/board/ellieLee.jpeg"
+    },
+    {
+        "name": "Bianca Victoria",
+        "email": "byvictor@uci.edu",
+        "image": "/assets/img/board/biancaVictoria.jpeg"
+    },
+    {
+        "name": "Rowena Luminarias",
+        "email": "rluminar@uci.edu",
+        "image": "/assets/img/board/rowenaLuminarias.jpeg"
+    },
+    {
+        "name": "Alicia Lee",
+        "email": "alicisl1@uci.edu",
+        "image": "/assets/img/board/aliciaLee.jpeg"
+    }
+]

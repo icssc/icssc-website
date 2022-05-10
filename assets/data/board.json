@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Patrick Nguyen",
+        "position": "Co-President",
+        "email": "patrian1@uci.edu",
+        "image": "/assets/img/board/patrickNguyen.jpeg"
+    },
+    {
+        "name": "Jessie Chang",
+        "position": "Co-President",
+        "email": "jessc16@uci.edu",
+        "image": "/assets/img/board/jessieChang.jpeg"
+    },
+    {
+        "name": "Ryan Mohta",
+        "position": "Internal Vice President",
+        "email": "mohtar@uci.edu",
+        "image": "/assets/img/board/ryanMohta.jpeg"
+    },
+    {
+        "name": "Aaron Lam",
+        "position": "External Vice President",
+        "email": "aarontl1@uci.edu",
+        "image": "/assets/img/board/aaronLam.jpeg"
+    },
+    {
+        "name": "Emily Doan",
+        "position": "Public Relations Chair",
+        "email": "edoan2@uci.edu",
+        "image": "/assets/img/board/emilyDoan.jpeg"
+    },
+    {
+        "name": "Pham",
+        "position": "Events Chair",
+        "email": "nmpham2@uci.edu",
+        "image": "/assets/img/board/nicolePham.jpeg"
+    },
+    {
+        "name": "Chase Carnaroli",
+        "position": "Projects Co-Chair",
+        "email": "ccarnaro@uci.edu",
+        "image": "/assets/img/board/chaseCarnaroli.jpeg"
+    },
+    {
+        "name": "Raman Gupta",
+        "position": "Projects Co-Chair",
+        "email": "rxgupta@uci.edu",
+        "image": "/assets/img/board/ramanGupta.jpeg"
+    },
+    {
+        "name": "Jennie Quach",
+        "position": "Corporate Outreach Chair",
+        "email": "quachjh@uci.edu",
+        "image": "/assets/img/board/jennieQuach.jpg"
+    },
+    {
+        "name": "Brian Bulgarelli",
+        "position": "Academic and Alumni Affairs Chair",
+        "email": "bulgareb@uci.edu",
+        "image": "/assets/img/board/brianBulgarelli.jpeg"
+    },
+    {
+        "name": "Shreyas Hukkeri",
+        "position": "Treasurer",
+        "email": "shukkeri@uci.edu",
+        "image": "/assets/img/board/shreyasHukkeri.jpeg"
+    },
+    {
+        "name": "Nathan Nguyen",
+        "position": "Secretary",
+        "email": "nathan8@uci.edu",
+        "image": "/assets/img/board/nathanNguyen.jpeg"
+    },
+    {
+        "name": "Anna Chan",
+        "position": "Webmaster",
+        "email": "chanan2@uci.edu",
+        "image": "/assets/img/board/annaChan.jpg"
+    }
+]

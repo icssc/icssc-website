@@ -1,11 +1,16 @@
+import Image from "next/image";
 import { Nav, Navbar, NavDropdown, NavItem } from "react-bootstrap";
-import logoWhite from "/assets/img/logo-white.png";
 
 export default function NavBar() {
     return (
         <Navbar variant="dark" fixed="top" expand="lg" style={{ backgroundColor: "#4282fb" }}>
             <Navbar.Brand href="/index">
-                <img src={logoWhite.src} alt="ICSSC Logo" style={{ width: "100px" }} />
+                <Image 
+                    src="/assets/img/logo-white.png"
+                    alt="ICSSC Logo" 
+                    width={100}
+                    height={50}
+                />
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="collapsable-navbar" />
@@ -34,7 +39,9 @@ export default function NavBar() {
                         <NavDropdown.Item href="/affiliates">Affiliates</NavDropdown.Item>
                         <NavDropdown.Item href="/sponsors">Sponsors</NavDropdown.Item>
                     </NavDropdown>
-                    <NavItem title="Contact Us" className="mr-4 mb-2 mb-lg-0" />
+                    <Nav.Item title="Contact Us" className="mr-4 mb-2 mb-lg-0">
+                        <Nav.Link href="/contacts">Contact Us</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
