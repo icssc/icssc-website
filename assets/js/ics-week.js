@@ -58,7 +58,7 @@ const EVENTS = {
       rsvp: "https://docs.google.com/forms/d/e/1FAIpQLSdrUkPs-PtE2gIs1WQm5xxIpEvrY0LxOQzK-EY1jUVIz252cw/viewform",
       zoom: "",
       blurb: "Want to learn how to analyze data with Python or add a new skill to your toolbox? Data @ UCI will be hosting an Intro to Python for Data Analysis Workshop in the Interdisciplinary Science and Engineering Building (ISEB) in Room 1200 on Tuesday, 5/10/2022 from 7-8:30 pm. This workshop is intended for people who have some experience with Python but are new to its applications in data analysis. We will be going over dataframes using the Pandas library. There will be free food and drinks for attendees as well as a gift card raffle! This workshop will be highly interactive so make sure to bring your laptop!",
-      poster: ""
+      poster: "assets/img/icsweek/dataworkshop.PNG"
     }
   ],
   AI: [
