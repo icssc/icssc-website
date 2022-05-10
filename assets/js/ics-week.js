@@ -26,7 +26,7 @@ const EVENTS = {
       rsvp: "",
       zoom: "",
       blurb: "Want to get to know your Professor outside of school? Are you interested in how they came to their professional career?  Come to the ICS Professor Q&A on Tuesday, May 10th from 6-7 in DBH 6011, featuring Professor Alfaro and Professor Navarro! Come find out how Professor Alfaro has ran multiple marathons or learn more about Professor Navarro and her iconic partner Robert!",
-      poster: ""
+      poster: "assets/img/icsweek/icsprofessorqa.PNG"
     },
     {
       name: "ICSSC Typing Competition",
@@ -36,7 +36,7 @@ const EVENTS = {
       rsvp: "https://bit.ly/TypingTournament22",
       zoom: "",
       blurb: "Think you have the fastest fingers in ICS? Crown yourself the WPM winner of our typeracer tournament happening on Wednesday 5/11 from 7-9 PM at DBH 6011!",
-      poster: ""
+      poster: "assets/img/icsweek/typingcompetition.png"
     },
     {
       name: "ICS Prom",
@@ -58,7 +58,7 @@ const EVENTS = {
       rsvp: "https://docs.google.com/forms/d/e/1FAIpQLSdrUkPs-PtE2gIs1WQm5xxIpEvrY0LxOQzK-EY1jUVIz252cw/viewform",
       zoom: "",
       blurb: "Want to learn how to analyze data with Python or add a new skill to your toolbox? Data @ UCI will be hosting an Intro to Python for Data Analysis Workshop in the Interdisciplinary Science and Engineering Building (ISEB) in Room 1200 on Tuesday, 5/10/2022 from 7-8:30 pm. This workshop is intended for people who have some experience with Python but are new to its applications in data analysis. We will be going over dataframes using the Pandas library. There will be free food and drinks for attendees as well as a gift card raffle! This workshop will be highly interactive so make sure to bring your laptop!",
-      poster: ""
+      poster: "assets/img/icsweek/dataworkshop.PNG"
     }
   ],
   AI: [
@@ -78,10 +78,10 @@ const EVENTS = {
       name: "MAISS Intro to Technical Project Management Workshop",
       time: "5 PM - 6 PM",
       date: 3,
-      location: "TBD",
-      rsvp: "",
-      zoom: "",
-      blurb: "",
+      location: "Zoom",
+      rsvp: "https://forms.gle/f7sCDfMPqtMioAWJA",
+      zoom: "https://uci.zoom.us/j/3133884551",
+      blurb: "Come out to MAISS’ ICS Week event and learn about the basics of Technical Project Management! We’ll be going over concepts such as what is Technical Project Management, Agile methodologies & Scrum, and project management tools. Hope to see you there!",
       poster: ""
     }
   ],
