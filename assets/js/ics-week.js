@@ -201,5 +201,5 @@ function ShowEventInfo(club, eventIdx) {
     posterImg.style.display = "none";
   }
   
-  document.getElementsByTagName("footer")[0].scrollIntoView({behavior: "smooth"});
+  document.getElementById("event-title").scrollIntoView({behavior: "smooth"});
 }
