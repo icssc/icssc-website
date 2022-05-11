@@ -88,13 +88,13 @@ const EVENTS = {
   Hack: [
     {
       name: "Hack@UCI Scratch-A-Thon",
-      time: "5 PM - 6 PM",
+      time: "7 PM - 8:30 PM",
       date: 3,
       location: "<a href='https://goo.gl/maps/LRJaQVRiQyPomdA87' target='_blank'>ICS 428</a>",
       rsvp: "",
       zoom: "",
       blurb: "Hack@UCI is hosting our inaugural scratch-a-thon!! Come out to work on your very own Scratch hack and see what others have built 😼",
-      poster: ""
+      poster: "assets/img/icsweek/scratchathon.jpg"
     }
   ],
   VGDC: [
