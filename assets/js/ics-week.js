@@ -126,11 +126,11 @@ const EVENTS = {
       name: "Blockchain at UCI: Mint your own Petr NFT",
       time: "4 PM - 5 PM",
       date: 4,
-      location: "TBD",
+      location: "<a href='https://goo.gl/maps/qUkezxpfewj2G3Du5' target='_blank'>ISEB 1310</a>",
       rsvp: "",
       zoom: "",
-      blurb: "",
-      poster: ""
+      blurb: "We will be having an Intro to NFTs/Mint your own Petr NFT(On a carbon neutral Blockchain of course) workshop event this FRIDAY, May 13th as part of ICS Week! Come to learn more about NFT technology, industry applications of NFTs as well as potential solutions to negative impacts NFTs might have! We will also serve free snacks and drinks!",
+      poster: "assets/img/icsweek/blockchainnft.jpg"
     }
   ],
   CTC: []
