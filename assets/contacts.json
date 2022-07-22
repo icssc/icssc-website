@@ -1,0 +1,25 @@
+[
+    {
+        "media": "Facebook",
+        "name": "ICS Student Council",
+        "src": "https://www.facebook.com/ICSStudentCouncil/"
+    },
+
+    {
+        "media": "Instagram",
+        "name": "@icssc.uci",
+        "src": "https://www.instagram.com/icssc.uci/"
+    },
+
+    {
+        "media": "Discord",
+        "name": "ICSSC",
+        "src": "https://discord.gg/c4t5dGcM9S"
+    },
+
+    {
+        "media": "Email",
+        "name": "icssc@uci.edu",
+        "src": "mailto:icssc@uci.edu"
+    }
+]
