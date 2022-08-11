@@ -22,7 +22,7 @@ export default function Awards() {
         </Row>
         <h2>Recognitions</h2>
         <Row>
-          {AwardsJSON.map(recObj => recObj["recognitions"].map(rec => <Section {...rec}/>))}
+          {AwardsJSON["recognitions"].map(rec => <Section {...rec}/>)}
         </Row>
       </Container>
     </>
