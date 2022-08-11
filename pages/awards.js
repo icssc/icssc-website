@@ -18,7 +18,7 @@ export default function Awards() {
       <Container className="text-center" role="main">
         <h2>Awards</h2>
         <Row>
-          {AwardsJSON.map(awardObj => awardObj["awards"].map(award => <Section {...award}/>))}
+        {AwardsJSON["awards"].map(award => <Section {...award}/>)}
         </Row>
         <h2>Recognitions</h2>
         <Row>
