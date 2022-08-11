@@ -1,26 +1,25 @@
 [
     {
-        "name": "Awards",
-        "titles": [
-            "Most Outstanding Social/Support Organization",
-            "Student Alumni Engagement Sponsorship"
+        "awards": [
+            {
+                "title": "Most Outstanding Social/Support Organization",
+                "provider": "Anteater Awards 2011"
+            },
+            {
+                "title": "Student Alumni Engagement Sponsorship",
+                "provider": "Student Alumni Association"
+            }
         ],
-        "providers": [
-            "Anteater Awards 2011",
-            "Student Alumni Association"
+      
+        "recognitions": [
+            { 
+                "title": "Third Place",
+                "provider": "Winter UCI Alumni Association Club Affiliates Challenge 2020"
+            },
+            {
+                "title": "Second Place",
+                "provider": "UCI Campus Organizations & Volunteer Programs | Love My Org Contest 2020"
+            }
         ]
-    },
-
-    {
-        "name": "Recognitions",
-        "titles": [
-            "Third Place",
-            "Second Place"
-        ],
-        "providers": [
-            "Winter UCI Alumni Association Club Affiliates Challenge 2020",
-            "UCI Campus Organizations & Volunteer Programs | Love My Org Contest 2020"
-        ]
-
     }
 ]

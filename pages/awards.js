@@ -1,24 +1,13 @@
 import AwardsJSON from '../assets/data/awards.json';
 import { Container, Row, Col } from 'react-bootstrap';
 
-function Award(props) {
-  const {name, titles, providers} = props;
+function Section(props) {
+  const {title, provider} = props;
   return (
-    <Container className="text-center">
-      <h2 className="h1">{name}</h2>
-      <Row lg={2}>
-        {Object.keys(titles).map((key, ind) => {
-          return (
-            <Col lg={6}>
-              <div key={ind}>
-                <h5 className="mt-3" key={titles}>{titles[key]}</h5>
-                <p key={providers}>{providers[key]}</p> 
-                </div>
-            </Col>
-          );
-        })}
-      </Row>
-    </Container>
+    <Col md={6}>
+      <h5>{props.title}</h5>
+      <p>{props.provider}</p>
+    </Col>
   )
 }
 
@@ -26,9 +15,16 @@ export default function Awards() {
   return (
     <>
       <h1>Awards & Recognitions</h1>
-      <main role="main">
-        {AwardsJSON.map(award => <Award {...award}/> )}
-      </main>
+      <Container className="text-center" role="main">
+        <h2>Awards</h2>
+        <Row>
+          {AwardsJSON.map(awardObj => awardObj["awards"].map(award => <Section {...award}/>))}
+        </Row>
+        <h2>Recognitions</h2>
+        <Row>
+          {AwardsJSON.map(recObj => recObj["recognitions"].map(rec => <Section {...rec}/>))}
+        </Row>
+      </Container>
     </>
   );
 }
