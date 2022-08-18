@@ -1,0 +1,42 @@
+{
+    "current": [
+        {
+            "src":"/assets/img/events/takeAHike.jpg",
+            "title":"ICSSC Takes a Hike!",
+            "time":"Saturday April 2, 2022 | UTC/Vista Point 5PM-8PM",
+            "desc": "You know what's the best activity for Computer Science majors to do in the Spring? Touch Grass, and what better way of doing so then to go out on a hike this upcoming Saturday(4/2) @ 5PM - 8PM at Vista Point. Come join ICSSC as we get our monthly dose of Vitamin D. Be sure to bring your own water bottle, some sunscreen, and proper shoes. Stay hydrated and healthy kings and queens. We will be meeting at 5 at the Cha fountain at UTC!",
+            "rsvp_src": "https://docs.google.com/forms/d/e/1FAIpQLSdL8bZrGgbTlPHeMIHD6fc82eC4x6Fb4NuJvPvyKwuobrxTRg/viewform"
+        }
+    ],
+
+    "past": [
+        {
+            "src":"/assets/img/events/takeAHike.jpg",
+            "title":"ICSSC Takes a Hike!",
+            "time":"Saturday April 2, 2022 | UTC/Vista Point 5PM-8PM",
+            "desc": "You know what's the best activity for Computer Science majors to do in the Spring? Touch Grass, and what better way of doing so then to go out on a hike this upcoming Saturday(4/2) @ 5PM - 8PM at Vista Point. Come join ICSSC as we get our monthly dose of Vitamin D. Be sure to bring your own water bottle, some sunscreen, and proper shoes. Stay hydrated and healthy kings and queens. We will be meeting at 5 at the Cha fountain at UTC!"
+        },
+
+        {
+            "src":"/assets/img/events/springIntoTheNewQuarter.png",
+            "title":"Spring into the New Quarter with ICSSC",
+            "time":"March 30, 2022 | DBH 6011 7-8 PM",
+            "desc": "SPRING into the new quarter by coming to our first event where we'll go over ICSSC's plans for the quarter and upcoming events! Stick around to the end for a social where you can meet new people and make friends!"
+        },
+        
+        {
+            "src":"/assets/img/events/brainGames.jpg",
+            "title":"Brain Games",
+            "time":"February 21-25, 2022",
+            "desc": "Think you have the biggest brain in ICS? Grab your friends and gear up for ICSSC's Brain Games, a week-long competition full of brain games where you can compete against other students for prizes and the chance to donate to a charity of your choice! Brain Games will take place week 8 (Feb. 21-25), so make sure to sign up before it's too late."
+        },
+
+        {
+            "src":"/assets/img/events/webJamRectangle.jpeg",
+            "title":"WebJam",
+            "time":"October 11-15, 2021",
+            "desc": "ICS Student Council welcomes you back to school and back to another WebJam! WebJam is a week-long competition where students can form teams to design and develop fully functional web applications. This year's theme is \"New Beginnings\" to not only welcome students back on campus but also welcome beginners to learn something new and participate! The event is open to students of all technical levels and we will be providing workshops to help teach basic and intermediate concepts."
+        }
+        
+    ]
+}
