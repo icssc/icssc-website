@@ -65,7 +65,7 @@ export default function Events() {
       <h1>Events</h1>
       <h1 className="text-center">Current Events</h1>
       <p className="text-center">No current events! Stay tuned for more :)</p>
-      {EventsData["current"].map(current => <Current {...current}/>)}
+      {/* EventsData["current"].map(current => <Current {...current}/>) */}
 
       <h1 className="text-center mt-5 pt-5">Past Events</h1>
       {EventsData["past"].map(event => <Past {...event}/>)}
