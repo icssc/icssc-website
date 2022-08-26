@@ -1,4 +1,4 @@
-import ContactsJSON from '../assets/contacts.json';
+import ContactsJSON from '../assets/data/contacts.json';
 import { Row, Col } from 'react-bootstrap';
 
 function Contact(props) {
