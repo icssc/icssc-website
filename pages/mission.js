@@ -21,43 +21,44 @@ function Affiliate(props) {
 export default function Mission() {
   return (
     <main role="main">
-      <section class="container u-content-space u-bg-arrow-wrapper">
-        <div class="text-center u-bg-arrow-bottom">
-          <p class="h5 mb-0">ICS Student Council was created by <strong class="text-primary">passionate </strong> students for all interested students.</p>
+      <br></br>
+      <section className="container u-content-space u-bg-arrow-wrapper">
+        <div className="text-center u-bg-arrow-bottom">
+          <p className="h5 mb-0">ICS Student Council was created by <strong className="text-primary">passionate </strong> students for all interested students.</p>
         </div>
       </section>
 
-      <section class="text-center bg-light u-content-space">
-        <div class="container">
-          <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">Our Mission</h2>
+      <section className="text-center bg-light u-content-space">
+        <div className="container">
+          <header className="text-center w-md-50 mx-auto mb-8">
+            <h2 className="h1">Our Mission</h2>
           </header>
 
-          <div class="row">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-4">
+          <Row>
+            <Col lg={6} className="mb-5">
+              <div className="display-4 text-primary mb-4">
                 <FaRegLightbulb />
               </div>
-              <h4 class="h5">Improve</h4>
-              <p class="mb-0">Student life of the Donald Bren School of Information and Computer Sciences academically, socially, and professionally.</p>
-            </div>
+              <h4 className="h5">Improve</h4>
+              <p className="mb-0">Student life of the Donald Bren School of Information and Computer Sciences academically, socially, and professionally.</p>
+            </Col>
 
-            <div class="col-lg-6 mb-5 mb-lg-0">
-              <div class="display-4 text-primary mb-4">
+            <Col lg={6} className="mb-5">
+              <div className="display-4 text-primary mb-4">
                 <FaRegHandshake />
               </div>
-              <h4 class="h5">Create and Deepen</h4>
-              <p class="mb-0">Bonds between students, faculty, administration, companies, and alumni of the ICS School as well as similar groups.</p>
-            </div>
-          </div>
+              <h4 className="h5">Create and Deepen</h4>
+              <p className="mb-0">Bonds between students, faculty, administration, companies, and alumni of the ICS School as well as similar groups.</p>
+            </Col>
+          </Row>
         </div>
       </section>
 
-      <section class="u-content-space">
+      <section className="u-content-space">
         <Container>
-          <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1">Our Vision</h2>
-            <p class="h5">We believe that through a strong community, we will enhance the quality of student life and ensure great jobs for students of all majors and minors within the Donald Bren School of Information and Computer Science by:</p>
+          <header className="text-center w-md-50 mx-auto mb-8">
+            <h2 className="h1">Our Vision</h2>
+            <p className="h5">We believe that through a strong community, we will enhance the quality of student life and ensure great jobs for students of all majors and minors within the Donald Bren School of Information and Computer Science by:</p>
           </header>
 
           <Row>
@@ -79,7 +80,7 @@ export default function Mission() {
           </Row>
 
           <br></br>
-          <div class="text-center">
+          <div className="text-center">
             <Button variant="primary" size="lg" href="https://docs.google.com/document/u/1/d/e/2PACX-1vQupcAAOIoyS3EZOpPFuFhin1g4aVpITSgD4QXRgZAYxHtxSv4I5ToApD8JprDHOmoABY1qg81wuYZc/pub">
               Learn more through our constitution.
             </Button>
@@ -87,10 +88,10 @@ export default function Mission() {
         </Container>
       </section>
 
-      <section class="bg-light u-content-space">
+      <section className="bg-light u-content-space">
         <Container>
-          <header class="text-center w-md-50 mx-auto mb-8">
-            <h2 class="h1 mb-0">Our Member Clubs</h2>
+          <header className="text-center w-md-50 mx-auto mb-8">
+            <h2 className="h1 mb-0">Our Member Clubs</h2>
           </header>
 
           <div className={styles.affiliates}>
