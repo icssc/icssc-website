@@ -23,6 +23,7 @@ export default function Mission() {
     <main role="main">
       <section class="container u-content-space u-bg-arrow-wrapper">
         <div class="text-center u-bg-arrow-bottom">
+          <br/>
           <p class="h5 mb-0">ICS Student Council was created by <strong class="text-primary">passionate </strong> students for all interested students.</p>
         </div>
       </section>
