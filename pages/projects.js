@@ -1,17 +1,15 @@
 import ProjectData from '../assets/data/projects.json';
 import { Row, Col, Container, Card } from 'react-bootstrap';
-import Image from "next/image";
 
 function Project(props) {
     const {img, name, desc, src} = props
     return (
-        <Col lg={6} md={12} className="mb-5 mt-5">
+        <Col lg={5} md={12} className="p-4">
             <Card style={{ width: 'auto', height: '100%', borderRadius:"30px", boxShadow:"2px 4px 10px" }}>
-                {/* <Card.Img variant="top" src={img_src} /> */}
-                <Image
+                <img
                 style={{borderTopLeftRadius:"30px", borderTopRightRadius:"30px"}}
-                height="300"
-                width="300"
+                height="auto"
+                width="auto"
                 src={img}/>
                 <Card.Body>
                     <Card.Title>
@@ -23,6 +21,7 @@ function Project(props) {
                 </Card.Body>
             </Card>
         </Col>
+        
     );
 }
 
@@ -30,7 +29,7 @@ export default function Projects() {
     return (
         <>
             <h1>Projects</h1>
-            <Container>
+            <Container fluid>
                 <Row className="justify-content-md-center">
                     {ProjectData.map(project => <Project {...project}/>)}
                 </Row>
