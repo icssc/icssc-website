@@ -6,7 +6,7 @@ function Resource(props) {
   return (
       <Container className="text-center mb-5 mt-5">
         <h1>{title}</h1>
-        <h5>{desc} <br/> Link: {src}</h5>
+        <h5>{desc} <br/> Link: <a href={src}>{src}</a></h5>
       </Container>
   )
 }
