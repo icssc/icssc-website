@@ -13,7 +13,7 @@ function Project(props) {
                     </Card.Title>
                     <Card.Subtitle></Card.Subtitle>
                     <Card.Text>
-                        <h5>{desc}</h5>
+                        {desc}
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -23,13 +23,11 @@ function Project(props) {
 
 export default function Projects() {
     return (
-        <>
+        <Container fluid>
             <h1>Projects</h1>
-            <Container fluid>
-                <Row className="justify-content-md-center">
-                    {ProjectData.map(project => <Project {...project}/>)}
-                </Row>
-            </Container>
-        </>
+            <Row className="justify-content-md-center">
+                {ProjectData.map((project, index) => <Project key={index} {...project}/>)}
+            </Row>
+        </Container>
     );
 }
