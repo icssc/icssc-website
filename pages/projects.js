@@ -25,9 +25,11 @@ export default function Projects() {
     return (
         <Container fluid>
             <h1>Projects</h1>
+            <h4 className="text-center">Anyone is welcome to contribute to our projects! Checkout our <a href="https://github.com/icssc">GitHub to start contributing!</a></h4>
             <Row className="justify-content-md-center">
                 {ProjectData.map((project, index) => <Project key={index} {...project}/>)}
             </Row>
+            
         </Container>
     );
 }
