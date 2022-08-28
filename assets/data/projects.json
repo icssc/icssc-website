@@ -1,12 +1,12 @@
 [
     {
-        "img": "/assets/img/logo.png",
+        "img": "https://github.com/icssc/AntAlmanac/raw/main/public/banner.png",
         "name": "AntAlmanac",
-        "desc": "AntAlmanac is a service made by students for students to create and organize your schedule with ease, and has far better functionality than traditional alternatives like WebSOC or Antplanner.",
+        "desc": "AntAlmanac is a schedule planning and course exploration tool for UCI students.",
         "src": "https://antalmanac.com/"
     },
     {
-        "img": "/assets/img/logo.png",
+        "img": "https://github.com/icssc/peterportal-public-api/raw/master/public/images/peterportal-banner-logo.png?raw=true",
         "name": "PeterPortal",
         "desc": "PeterPortal is a web application aimed to aid UCI students with course discovery. We consolidate public data available on multiple UCI sources on the application to improve the user experience when planning their course schedule.",
         "src": "https://peterportal.org/"
@@ -18,7 +18,7 @@
         "src": "https://zotistics.com/"
     },
     {
-        "img": "/assets/img/logo.png",
+        "img": "https://github.com/icssc/peterportal-public-api/raw/master/public/images/peterportal-banner-logo.png?raw=true",
         "name": "PeterPortal Public API",
         "desc": "PeterPortal Public API provides software developers with easy-access to UC Irvine publicly available data such as: courses information, professor information, grade distribution, and schedule of classes.",
         "src": "https://api.peterportal.org/"
@@ -26,7 +26,7 @@
     {
         "img": "/assets/img/logo.png",
         "name": "ICSSC Fellowship",
-        "desc": "The goal of the Fellowship is to teach fundamental software development and web development skills that aren’t normally taught in the classroom. By the end of the quarter, students will have the skillset necessary to create their own React websites and will have the opportunity to contribute to one our ICSSC Projects such as AntAlmanac, PeterPortal, or Zotistics!",
+        "desc": "The Fellowship is an asynchronous web development crash course that teaches fundamental software development skills. By the end of the course, students will have the skillset necessary to create their own React websites and will have the opportunity to contribute to one our ICSSC Projects such as AntAlmanac, PeterPortal, or Zotistics!",
         "src": "https://fellowship.icssc.club/"
     }
 ]
