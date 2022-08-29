@@ -1,14 +1,12 @@
-import Image from "next/image";
 import { Nav, Navbar, NavDropdown, NavItem } from "react-bootstrap";
 
 export default function NavBar() {
     return (
-        <Navbar variant="dark" fixed="top" expand="lg" style={{ backgroundColor: "#4282fb" }}>
+        <Navbar variant="dark" fixed="top" expand="lg" style={{ backgroundColor: "rgba(0, 0, 0, .2)" }}>
             <Navbar.Brand href="/index">
-                <Image 
-                    src="/assets/img/logo-white.png"
+                <img 
+                    src="/assets/img/nav/logo-white.png"
                     alt="ICSSC Logo" 
-                    width={100}
                     height={50}
                 />
             </Navbar.Brand>
