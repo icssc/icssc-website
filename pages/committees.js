@@ -1,5 +1,5 @@
-import CommitteesJSON from '../assets/data/committees.json'
-import {Container } from 'react-bootstrap';
+import CommitteesJSON from '../assets/data/committees.json';
+import { Container } from 'react-bootstrap';
 
 
 function Committee(props) {
