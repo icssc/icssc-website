@@ -9,7 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga", "kern";
-  text-rendering: optimizelegibility
+  font-feature-settings: "liga", "kern";
+  text-rendering: optimizelegibility;
+  background-color: #F1F1F1;
 }
 
 a {
@@ -19,4 +21,21 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.buttonLight {
+  border-radius: 50px;
+  padding: 12px 32px;
+  background-color: #BEC4DA;
+  border: 0;
+  color:black;
+  font-size: large;
+  font-weight:600;
+  transition-duration: 0.3s;
+}
+
+.buttonLight:hover {
+  background-color: #a0abd6;
+  cursor:pointer;
+  color:white;
 }

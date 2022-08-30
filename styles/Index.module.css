@@ -28,14 +28,6 @@
     margin-bottom: 15px;
 }
 
-.heroButton {
-    border-radius: 50px;
-    padding: 12px 32px;
-    background-color: #BEC4DA;
-    border: 0;
-    color:black
-}
-
 .imgRound {
     border-radius: 30px;
 }
@@ -43,7 +35,7 @@
 .section {
     display: flex;
     flex-direction: column;
-    height:100vh;
+    min-height:100vh;
     line-height: 1.12;
     align-items: center;
 }
@@ -63,7 +55,7 @@
         font-size: 28px;
     }
     .heroBanner {
-        height:calc(40vh + 76px + 76px + 76px + 76px );
+        height:calc(66vh + 188px);
     }
 }
 
@@ -73,7 +65,7 @@
         font-size: 32px;
     }
     .heroBanner {
-        height:calc(66vh + 76px + 76px );
+        height:calc(66vh + 188px );
     }
 }
 
@@ -87,10 +79,8 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
-
     .heroBanner {
-        height:calc(40vh + 76px + 76px + 76px);
+        height:calc(50vh + 76px + 76px);
     }
 }
 
