@@ -48,10 +48,10 @@ function Event(props) {
 export default function Home() {
   return (
     <>
-    <div className={`${styles.heroBanner}`}>
-      <TitleBanner />
-    </div>
-        
+      <div className={`${styles.heroBanner}`}>
+        <TitleBanner />
+      </div>
+      
       <Container fluid>
         <Row className="justify-content-center align-items-center m-2">
           <Col lg={4} md={12} className="text-center m-2 ">
