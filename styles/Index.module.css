@@ -13,7 +13,7 @@
 
 .heroTitle {
     position: relative;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 500;
     color: white;
     max-width: 500px;
@@ -96,8 +96,7 @@
 .heroGrid img {
     max-width: none;
     max-width: 415px;
-    width: 65vw;
-    height:auto;
+    width: auto;
 }
 
 .heroGridItem {
@@ -138,7 +137,7 @@
 /* Small devices (portrait tablets and large phones, 380px and up) */
 @media only screen and (min-width: 380px) {
     .heroTitle {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
     .heroBanner {
         height:calc(22rem + 76px);
@@ -156,10 +155,10 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .heroTitle {
-        font-size: 44px;
+        font-size: 38px;
     }
     .heroTitle {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
 
 }
@@ -182,7 +181,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .heroTitle {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .heroBanner {
         height:calc(25rem + 76px);
