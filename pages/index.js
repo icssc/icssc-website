@@ -49,14 +49,25 @@ export default function Home() {
   return (
     <>
       <div className={`${styles.heroBanner}`}>
-        <TitleBanner/>
+        <div className={`${styles.heroGrid}`}>
+          <div className={`${styles.heroGridItem}`}>
+            <h1 className={`${styles.heroTitle}`}>Enhance, Empower, Enable</h1>
+          </div>
+          <div className={`${styles.heroGridItem}`}>
+          <img 
+            src='/assets/img/ICSSCFrame.png'
+            height="400px"
+
+            />
+          </div>
+        </div>
       </div>
+      {/* <img 
+      src='/assets/img/bg/pixel_wave.png'
+      className={`${styles.coolImage}`}
+      /> */}
+      
       <div className={`${styles.section}`} style={{paddingTop:"5rem"}}>
-      {/* Image Sticker or more pizazz <img 
-        src='https://outline-prod.imgix.net/20170316-PuyyaZXOIGnZf1201YOM?auto=format&q=60&w=1280&s=1191ab9b0ada186b5d18215ca9dcf7b4'
-        height='300px'
-        className={`${styles.coolImage}`}
-        /> */}
       <Row className="justify-content-center">
         <Col lg={12} sm={12}>
           <h2 className={`${styles.sectionTitle}`}>About Us</h2>
