@@ -1,47 +1,36 @@
-import Image from 'next/image'
 import Sponsors from '../assets/data/sponsors.json'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
 import styles from '/styles/Index.module.css';
 
-function TitleBanner(props) {
-  return (
-    <Container fluid>
-      <h4 className={`${styles.heroTitle}`}>An organization to improve ICS students professionally, socially, and academically.</h4>
-      <p className={`${styles.heroSubtitle}`}>The club for students, by students at the University of California, Irvine</p>
-      <button type="button" className={`buttonLight`}>Get Involved</button>
-    </Container>
-  )
-}
-
 function SponsorLogo(props) {
   const { id, logo, name } = props;
-
   return (
-    <Col>
+    <div className={`${styles.elementListItem}`}>
       <a href={`sponsors.html#${id}`}>
-        <Image 
+        <img 
           src={logo} 
           alt={`${name} Logo`}
-          height={120}
-          width={120}
+          height="auto"
+          width="300px"
         />
       </a>
-    </Col>
+    </div>
   )
 }
 
 function Event(props) {
   const {src, title} = props;
   return (
-    <Col md={4} sm={12}>
-      <img
-      src={src}
-      width="90%"
-      style={{marginTop:"10px",marginBottom:"10px"}}
-      className={`${styles.imgRound}`}
-      />
-    </Col>
+    <div className={`${styles.elementListItem}`}>
+      <img 
+        src={src} 
+        alt={`${title} Logo`}
+        height="auto"
+        width="300px"
+        style={{borderRadius:"35px"}}
+        />
+    </div>
   )
 }
 
@@ -49,59 +38,70 @@ export default function Home() {
   return (
     <>
       <div className={`${styles.heroBanner}`}>
-        <TitleBanner />
+        <div className={`${styles.heroGrid}`}>
+          <div className={`${styles.heroGridItem}`}>
+            <h1 className={`${styles.heroTitle}`}>Enhance, Empower, Enable</h1>
+          </div>
+          <div className={`${styles.heroGridItem}`}>
+          <img 
+            src='/assets/img/ICSSCFrame.png'
+            height="400px"
+            />
+          </div>
+        </div>
       </div>
       
-      <Container fluid>
-        <Row className="justify-content-center align-items-center m-2">
-          <Col lg={4} md={12} className="text-center m-2 ">
-            <img
-              className={`${styles.imgRound}`}
-              src="/assets/img/events/past/2021_fall/bonfire.jpeg"
-              width="100%"
-              alt="About Picture"
-            />
-          </Col>
-          <Col lg={1} md={0}></Col>
-          <Col lg={4} md={12} className="m-2">
-            <h2 className={`${styles.sectionTitle}`}>About Us</h2>
-              <p>
-                ICS Student Council was founded by students to better serve the ICS student body. We work to improve the lives of the students professionally, socially, and academically and deepen the connections students have with the Donald Bren School of Information and Computer Sciences and UCI Alumni.
-              </p>
-            <p>
-              We host social and technical events for all students and oversee several large open-source projects for UCI Students
-            </p>
-          </Col>
-        </Row>
-
-        <div style={{marginTop:"5%",paddingTop:"2.5%",paddingBottom:"5%"}}>
-          <Row className="justify-content-center align-items-center text-center m-2">
-            <Col lg={10} sm={12} className="m-2">
-              <h2 className={`${styles.sectionTitle}`} style={{marginBottom:""}}>Events</h2>
-                <Row>
-                  {EventsData["past"].slice(0,3).map(past => <Event {...past}/>)}
-                </Row>
-                <button type="button" className="buttonLight">View All</button>
-            </Col>
-          </Row>
-        </div>
-
-        <div className={`${styles.section}`} style={{marginTop:""}}>
-          <h2 className={`${styles.sectionTitle}`}>Projects</h2>
-          <p>
-            Section for projects
+      <div className={`${styles.section}`} style={{paddingTop:"5rem"}}>
+      <Row className="justify-content-center">
+        <Col lg={12} sm={12}>
+          <h2 className={`${styles.sectionTitle}`}>About Us</h2>
+          <p className={`${styles.sectionDesc}`}>
+            ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.
           </p>
-        </div>
-        
+          <p className={`${styles.sectionLink}`}><a href="/get-involved">Learn More →</a></p>
+        </Col>
+      </Row>
+      </div>
+
+      <div className={`${styles.sectionColorLight} `}>
         <Row className="justify-content-center">
-        <h2 className={`${styles.sectionTitle}`}>Thanks to Our Sponsors!</h2>
-          <Col sm={12} lg={10}>
-            <Row>
-              {Sponsors.map(sponsor => <SponsorLogo {...sponsor} key={sponsor.id}/>)}
-            </Row>
+          <Col lg={12} sm={12}>
+            <h2 className={`${styles.sectionTitle}`}>Our Events</h2>
+            <p className={`${styles.sectionDesc}`}>We aim to host events that will better ICS Students academically, professionally, and socially.</p>
+            <p className={`${styles.sectionLink}`}><a href="/events">View Events →</a></p>
           </Col>
         </Row>
-      </Container>
+        <div className={`${styles.elementList}`}>
+              {EventsData["past"].slice(0,3).map(past => <Event {...past} key={past.id}/>)}
+        </div>
+      </div>
+
+      <div className={`${styles.section}`}>
+        <Row className="justify-content-center">
+            <Col lg={12} sm={12}>
+            <h2 className={`${styles.sectionTitle}`}>Projects</h2>
+            <p className={`${styles.sectionDesc}`}>
+              Our open source projects are to help students succeed at finding, planning, executing, and managing technology projects. It is our goal to teach students useful technical knowledge outside of class. All students are welcome to contribute.
+            </p>
+            <p className={`${styles.sectionLink}`}><a href="/projects">Learn More →</a></p>
+            </Col>
+        </Row>
+      </div>
+
+      <div className={`${styles.sectionColorLight}`}>
+        <Row className="justify-content-center">
+            <Col lg={12} sm={12}>
+            <h2 className={`${styles.sectionTitle}`}>Thank You to Our Sponsors</h2>
+            <p className={`${styles.sectionDesc}`}>
+            Thanks to the help of our sponsors, ICSSC continues to fulfill our mission of supporting students when they seek for exceptional opportunities at the University of California, Irvine.
+            </p>
+            <p className={`${styles.sectionLink}`}><a href="/sponsors">Learn About Sponsoring →</a></p>
+            </Col>
+        </Row>
+        <div className={`${styles.elementList}`}>
+              {Sponsors.map(sponsor => <SponsorLogo {...sponsor} key={sponsor.id}/>)}
+        </div>
+      </div>
     </>
   )
 }

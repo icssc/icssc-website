@@ -1,71 +1,150 @@
 .heroBanner {
-    height:calc(40vh + 76px + 76px);
+    height:calc(25rem);
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     line-height: 1.12;
-    background-image: url("/assets/img/bg/bg3.jpg");
-    transform: translateY(-76px);
+    /* background-image: url("/assets/img/bg/bg3.jpg"); */
     background-size: cover;
+    background-color: #FCAEC2;
 }
 
 .heroTitle {
     position: relative;
-    font-size: 64px;
-    font-weight: bolder;
-    color: #FCAEC2;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-}
-
-.heroSubtitle {
+    font-size: 48px;
+    font-weight: 1000;
     color: white;
-    font-size: 18px;
-    margin-bottom: 15px;
+    max-width: 900px;
+    margin: 48px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.imgRound {
-    border-radius: 30px;
+.heroButton {
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 10em;
+    position: relative;
+    padding: 15px 30px;
+    margin:0;
 }
 
-.section {
+.coolImage {
+    position: absolute;
+    display: block;
+    top: calc(20rem + 35px);
+    width:100vw;
+    transform: translateY(-100%);
+}
+
+.eventBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section, .sectionColorLight {
     display: flex;
     flex-direction: column;
-    min-height:100vh;
-    line-height: 1.12;
+    min-height:auto;
     align-items: center;
+    padding-top: 7.5rem;
+    padding-bottom: 7.55rem;
+    line-height: 1.4;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sectionColorLight {
+    background-color: #f1f1f1;
 }
 
 .sectionTitle {
-    color: #FCAEC2;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 545;
+    text-align: center;
 }
 
+.sectionDesc ,.sectionLink {
+    font-size: 26px;
+    max-width: 1110px;
+    text-align: center;
+}
 
+.sectionLink {
+    color: #506cc9;
+    margin: 0px;
+}
 
+.heroGrid {
+    padding: 0!important;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 76px;
+    margin-bottom: 76px;
+}
+
+.heroGrid img {
+    max-width: none;
+    max-width: 415px;
+    width: 65vw;
+    height:auto;
+}
+
+.heroGridItem {
+    max-width: 600px;
+}
+
+.elementList {
+    
+    max-width: 1110px;
+    text-align: center;
+}
+
+.elementListItem {
+    display: inline-block;
+    width: 300px;
+    margin: 2rem;
+}
 
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {
     .heroTitle {
-        font-size: 28px;
+        font-size: 3rem;
     }
     .heroBanner {
-        height:calc(66vh + 188px);
+        height:calc(20rem + 76px);
+        height:fit-content;
+        transform: translateY(0px);
+    }
+    .coolImage {
+        top: calc(20rem + 76px);
+    }
+    .heroGrid {
+        flex-direction: column-reverse;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 380px and up) */
 @media only screen and (min-width: 380px) {
     .heroTitle {
-        font-size: 32px;
+        font-size: 3rem;
     }
     .heroBanner {
-        height:calc(66vh + 188px );
+        height:calc(22rem + 76px);
+        height:fit-content
+    }
+    .coolImage {
+        top: calc(22rem + 76px);
+    }
+    .heroGrid {
+        flex-direction: column-reverse;
+        transform: translateY(0px);
     }
 }
 
@@ -74,20 +153,39 @@
     .heroTitle {
         font-size: 44px;
     }
-    
+    .heroTitle {
+        font-size: 4rem;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .heroBanner {
-        height:calc(50vh + 76px + 76px);
+        height:calc(20rem + 76px);
+        height:fit-content
+    }
+    .coolImage {
+        top: calc(20rem + 76px);
+    }
+
+    .heroGrid {
+        flex-direction: row;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .heroTitle {
-        font-size: 64px;
+        font-size: 4rem;
     }
-
+    .heroBanner {
+        height:calc(25rem + 76px);
+        height:fit-content
+    }
+    .coolImage {
+        top: calc(25rem + 76px);
+        transform: translateY(-70%);
+    }
+    
 }
