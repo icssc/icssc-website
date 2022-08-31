@@ -1,5 +1,5 @@
 import Sponsors from '../assets/data/sponsors.json'
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Button } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
 import styles from '/styles/Index.module.css';
 
@@ -40,7 +40,8 @@ export default function Home() {
       <div className={`${styles.heroBanner}`}>
         <div className={`${styles.heroGrid}`}>
           <div className={`${styles.heroGridItem}`}>
-            <h1 className={`${styles.heroTitle}`}>Enhance, Empower, Enable</h1>
+            <h1 className={`${styles.heroTitle}`} style={{marginBottom:"33px"}}>Enhance <br></br>Empower<br></br>Enable</h1>
+            <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
           </div>
           <div className={`${styles.heroGridItem}`}>
           <img 
@@ -58,7 +59,7 @@ export default function Home() {
           <p className={`${styles.sectionDesc}`}>
             ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.
           </p>
-          <p className={`${styles.sectionLink}`}><a href="/get-involved">Learn More →</a></p>
+          <p className={`${styles.sectionLink}`}><a href="/get-involved">Learn More ></a></p>
         </Col>
       </Row>
       </div>
@@ -68,7 +69,7 @@ export default function Home() {
           <Col lg={12} sm={12}>
             <h2 className={`${styles.sectionTitle}`}>Our Events</h2>
             <p className={`${styles.sectionDesc}`}>We aim to host events that will better ICS Students academically, professionally, and socially.</p>
-            <p className={`${styles.sectionLink}`}><a href="/events">View Events →</a></p>
+            <p className={`${styles.sectionLink}`}><a href="/events">View Events ></a></p>
           </Col>
         </Row>
         <div className={`${styles.elementList}`}>
@@ -83,7 +84,7 @@ export default function Home() {
             <p className={`${styles.sectionDesc}`}>
               Our open source projects are to help students succeed at finding, planning, executing, and managing technology projects. It is our goal to teach students useful technical knowledge outside of class. All students are welcome to contribute.
             </p>
-            <p className={`${styles.sectionLink}`}><a href="/projects">Learn More →</a></p>
+            <p className={`${styles.sectionLink}`}><a href="/projects">Learn More ></a></p>
             </Col>
         </Row>
       </div>
@@ -95,7 +96,7 @@ export default function Home() {
             <p className={`${styles.sectionDesc}`}>
             Thanks to the help of our sponsors, ICSSC continues to fulfill our mission of supporting students when they seek for exceptional opportunities at the University of California, Irvine.
             </p>
-            <p className={`${styles.sectionLink}`}><a href="/sponsors">Learn About Sponsoring →</a></p>
+            <p className={`${styles.sectionLink}`}><a href="/sponsors">Learn About Sponsoring ></a></p>
             </Col>
         </Row>
         <div className={`${styles.elementList}`}>
