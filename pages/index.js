@@ -1,17 +1,7 @@
 import Sponsors from '../assets/data/sponsors.json'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
 import styles from '/styles/Index.module.css';
-
-function TitleBanner(props) {
-  return (
-    <>
-      <h4 className={`${styles.heroTitle}`}>ICS Student Council </h4>
-      {/* <p className={`${styles.heroSubtitle}`}>The club for students, by students at the University of California, Irvine</p> */}
-      <button type="button" className={`buttonLight ${styles.heroButton}`}>Get Involved</button>
-    </>
-  )
-}
 
 function SponsorLogo(props) {
   const { id, logo, name } = props;
@@ -40,7 +30,6 @@ function Event(props) {
         width="300px"
         style={{borderRadius:"35px"}}
         />
-  
     </div>
   )
 }
@@ -57,15 +46,10 @@ export default function Home() {
           <img 
             src='/assets/img/ICSSCFrame.png'
             height="400px"
-
             />
           </div>
         </div>
       </div>
-      {/* <img 
-      src='/assets/img/bg/pixel_wave.png'
-      className={`${styles.coolImage}`}
-      /> */}
       
       <div className={`${styles.section}`} style={{paddingTop:"5rem"}}>
       <Row className="justify-content-center">
