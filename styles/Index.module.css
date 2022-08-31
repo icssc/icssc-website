@@ -1,5 +1,5 @@
 .heroBanner {
-    height:calc(22rem);
+    height:calc(25rem);
     display: flex;
     text-align: center;
     align-items: center;
@@ -31,11 +31,6 @@
     margin:0;
 }
 
-.imgRound {
-    border-radius: 30px;
-    max-width: 400px;
-}
-
 .coolImage {
     position: absolute;
     display: block;
@@ -50,35 +45,48 @@
     justify-content: center;
 }
 
-.section {
+.section, .sectionColorLight {
     display: flex;
     flex-direction: column;
     min-height:auto;
     align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 7.5rem;
+    padding-bottom: 7.55rem;
     line-height: 1.4;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .sectionColorLight {
-    display: flex;
-    flex-direction: column;
-    min-height:auto;
-    align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    line-height: 1.4;
     background-color: #f1f1f1;
 }
 
 .sectionTitle {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 545;
+    text-align: center;
 }
 
-.sectionDesc {
+.sectionDesc ,.sectionLink {
     font-size: 26px;
     max-width: 1110px;
+    text-align: center;
+}
+
+.sectionLink {
+    color: #506cc9;
+    margin: 0px;
+}
+
+.elementList {
+    max-width: 1110px;
+    text-align: center;
+}
+
+.elementListItem {
+    display: inline-block;
+    width: 300px;
+    margin: 2rem;
 }
 
 /* Extra small devices (phones, 380px and down) */
@@ -97,7 +105,7 @@
         font-size: 3rem;
     }
     .heroBanner {
-        height:calc(20rem + 76px);
+        height:calc(22rem + 76px);
     }
     
 }
@@ -126,4 +134,7 @@
         font-size: 4rem;
     }
 
+    .heroBanner {
+        height:calc(25rem + 76px);
+    }
 }
