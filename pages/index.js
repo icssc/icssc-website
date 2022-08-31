@@ -46,7 +46,7 @@ export default function Home() {
           <div className={`${styles.heroGridItem}`}>
           <img 
             src='/assets/img/ICSSCFrame.png'
-            height="300px"
+            height="350px"
             />
           </div>
         </div>
