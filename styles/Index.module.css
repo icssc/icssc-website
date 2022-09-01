@@ -1,3 +1,5 @@
+/* 76px is the height of the navbar */
+
 .heroBanner {
     height:calc(25rem);
     display: flex;
@@ -33,14 +35,6 @@
     border-radius: 30px;
     background-color:#6B7AAB;
     border: none;
-}
-
-.coolImage {
-    position: absolute;
-    display: block;
-    top: calc(20rem + 35px);
-    width:100vw;
-    transform: translateY(-100%);
 }
 
 .eventBox {
@@ -126,13 +120,9 @@
         height:fit-content;
         transform: translateY(0px);
     }
-    .coolImage {
-        top: calc(20rem + 76px);
-    }
     .heroGrid {
         flex-direction: column-reverse;
     }
-
     .heroGrid img {
         max-width: 280px;
         height: 100%
@@ -174,9 +164,6 @@
         height:calc(20rem + 76px);
         height:fit-content
     }
-    .coolImage {
-        top: calc(20rem + 76px);
-    }
 
     .heroGrid {
         flex-direction: row;
@@ -191,10 +178,5 @@
     .heroBanner {
         height:calc(25rem + 76px);
         height:fit-content
-    }
-    .coolImage {
-        top: calc(25rem + 76px);
-        transform: translateY(-70%);
-    }
-    
+    } 
 }
