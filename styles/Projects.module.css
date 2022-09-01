@@ -1,0 +1,32 @@
+.projectGrid {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.projectBox {
+    width: 400px;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: #6B7AAB;
+}
+
+.projectBox img{
+    max-width: 100%;
+    width: fit-content;
+    display: block;
+}
+
+.section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section, .sectionProjects {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1500px;
+    margin: auto;
+}

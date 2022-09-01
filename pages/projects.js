@@ -1,35 +1,33 @@
 import ProjectData from '../assets/data/projects.json';
 import { Row, Col, Container, Card } from 'react-bootstrap';
+import styles from '/styles/Projects.module.css';
 
 function Project(props) {
     const {img, name, desc, src} = props
     return (
-        <Col lg={5} md={12} className="p-4">
-            <Card style={{ width: 'auto', height: '100%', borderRadius:"30px", boxShadow:"2px 4px 10px", border:"0px" }}>
-                <Card.Img variant="top" src={img} style={{height: '36vh', objectFit:"contain", borderTopLeftRadius:"30px", borderTopRightRadius:"30px"}} />
-                <Card.Body>
-                    <Card.Title>
-                        <h2><a href={src} target="_blank">{name} ↗</a></h2>
-                    </Card.Title>
-                    <Card.Subtitle></Card.Subtitle>
-                    <Card.Text>
-                        {desc}
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-        </Col>
+        <div className={`${styles.projectBox}`} style={{margin:"10px"}}>
+            <img
+                src={'https://cdn.discordapp.com/attachments/780314631041318933/1014359489819971604/Zotistics_Logo_Banner.png'}
+            />
+            <h4 style={{marginTop:"10px", fontWeight:"600"}}>
+                <a target="_blank" href={src}>{name} ↗</a>
+            </h4>
+            <p>{desc}</p>
+        </div>
     );
 }
 
 export default function Projects() {
     return (
-        <Container fluid>
-            <h1>Projects</h1>
+        <>
+            <br></br>
             <h4 className="text-center">Anyone is welcome to contribute to our projects! Checkout our <a href="https://github.com/icssc">GitHub to start contributing!</a></h4>
-            <Row className="justify-content-md-center">
-                {ProjectData.map((project, index) => <Project key={index} {...project}/>)}
-            </Row>
-            
-        </Container>
+            <h1>Projects</h1>
+            <div className={`${styles.sectionProjects} `}>
+                <div className={`${styles.projectGrid}`}>
+                    {ProjectData.map((project, index) => <Project key={index} {...project}/>)}
+                </div>
+            </div>
+        </>
     );
 }
