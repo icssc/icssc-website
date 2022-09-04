@@ -7,7 +7,7 @@ function Project(props) {
     return (
         <div className={`${styles.projectBox}`} style={{margin:"10px"}}>
             <img
-                src={'https://cdn.discordapp.com/attachments/780314631041318933/1014359489819971604/Zotistics_Logo_Banner.png'}
+                src={'https://th.bing.com/th/id/OIP.gPjZVOnX-A2jyUrN3gcTcQHaFj?pid=ImgDet&rs=1'}
             />
             <h4 style={{marginTop:"10px", fontWeight:"600"}}>
                 <a target="_blank" href={src}>{name} ↗</a>

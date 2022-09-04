@@ -19,6 +19,15 @@
     display: block;
 }
 
+.projectBox p{
+    font-size: 1.15rem;
+}
+
+.projectBox h4{
+    font-size: 1.8rem;
+}
+
+
 .section {
     padding-left: 15px;
     padding-right: 15px;
