@@ -20,21 +20,6 @@ function SponsorLogo(props) {
   )
 }
 
-function Event(props) {
-  const {src, title} = props;
-  return (
-    <div className={`${styles.elementListItem}`}>
-      <img 
-        src={src} 
-        alt={`${title} Logo`}
-        height="auto"
-        width="300px"
-        style={{borderRadius:"35px"}}
-        />
-    </div>
-  )
-}
-
 export default function Home() {
   return (
     <>
@@ -44,7 +29,7 @@ export default function Home() {
         <div className={`${styles.heroGridItem}`}>
           <img 
             src='https://cdn.discordapp.com/attachments/507063798104981508/1020549649523814400/Subtract.png'
-            height="350px"
+            height="400px"
             alt="Anteater On Laptop"
             />
           </div>
