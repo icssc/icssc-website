@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { FaRegHandshake, FaRegLightbulb } from "react-icons/fa";
-import styles from '/styles/Mission.module.css';
+import styles from '/styles/Mission.module.scss';
 import Clubs from '../assets/data/clubs.json';
 
 function Affiliate(props) {

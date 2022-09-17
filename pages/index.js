@@ -1,7 +1,8 @@
 import Sponsors from '../assets/data/sponsors.json'
-import { Col, Row, Button } from 'react-bootstrap';
+import { Col, Row, Button, Carousel } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
-import styles from '/styles/Index.module.css';
+
+import styles from '/styles/Index.module.scss';
 
 function SponsorLogo(props) {
   const { id, logo, name } = props;
@@ -37,22 +38,36 @@ function Event(props) {
 export default function Home() {
   return (
     <>
+      {/* Hero Banner */}
       <div className={`${styles.heroBanner}`}>
         <div className={`${styles.heroGrid}`}>
-          <div className={`${styles.heroGridItem}`}>
-            <h1 className={`${styles.heroTitle}`} style={{marginBottom:"33px"}}>Enhance <br></br>Empower<br></br>Enable</h1>
-            <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
-          </div>
-          <div className={`${styles.heroGridItem}`}>
+        <div className={`${styles.heroGridItem}`}>
           <img 
-            src='/assets/img/ICSSCFrame.png'
+            src='https://cdn.discordapp.com/attachments/507063798104981508/1020549649523814400/Subtract.png'
             height="350px"
+            alt="Anteater On Laptop"
             />
+          </div>
+          <div className={`${styles.heroGridItemSplash}`}>
+            <div className={`${styles.heroSplashContainer}`}>
+              <h1>
+                ICS Student Council
+              </h1>
+              <p>
+              We work to improve the lives of the students professionally, socially, and academically and deepen the connections students have with the Donald Bren School of Information and Computer Sciences and UCI Alumni.
+              </p>
+              <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
+            </div>
           </div>
         </div>
       </div>
-      
-      <div className={`${styles.section}`} style={{paddingTop:"5rem"}}>
+      <svg width="100%" height="auto" viewBox="0 0 1554 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M710.12 78.3317C414.859 -13.2364 204.004 -1.8682 46.7187 3.58231H0V209.144H1553.39V78.3317C1198.33 115.707 1005.38 169.9 710.12 78.3317Z"
+        fill="#6B7AAB"/>
+      </svg>
+
+      {/* About Section */}
+      <div className={"section"} style={{margin:"-16px", paddingTop:"0px", paddingBottom:"5rem"}}>
       <Row className="justify-content-center">
         <Col lg={12} sm={12}>
           <h2 className={`${styles.sectionTitle}`}>About Us</h2>
@@ -64,39 +79,54 @@ export default function Home() {
       </Row>
       </div>
 
-      <div className={`${styles.sectionColorLight} `}>
+      {/* Events Section */}
+      <div className={"sectionAlt"}>
         <Row className="justify-content-center">
           <Col lg={12} sm={12}>
             <h2 className={`${styles.sectionTitle}`}>Our Events</h2>
             <p className={`${styles.sectionDesc}`}>We aim to host events that will better ICS Students academically, professionally, and socially.</p>
-            <p className={`${styles.sectionLink}`}><a href="/events">View Events ></a></p>
+            <p className={`${styles.sectionDesc}`}>Here are some moments from our previous events!</p>
           </Col>
         </Row>
-        <div className={`${styles.elementList}`}>
-              {EventsData["past"].slice(0,3).map(past => <Event {...past} key={past.id}/>)}
+        <div style={{width:"400px"}}>
+          <Carousel controls={false} indicators={false}>
+          {EventsData["past"].map(past => (
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={past.src}
+                alt={past.title}
+                height="400px"
+              />
+            </Carousel.Item>
+          ))}
+          </Carousel>
         </div>
+        <p className={`${styles.sectionLink}`}><a href="/events"><br></br>View All Events ></a></p>
       </div>
 
-      <div className={`${styles.section}`}>
+      {/* Projects Section */}
+      <div className={"section"}>
         <Row className="justify-content-center">
             <Col lg={12} sm={12}>
             <h2 className={`${styles.sectionTitle}`}>Projects</h2>
             <p className={`${styles.sectionDesc}`}>
               Our open source projects are to help students succeed at finding, planning, executing, and managing technology projects. It is our goal to teach students useful technical knowledge outside of class. All students are welcome to contribute.
             </p>
-            <p className={`${styles.sectionLink}`}><a href="/projects">Learn More ></a></p>
+            <p><a href="/projects">Learn More ></a></p>
             </Col>
         </Row>
       </div>
 
-      <div className={`${styles.sectionColorLight}`}>
+      {/* Sponsors Section */}
+      <div className={"sectionAlt"}>
         <Row className="justify-content-center">
             <Col lg={12} sm={12}>
             <h2 className={`${styles.sectionTitle}`}>Thank You to Our Sponsors</h2>
             <p className={`${styles.sectionDesc}`}>
             Thanks to the help of our sponsors, ICSSC continues to fulfill our mission of supporting students when they seek for exceptional opportunities at the University of California, Irvine.
             </p>
-            <p className={`${styles.sectionLink}`}><a href="/sponsors">Learn About Sponsoring ></a></p>
+            <p className={`${styles.sectionLink}`}><a href="/sponsors">See All Sponsors ></a></p>
             </Col>
         </Row>
         <div className={`${styles.elementList}`}>

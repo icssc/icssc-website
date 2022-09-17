@@ -1,0 +1,132 @@
+@import 'styles/variables';
+
+/* 68px is the height of the navbar */
+.heroBanner {
+    min-height:calc(70vh - 68px);
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.12;
+    width: 100%;
+}
+
+.heroButton {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 12em;
+    position: relative;
+    padding: 7.5px 30px;
+    margin:0;
+    border-radius: 30px;
+    background-color:hotpink;
+    border: none;
+}
+
+.heroButton:hover{background-color: red;}
+
+.heroGrid {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    img {
+        max-width: none;
+        max-width: 350px;
+        height: 100%
+    }
+}
+
+.heroGridItem, .heroGridItemSplash {
+    margin-left: 66px;
+    margin-right: 66px;
+    max-width: 600px;
+    h1 {
+        margin-top: 70px;
+        position: relative;
+        font-size: 3rem;
+        font-weight: 500;
+        color: $black;
+        max-width: 500px;
+        font-family: 'Bungee';
+        
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 1.4rem;
+    }
+}
+
+.heroSplashContainer {margin: 50px;}
+
+.heroGridItemSplash {
+    background-image: url('/assets/img/terminal.png');
+    border-radius: 18px;
+    background-size:cover;
+    box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
+}
+
+.elementList {
+    max-width: 1110px;
+    text-align: center;
+}
+
+.elementListItem {
+    display: inline-block;
+    width: 300px;
+    margin: 2rem;
+}
+
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {
+    .heroTitle {font-size: 3rem;}
+    .heroGrid {flex-direction: column;}
+    .heroSplashContainer {text-align: center;}
+    .heroGrid img {
+        max-width: 280px;
+        height: 100%
+    }
+    .heroGridItemSplash {
+        height: fit-content;
+        background-image: none;
+        box-shadow: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 380px and up) */
+@media only screen and (min-width: 380px) {
+    .heroTitle {font-size: 3.5rem;}
+    .coolImage {top: calc(22rem + 68px);}
+    .heroGrid {flex-direction: column;}
+    .heroGridItemSplash {background-image: none;}
+    .heroSplashContainer {text-align: center;}
+    .heroGridItemSplash {
+        height: fit-content;
+        background-image: none;
+        box-shadow:none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .heroGrid {flex-direction: row;}
+    .heroGridItemSplash {
+        background-image: url('/assets/img/terminal.png');
+        box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
+
+    }
+    .heroSplashContainer {text-align: left;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
