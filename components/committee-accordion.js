@@ -39,24 +39,8 @@ export default function CommitteeCard(props) {
                   ) : null}
                 </Container>
               </div>
-            );
-          })};
+            )
+          })}
         </div>
-
-        // <div>
-        //   {Committees.map( (committee) => {
-        //     return (
-        //       <div className={styles["committee-card"]}>
-        //               <h2>{committee.name}</h2>
-        //           <div className='content'>
-        //               <p>{props.desc}</p>
-        //               <h2>Members</h2>
-        //               <p>{props.members}</p>
-        //           </div>
-        //       </div>
-        //     );
-        //   })};
-        // </div>
-      
     );
 };

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import BoardMembers from '../assets/data/board.json'
+import GraphicDesigners from '../assets/data/graphic-designers.json'
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { usestate } from 'react';
 import { FaRegHandshake, FaRegLightbulb, FaUserFriends, FaTools,
@@ -7,6 +9,7 @@ import styles from '/styles/Mission.module.css';
 import Clubs from '../assets/data/clubs.json';
 import AwardCard from "../components/award-card";
 import CommitteeAccordion from "../components/committee-accordion";
+import Person from "../components/person";
 
 function Affiliate(props) {
   const { id, logo, name } = props;
@@ -141,7 +144,18 @@ export default function Mission() {
       
       {/* Committees */}
       <section>
+        <h1 className="text-center">Committees</h1>
         <CommitteeAccordion />
+      </section>
+
+      {/* Board members */}
+      <section>
+        <h1 className="text-center">Board Members</h1>
+        <Container className={styles.boardMembers}>
+          <div className={styles.boardMember}>
+            {BoardMembers.map(member => <Person {...member} />)}
+          </div>
+        </Container>
       </section>
 
     </main>

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 50px; 
 }
 
 .affiliate-icon {
@@ -15,5 +15,13 @@
     text-align: center;
 }
 
+.boardMembers {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.boardMember {
+    width: 25%;
+
+}
  
