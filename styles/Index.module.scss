@@ -20,11 +20,11 @@
     padding: 7.5px 30px;
     margin:0;
     border-radius: 30px;
-    background-color:hotpink;
+    background-color:$hot-pink;
     border: none;
 }
 
-.heroButton:hover{background-color: red;}
+.heroButton:hover{background-color: hotpink;}
 
 .heroGrid {
     padding: 0;
@@ -34,7 +34,6 @@
     align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
-
     img {
         max-width: 400px;
         height: 100%
@@ -53,7 +52,6 @@
         color: $black;
         max-width: 500px;
         font-family: 'Bungee';
-        
     }
     p {
         margin-bottom: 25px;
@@ -61,6 +59,30 @@
     }
 }
 
+@keyframes fadeUp {
+    0% {
+      transform: translateY(6rem);
+      opacity: 0;
+    }
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+.heroIcon1, .heroIcon2, .heroIcon3 {
+    position: absolute;
+    margin-left: 14rem;
+    margin-top: -1rem;
+    animation: fadeUp 5s ease 0ms 1, fadeUp 9s ease 12000ms infinite;
+    opacity: 0;
+    font-family: 'Bungee';
+    color: $hot-pink;
+    border-radius: 10px;
+    padding: .3rem;
+}
+
+.heroIcon1 {animation-delay: 500ms;}
+.heroIcon2 {animation-delay: 3500ms;}
+.heroIcon3 {animation-delay: 6500ms;}
 .heroSplashContainer {margin: 50px;}
 
 .heroGridItemSplash {
@@ -86,10 +108,8 @@
     .heroTitle {font-size: 3rem;}
     .heroGrid {flex-direction: column;}
     .heroSplashContainer {text-align: center;}
-    .heroGrid img {
-        max-width: 280px;
-        height: 100%
-    }
+    .heroGrid img {max-width: 280px; height: 100%}
+    .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 11rem; margin-top:-1.5rem;}
     .heroGridItemSplash {
         height: fit-content;
         background-image: none;
@@ -100,7 +120,6 @@
 /* Small devices (portrait tablets and large phones, 380px and up) */
 @media only screen and (min-width: 380px) {
     .heroTitle {font-size: 3.5rem;}
-    .coolImage {top: calc(22rem + 68px);}
     .heroGrid {flex-direction: column;}
     .heroGridItemSplash {background-image: none;}
     .heroSplashContainer {text-align: center;}
@@ -109,10 +128,12 @@
         background-image: none;
         box-shadow:none;
     }
+    .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 17rem;}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .heroIcon1, .heroIcon2, .heroIcon3 {font-size: 1.4rem!important}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -121,11 +142,9 @@
     .heroGridItemSplash {
         background-image: url('/assets/img/terminal.png');
         box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
-
     }
     .heroSplashContainer {text-align: left;}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+@media only screen and (min-width: 1200px) {}

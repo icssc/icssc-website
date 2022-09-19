@@ -27,6 +27,9 @@ export default function Home() {
       <div className={`${styles.heroBanner}`}>
         <div className={`${styles.heroGrid}`}>
         <div className={`${styles.heroGridItem}`}>
+          <p className={`${styles.heroIcon1}`}>Enhance</p>
+          <p className={`${styles.heroIcon2}`}>Empower</p>
+          <p className={`${styles.heroIcon3}`}>Enable</p>
           <img 
             src='/assets/img/anteater_laptop.png'
             height="500px"
