@@ -140,14 +140,25 @@
 }
 
 // Project Section Styles
-.projectGrid {
+.horizontalGallery {
     display: flex;
+    overflow-x: scroll;
+    width: calc(100vw - 20rem);
+    margin-top: 25px;
+    margin-bottom: 25px;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-flow: nowrap;
-    text-align: center;
-    max-width: fit-content;
-}
+  }
+  
+  .galleryCard {
+    min-width: 280px;
+    border-radius: 5px;
+    img {width: 100%;}
+  }
+  
+  .galleryImageContainer {
+      height: fit-content;
+      padding: 20px;
+  }
 
 // Sponsor Section Styles
 .elementList {
@@ -180,6 +191,7 @@
         text-align: center;
         margin-top: 5rem;
     }
+    .horizontalGallery { width: calc(95vw) }
 }
 
 /* Small devices (portrait tablets and large phones, 380px and up) */
@@ -202,6 +214,7 @@
         text-align: center;
         margin-top: 5rem;
     }
+    .horizontalGallery { width: calc(100vw - 5rem) }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -234,6 +247,7 @@
         text-align: left;
         margin: 0;
     }
+    .horizontalGallery { width: calc(100vw - 20rem) }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

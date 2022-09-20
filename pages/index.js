@@ -20,6 +20,20 @@ function SponsorLogo(props) {
   )
 }
 
+function ProjectDisplay(props) {
+  const {src} = props
+  return (
+    // Placeholder img and props. Will update when graphics are updated
+    <div className={`${styles.galleryCard}`}>
+      <div className={`${styles.galleryImageContainer}`}>
+        <img
+          src={'https://th.bing.com/th/id/OIP.gPjZVOnX-A2jyUrN3gcTcQHaFj?pid=ImgDet&rs=1'}
+        />
+      </div>
+    </div>
+  )
+}
+
 export default function Home() {
   return (
     <>
@@ -42,7 +56,7 @@ export default function Home() {
                 ICS Student Council
               </h1>
               <p>
-              We work to improve the lives of the students professionally, socially, and academically and deepen the connections students have with the Donald Bren School of Information and Computer Sciences and UCI Alumni.
+                Improving ICS students' lives professionally, socially, and academically
               </p>
               <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
             </div>
@@ -64,7 +78,7 @@ export default function Home() {
 
       {/* Events Section */}
       <div className={"sectionAlt"}>
-        <Row className="justify-content-center">
+        <Row>
           <Col lg={12} sm={12}>
             <h2>Our Events</h2>
             <p>We aim to host events that will better ICS Students academically, professionally, and socially. <br></br>Here are some moments from our previous events!</p>
@@ -88,23 +102,22 @@ export default function Home() {
 
       {/* Projects Section */}
       <div className={"section"}>
-        <Row className="justify-content-center">
+        <Row>
             <Col lg={12} sm={12}>
             <h2>Projects</h2>
-            <p>
-              Our open source projects are to help students succeed at finding, planning, executing, and managing technology projects. It is our goal to teach students useful technical knowledge outside of class. All students are welcome to contribute.
-            </p>
-            <div className={`${styles.projectGrid}`}>
-              
+            <div className={`${styles.horizontalGallery}`}>
+              {/* Map project data onto ProjectDisplay. Placeholder for now */}
+              <ProjectDisplay/>
             </div>
-            <p><a href="/projects">Learn More ></a></p>
+
             </Col>
         </Row>
+        <p><a href="/projects">Discover Our Projects ></a></p>
       </div>
 
       {/* Sponsors Section */}
       <div className={"sectionAlt"}>
-        <Row className="justify-content-center">
+        <Row>
             <Col lg={12} sm={12}>
             <h2>Thank You to Our Sponsors</h2>
             <p>

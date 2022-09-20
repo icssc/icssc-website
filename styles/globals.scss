@@ -1,5 +1,26 @@
 @import 'styles/variables';
 
+// Future Proof Scroll Bar Style
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $strawberry;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $blueberry;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color:$strawberry;
+  border-radius: 20px;
+}
+
 html,
 body {
   padding: 0;
@@ -36,6 +57,7 @@ a {
   flex-direction: column;
   min-height:auto;
   align-items: center;
+  justify-content: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
   padding-right: 25px;
@@ -64,3 +86,18 @@ a {
   p {color:$black}
   a {color:$hot-pink}
 }
+
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {}
+
+/* Small devices (portrait tablets and large phones, 380px and up) */
+@media only screen and (min-width: 380px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
