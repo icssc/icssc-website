@@ -1,9 +1,9 @@
 @import 'styles/variables';
 
-/* 68px is the height of the navbar */
+/* 76px is the height of the navbar */
 // Hero Banner Styles
 .heroBanner {
-    min-height:calc(70vh - 68px);
+    min-height:calc(70vh - 76px);
     height:fit-content;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@
     margin-bottom: 50px;
     img {
         max-width: 400px;
-        height: 100%
+        height: 100%;
     }
 }
 
@@ -46,7 +46,7 @@
     margin-right: 66px;
     max-width: 600px;
     h1 {
-        margin-top: 70px;
+        margin-top: 15px;
         position: relative;
         font-size: 3rem;
         font-weight: 500;
@@ -56,7 +56,7 @@
     }
     p {
         margin-bottom: 25px;
-        font-size: 1.4rem;
+        font-size: 1.2em;
     }
 }
 
@@ -84,13 +84,45 @@
 .heroIcon1 {animation-delay: 500ms;}
 .heroIcon2 {animation-delay: 3500ms;}
 .heroIcon3 {animation-delay: 6500ms;}
-.heroSplashContainer {margin: 50px;}
+.heroSplashContainer {padding: 2rem}
 
 .heroGridItemSplash {
-    background-image: url('/assets/img/terminal.png');
+    width: 45vw;
+    background-image: url('/assets/img/graphics/terminal.png');
     border-radius: 18px;
     background-size:cover;
     box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
+}
+
+// Hero Banner Footer
+.heroFooterBackground{margin-top: 2rem; width: 100%;}
+.heroFooter{
+    width: 100%;
+    color: white;
+    margin-top: -1rem;
+    background-color: $blueberry;
+    display: flex;
+    justify-content: center;
+    h1 {font-size: 3em; color: $strawberry}
+    p {font-size: 1.2em;}
+    a {font-size: 1.2em; color: $strawberry}
+    img {
+        margin-top: -6rem;
+        right: 2rem;
+        max-width:480px;
+        width: 90vw;
+    }
+}
+.heroFooterContent{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.heroFooterText{
+    width: calc(90% - 550px);
+    padding: 0rem 2rem 7rem;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 // Event Section Styles
@@ -131,21 +163,28 @@
 
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {
-    .heroTitle {font-size: 3rem;}
+    .heroTitle {font-size: calc(1em + 1vmax);}
     .heroGrid {flex-direction: column;}
-    .heroSplashContainer {text-align: center;}
-    .heroGrid img {max-width: 280px; height: 100%}
+    .heroSplashContainer {text-align: center; padding: 15px}
     .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 9rem; margin-top:-1.5rem;}
     .heroGridItemSplash {
         height: fit-content;
         background-image: none;
         box-shadow: none;
+        width:auto;
+    }
+    .heroFooterContent{flex-direction: column;}
+    .heroFooter img {align-self: center;}
+    .heroFooterText {
+        width: auto;
+        text-align: center;
+        margin-top: 5rem;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 380px and up) */
 @media only screen and (min-width: 380px) {
-    .heroTitle {font-size: 3.5rem;}
+    .heroTitle {font-size: 3.5em;}
     .heroGrid {flex-direction: column;}
     .heroGridItemSplash {background-image: none;}
     .heroSplashContainer {text-align: center;}
@@ -153,23 +192,48 @@
         height: fit-content;
         background-image: none;
         box-shadow:none;
+        width:auto;
     }
     .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 17rem;}
+    .heroFooterContent{flex-direction: column;}
+    .heroFooter img {align-self: center;}
+    .heroFooterText {
+        width: auto;
+        text-align: center;
+        margin-top: 5rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .heroIcon1, .heroIcon2, .heroIcon3 {font-size: 1.4rem!important}
+    .heroIcon1, .heroIcon2, .heroIcon3 {font-size: 1.2em!important}
+    .heroFooterText {
+        width: auto;
+        text-align: center;
+        margin-top: 10rem;
+    }
+    .heroFooterContent{flex-direction: column;}
+    .heroFooter img {align-self: center;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .heroGrid {flex-direction: row;}
     .heroGridItemSplash {
-        background-image: url('/assets/img/terminal.png');
+        background-image: url('/assets/img/graphics/terminal.png');
         box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
+        width: 45vw;
     }
     .heroSplashContainer {text-align: left;}
+    .heroFooterContent{
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1200px;
+    }
+    .heroFooterText{
+        text-align: left;
+        margin: 0;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

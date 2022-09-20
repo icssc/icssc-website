@@ -31,7 +31,7 @@ export default function Home() {
           <p className={`${styles.heroIcon2}`}>Empower</p>
           <p className={`${styles.heroIcon3}`}>Enable</p>
           <img 
-            src='/assets/img/anteater_laptop.png'
+            src='/assets/img/graphics/anteater_laptop.png'
             height="500px"
             alt="Anteater On Laptop"
             />
@@ -49,31 +49,25 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <svg width="100%" height="auto" viewBox="0 0 1554 210" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M710.12 78.3317C414.859 -13.2364 204.004 -1.8682 46.7187 3.58231H0V209.144H1553.39V78.3317C1198.33 115.707 1005.38 169.9 710.12 78.3317Z"
-        fill="#6B7AAB"/>
-      </svg>
-
       {/* About Section */}
-      <div className={"section"} style={{margin:"-16px", paddingTop:"0px", paddingBottom:"5rem"}}>
-      <Row className="justify-content-center">
-        <Col lg={12} sm={12}>
-          <h2 className={`${styles.sectionTitle}`}>About Us</h2>
-          <p className={`${styles.sectionDesc}`}>
-            ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.
-          </p>
-          <p className={`${styles.sectionLink}`}><a href="/get-involved">Learn More ></a></p>
-        </Col>
-      </Row>
+      <img className={`${styles.heroFooterBackground}`} src="/assets/img/graphics/wave.png" />
+      <div className={`${styles.heroFooter}`}>
+        <div className={`${styles.heroFooterContent}`}>
+          <div className={`${styles.heroFooterText}`}>
+            <h1>About Us</h1>
+            <p>ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.</p>
+            <a href="/get-involved">Learn More ></a>
+          </div>
+          <img id="splash-footer-image" src='/assets/img/graphics/anteater_hw.png' alt="About Us Graphic" />
+        </div>
       </div>
 
       {/* Events Section */}
       <div className={"sectionAlt"}>
         <Row className="justify-content-center">
           <Col lg={12} sm={12}>
-            <h2 className={`${styles.sectionTitle}`}>Our Events</h2>
-            <p className={`${styles.sectionDesc}`}>We aim to host events that will better ICS Students academically, professionally, and socially.</p>
-            <p className={`${styles.sectionDesc}`}>Here are some moments from our previous events!</p>
+            <h2>Our Events</h2>
+            <p>We aim to host events that will better ICS Students academically, professionally, and socially. <br></br>Here are some moments from our previous events!</p>
           </Col>
         </Row>
         <div className={`${styles.eventBox}`}>
@@ -96,8 +90,8 @@ export default function Home() {
       <div className={"section"}>
         <Row className="justify-content-center">
             <Col lg={12} sm={12}>
-            <h2 className={`${styles.sectionTitle}`}>Projects</h2>
-            <p className={`${styles.sectionDesc}`}>
+            <h2>Projects</h2>
+            <p>
               Our open source projects are to help students succeed at finding, planning, executing, and managing technology projects. It is our goal to teach students useful technical knowledge outside of class. All students are welcome to contribute.
             </p>
             <div className={`${styles.projectGrid}`}>
@@ -112,11 +106,11 @@ export default function Home() {
       <div className={"sectionAlt"}>
         <Row className="justify-content-center">
             <Col lg={12} sm={12}>
-            <h2 className={`${styles.sectionTitle}`}>Thank You to Our Sponsors</h2>
-            <p className={`${styles.sectionDesc}`}>
+            <h2>Thank You to Our Sponsors</h2>
+            <p>
             Thanks to the help of our sponsors, ICSSC continues to fulfill our mission of supporting students when they seek for exceptional opportunities at the University of California, Irvine.
             </p>
-            <p className={`${styles.sectionLink}`}><a href="/sponsors">See All Sponsors ></a></p>
+            <p><a href="/sponsors">See All Sponsors ></a></p>
             </Col>
         </Row>
         <div className={`${styles.elementList}`}>

@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-weight: 400;
   font-family: "DM Sans", sans-serif;
-  line-height: 1.6;
+  line-height: 1.3;
   color: #1b1e24;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -38,24 +38,23 @@ a {
   align-items: center;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  line-height: 1.4;
   padding-right: 25px;
   padding-left: 25px;
   background-color: $blueberry;
   color: $light-cotton-candy;
   h2 {
       color: $strawberry;
-      font-size: 48px;
+      font-size: calc(3rem);
       font-weight: 545;
       text-align: center;
   }
   p {
-    font-size: 1.6rem;
+    font-size: calc(1.2rem);
     max-width: 1110px;
     text-align: center;
   }
   a{
-    font-size: 1.6rem;
+    font-size: calc(1.2rem);
     color:$strawberry
   }
 }
