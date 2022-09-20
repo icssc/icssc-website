@@ -54,7 +54,10 @@ a {
     max-width: 1110px;
     text-align: center;
   }
-  a{color:$strawberry}
+  a{
+    font-size: 1.6rem;
+    color:$strawberry
+  }
 }
 
 .sectionAlt {

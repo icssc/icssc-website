@@ -76,21 +76,20 @@ export default function Home() {
             <p className={`${styles.sectionDesc}`}>Here are some moments from our previous events!</p>
           </Col>
         </Row>
-        <div style={{width:"400px"}}>
-          <Carousel controls={false} indicators={false}>
-          {EventsData["past"].map(past => (
+        <div className={`${styles.eventBox}`}>
+          <Carousel prevLabel={null} nextLabel={null} indicators={false} fade={true} slide={false} touch={false}>
+          {EventsData["past_pictures"].map(past => (
             <Carousel.Item>
               <img
-                className="d-block w-100"
+                className={`d-block`}
                 src={past.src}
                 alt={past.title}
-                height="400px"
               />
             </Carousel.Item>
           ))}
           </Carousel>
         </div>
-        <p className={`${styles.sectionLink}`}><a href="/events"><br></br>View All Events ></a></p>
+        <a href="/events">View All Events ></a>
       </div>
 
       {/* Projects Section */}
@@ -101,6 +100,9 @@ export default function Home() {
             <p className={`${styles.sectionDesc}`}>
               Our open source projects are to help students succeed at finding, planning, executing, and managing technology projects. It is our goal to teach students useful technical knowledge outside of class. All students are welcome to contribute.
             </p>
+            <div className={`${styles.projectGrid}`}>
+              
+            </div>
             <p><a href="/projects">Learn More ></a></p>
             </Col>
         </Row>

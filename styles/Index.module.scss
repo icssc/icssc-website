@@ -1,6 +1,7 @@
 @import 'styles/variables';
 
 /* 68px is the height of the navbar */
+// Hero Banner Styles
 .heroBanner {
     min-height:calc(70vh - 68px);
     height:fit-content;
@@ -92,6 +93,31 @@
     box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
 }
 
+// Event Section Styles
+.eventBox {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    img {
+        max-height: auto;
+        width: 30rem;
+        max-width: 100vw;
+        border-radius: 20px;
+        background-color: $blueberry;
+    }
+}
+
+// Project Section Styles
+.projectGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    text-align: center;
+    max-width: fit-content;
+}
+
+// Sponsor Section Styles
 .elementList {
     max-width: 1110px;
     text-align: center;
@@ -109,7 +135,7 @@
     .heroGrid {flex-direction: column;}
     .heroSplashContainer {text-align: center;}
     .heroGrid img {max-width: 280px; height: 100%}
-    .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 11rem; margin-top:-1.5rem;}
+    .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 9rem; margin-top:-1.5rem;}
     .heroGridItemSplash {
         height: fit-content;
         background-image: none;
