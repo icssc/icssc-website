@@ -37,6 +37,7 @@
     margin-bottom: 50px;
     img {
         max-width: 400px;
+        width: 90vw;
         height: 100%;
     }
 }
@@ -103,9 +104,9 @@
     background-color: $blueberry;
     display: flex;
     justify-content: center;
-    h1 {font-size: 3em; color: $strawberry}
+    h1 {font-size: 3em; color: $hot-pink}
     p {font-size: 1.2em;}
-    a {font-size: 1.2em; color: $strawberry}
+    a {font-size: 1.2em; color: $hot-pink}
     img {
         margin-top: -6rem;
         right: 2rem;

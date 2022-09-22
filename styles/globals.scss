@@ -65,7 +65,7 @@ a {
   background-color: $blueberry;
   color: $light-cotton-candy;
   h2 {
-      color: $strawberry;
+      color: $hot-pink;
       font-size: calc(3rem);
       font-weight: 545;
       text-align: center;
@@ -77,7 +77,7 @@ a {
   }
   a{
     font-size: calc(1.2rem);
-    color:$strawberry
+    color:$hot-pink
   }
 }
 
@@ -87,6 +87,10 @@ a {
   a {color:$hot-pink}
 }
 
+.footerImage {
+  width:80vw;
+  max-width: 650px;
+}
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {}
 

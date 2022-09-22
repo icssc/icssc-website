@@ -72,7 +72,7 @@ export default function Home() {
             <p>ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.</p>
             <a href="/get-involved">Learn More ></a>
           </div>
-          <img id="splash-footer-image" src='/assets/img/graphics/anteater_hw.png' alt="About Us Graphic" />
+          <img src='/assets/img/graphics/anteater_hw.png' alt="About Us Graphic" />
         </div>
       </div>
 
@@ -129,6 +129,14 @@ export default function Home() {
         <div className={`${styles.elementList}`}>
               {Sponsors.map(sponsor => <SponsorLogo {...sponsor} key={sponsor.id}/>)}
         </div>
+      </div>
+
+      {/* Footer Graphic */}
+      <div style={{textAlign:"center", marginTop:"-80px"}}>
+        <img src='/assets/img/graphics/icssc_website_footer.png' 
+          alt="ICSSC Footer Graphic"
+          className="footerImage"
+        />
       </div>
     </>
   )
