@@ -144,16 +144,17 @@
 .horizontalGallery {
     display: flex;
     overflow-x: scroll;
-    width: calc(100vw - 20rem);
-    margin-top: 25px;
+    width: calc(80vw);
     margin-bottom: 25px;
-    justify-content: center;
   }
   
   .galleryCard {
+    text-align: center;
+    color:black;
     min-width: 280px;
     border-radius: 5px;
-    img {width: 100%;}
+    img {width: 100%; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+    h3 {background-color: $light-cotton-candy;}
   }
   
   .galleryImageContainer {
@@ -229,6 +230,7 @@
     }
     .heroFooterContent{flex-direction: column;}
     .heroFooter img {align-self: center;}
+    .galleryCard {min-width: 480px;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

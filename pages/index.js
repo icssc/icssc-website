@@ -29,6 +29,7 @@ function ProjectDisplay(props) {
         <img
           src={'https://th.bing.com/th/id/OIP.gPjZVOnX-A2jyUrN3gcTcQHaFj?pid=ImgDet&rs=1'}
         />
+        <h3>Title</h3>
       </div>
     </div>
   )
@@ -102,15 +103,16 @@ export default function Home() {
 
       {/* Projects Section */}
       <div className={"section"}>
+      <h2>Projects</h2>
         <Row>
-            <Col lg={12} sm={12}>
-            <h2>Projects</h2>
             <div className={`${styles.horizontalGallery}`}>
               {/* Map project data onto ProjectDisplay. Placeholder for now */}
               <ProjectDisplay/>
+              <ProjectDisplay/>
+              <ProjectDisplay/>
+              <ProjectDisplay/>
+              <ProjectDisplay/>
             </div>
-
-            </Col>
         </Row>
         <p><a href="/projects">Discover Our Projects ></a></p>
       </div>
