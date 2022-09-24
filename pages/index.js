@@ -132,7 +132,7 @@ export default function Home() {
       </div>
 
       {/* Footer Graphic */}
-      <div style={{textAlign:"center", marginTop:"-80px"}}>
+      <div style={{textAlign:"center"}}>
         <img src='/assets/img/graphics/icssc_website_footer.png' 
           alt="ICSSC Footer Graphic"
           className="footerImage"
