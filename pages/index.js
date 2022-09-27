@@ -41,29 +41,30 @@ export default function Home() {
       {/* Hero Banner */}
       <div className={`${styles.heroBanner}`}>
         <div className={`${styles.heroGrid}`}>
-        <div className={`${styles.heroGridItem}`}>
-          <p className={`${styles.heroIcon1}`}>Enhance</p>
-          <p className={`${styles.heroIcon2}`}>Empower</p>
-          <p className={`${styles.heroIcon3}`}>Enable</p>
-          <img 
-            src='/assets/img/graphics/anteater_laptop.png'
-            height="500px"
-            alt="Anteater On Laptop"
-            />
-          </div>
-          <div className={`${styles.heroGridItemSplash}`}>
-            <div className={`${styles.heroSplashContainer}`}>
-              <h1>
-                ICS Student Council
-              </h1>
-              <p>
-                Improving ICS students' lives professionally, socially, and academically
-              </p>
-              <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
+          <div className={`${styles.heroGridItem}`}>
+            <p className={`${styles.heroIcon1}`}>Enhance</p>
+            <p className={`${styles.heroIcon2}`}>Empower</p>
+            <p className={`${styles.heroIcon3}`}>Enable</p>
+            <img 
+              src='/assets/img/graphics/anteater_laptop.png'
+              height="500px"
+              alt="Anteater On Laptop"
+              />
             </div>
-          </div>
+            <div className={`${styles.heroGridItemSplash}`}>
+              <div className={`${styles.heroSplashContainer}`}>
+                <h1>
+                  ICS Student Council
+                </h1>
+                <p>
+                  Improving ICS students' lives professionally, socially, and academically
+                </p>
+                <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
+              </div>
+            </div>
         </div>
       </div>
+      
       {/* About Section */}
       <img className={`${styles.heroFooterBackground}`} src="/assets/img/graphics/wave.png" />
       <div className={`${styles.heroFooter}`}>
