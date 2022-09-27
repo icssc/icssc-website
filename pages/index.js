@@ -28,6 +28,7 @@ function ProjectDisplay(props) {
       <div className={`${styles.galleryImageContainer}`}>
         <img
           src={'https://th.bing.com/th/id/OIP.gPjZVOnX-A2jyUrN3gcTcQHaFj?pid=ImgDet&rs=1'}
+          alt="Placeholder Image"
         />
         <h3>Title</h3>
       </div>
@@ -66,7 +67,7 @@ export default function Home() {
       </div>
       
       {/* About Section */}
-      <img className={`${styles.heroFooterBackground}`} src="/assets/img/graphics/wave.png" />
+      <img className={`${styles.heroFooterBackground}`} src="/assets/img/graphics/wave.png" alt="Box Edge"/>
       <div className={`${styles.heroFooter}`}>
         <div className={`${styles.heroFooterContent}`}>
           <div className={`${styles.heroFooterText}`}>
@@ -88,8 +89,8 @@ export default function Home() {
         </Row>
         <div className={`${styles.eventBox}`}>
           <Carousel prevLabel={null} nextLabel={null} indicators={false} fade={true} slide={false} touch={false}>
-          {EventsData["past_pictures"].map(past => (
-            <Carousel.Item>
+          {EventsData["past_pictures"].map((past, ind) => (
+            <Carousel.Item key={ind}>
               <img
                 className={`d-block`}
                 src={past.src}
