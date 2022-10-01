@@ -1,0 +1,16 @@
+@import 'styles/variables';
+
+.awardCard{
+    text-align:center;
+    padding:1rem; 
+    margin: 1rem;
+    background-color: $blueberry;
+    border: 5px solid $hot-pink;
+    border-radius:25px;
+    color:$white;
+
+
+    box-shadow: 0px 16px 35px -4px $blue-shadow;
+    -webkit-box-shadow: 0px 16px 35px -4px $blue-shadow;
+    -moz-box-shadow: 0px 16px 35px -4px $blue-shadow;
+}

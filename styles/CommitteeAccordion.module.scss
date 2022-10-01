@@ -1,0 +1,37 @@
+@import 'styles/variables';
+
+.cards{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.committeeCard{
+    justify-content:center;
+    padding:1rem; 
+    margin: 1rem;
+    background-color: $blueberry;
+    border: 5px solid $hot-pink;
+    border-radius:25px;
+    width:70%;
+
+    box-shadow: 0px 16px 35px -4px $blue-shadow;
+    -webkit-box-shadow: 0px 16px 35px -4px $blue-shadow;
+    -moz-box-shadow: 0px 16px 35px -4px $blue-shadow;
+}
+
+.accordionWrap {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.members {
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+}
