@@ -9,7 +9,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga", "kern";
-  text-rendering: optimizelegibility
+  text-rendering: optimizelegibility;
+  overflow-x: hidden;
 }
 
 a {

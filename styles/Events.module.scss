@@ -1,0 +1,28 @@
+.eventsGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.eventBox {
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: left;
+    width: 275px;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    img {
+        width: 100%;
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        min-height: 275px;
+    }
+    p {font-size: 0.9rem; padding-left: 1rem;}
+    h4 {font-size: 1.4rem; padding-left: 1rem;}
+}
+
+.sectionEvents {
+    max-width: 1300px;
+}
