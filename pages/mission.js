@@ -8,11 +8,9 @@ import AwardsJSON from '../assets/data/awards.json';
 import BoardMembers from '../assets/data/board.json';
 import PastBoards from '../assets/data/past-boards.json'
 
-
-function ProjectDisplay(props) {
+function ClubsDisplay(props) {
   const {id, name, logo, website, description} = props
   return (
-    // Placeholder img and props. Will update when graphics are updated
     <div className={`${styles.galleryCard}`}>
       <div className={`${styles.galleryImageContainer}`}>
         <a target="_blank" href={website}>
@@ -138,7 +136,7 @@ export default function Mission() {
         <Row>
             <div className={`${styles.horizontalGallery}`}>
               {/* Map project data onto ProjectDisplay. Placeholder for now */}
-              {Clubs.map(sponsor => <ProjectDisplay {...sponsor} key={sponsor.id}/>)}
+              {Clubs.map(sponsor => <ClubsDisplay {...sponsor} key={sponsor.id}/>)}
             </div>
         </Row>
       </div>
