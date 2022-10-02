@@ -1,5 +1,58 @@
 [
     {
+        "year": "2021-2022",
+        "positions": [
+            {
+                "title": "Co-President",
+                "name": "Patrick Nguyen, Jessie Chang"
+            },
+            {
+                "title": "External Vice President",
+                "name": "Aaron Lam"
+            },
+            {
+                "title": "Internal Vice President",
+                "name": "Ryan Mohta"
+            },
+            {
+                "title": "Secretary",
+                "name": "Nathan Nguyen"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Shreyas Hukkeri"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Nicole Pham"
+            },
+            {
+                "title": "Projects Co-Chairs",
+                "name": "Chase Carnaroli, Raman Gupta"
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Emily Doan"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "Aaron Lam"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Brian Bulgarelli"
+            },
+            {
+                "title": "Webmaster",
+                "name": "Anna Chan"
+            },
+            {
+                "title": "Graphic Designers",
+                "name": "Bianca Victoria, Elizabeth (Ellie) Lee, Alicia Lee, Rowena Luminarias"
+            }
+        ]
+    },
+    {
         "year": "2020-2021",
         "positions": [
             {
@@ -27,8 +80,8 @@
                 "name": "Patrick Nguyen"
             },
             {
-                "title": "Projects Co-Chairs: Marawin Chheang, Ritik",
-                "name": "Roy Choudhury"
+                "title": "Projects Co-Chairs",
+                "name": "Marawin Chheang, Ritika Roy Choudhury"
             },
             {
                 "title": "Public Relations Chair",
@@ -100,5 +153,371 @@
                 "name": "Ryan Hartanto, Kamille Suayan, Bianca Victoria, Naomi Vuong"
             }
         ]
+    },
+    {
+        "year": "2018-2019",
+        "positions": [
+            {
+                "title": "President",
+                "name": "Dexin Kong"
+            },
+            {
+                "title": "Vice President",
+                "name": "Jo Hannah Faith Chua"
+            },
+            {
+                "title": "Secretary",
+                "name": "Apurva Kulkarni"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Sammy Truong"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Avineesh Kompella"
+            },
+            {
+                "title": "Projects Chair",
+                "name": "Jas Delgado"
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Sarah Memon"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "Aaron Lam"
+            },
+            {
+                "title": "Webmaster",
+                "name": "Zhenye Feng"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Kathleen Zhou"
+            }
+        ]
+    },
+    {
+        "year": "2017-2018",
+        "positions": [
+            {
+                "title": "President",
+                "name": "Sui Feng Xu"
+            },
+            {
+                "title": "Vice President",
+                "name": "Priyanka Saba"
+            },
+            {
+                "title": "Secretary",
+                "name": "Cleider Gomez"
+            },
+            {
+                "title": "Treasurer & Data Analytics Chair",
+                "name": "James Purpura"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Chaitanya Manchikanti"
+            },
+            {
+                "title": "Projects Chair",
+                "name": "Sanjith Venkatesh"
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Gyulnara Grigoryan"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "John Reyes"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Tiffany Nguyen"
+            },
+            {
+                "title": "Webmaster",
+                "name": "Neil Schultz-Cox"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Fuchen Shi"
+            }
+        ]
+    },
+    {
+        "year": "2016-2017",
+        "positions": [
+            {
+                "title": "President",
+                "name": "Elise Dang"
+            },
+            {
+                "title": "Vice President",
+                "name": "Alyssa Lingad"
+            },
+            {
+                "title": "Secretary",
+                "name": "Maxime Zaccarin"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Ryan Bald"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Nicky Huynh"
+            },
+            {
+                "title": "Projects Chair",
+                "name": "Karan Kanwar"
+            }
+        ]
+    },
+    {
+        "year": "2015-2016",
+        "positions": [
+            {
+                "title": "President",
+                "name": "Brandon Hastings"
+            },
+            {
+                "title": "Vice President",
+                "name": "Dalton Kraatz"
+            },
+            {
+                "title": "Secretary",
+                "name": "Cleider Gomez"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Ryan Bald"
+            },
+            {
+                "title": "Projects Management Chair",
+                "name": "Zichao \"Ziliver\" Yuan"
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Gyulnara Grigoryan"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "Karan Kanwar"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Sophie Pebworth"
+            }
+        ]
+    },
+    {
+        "year": "2014-2015",
+        "positions": [
+            {
+                "title": "President",
+                "name": "Delian Petrov"
+            },
+            {
+                "title": "External Vice President",
+                "name": "Stephanie Chang"
+            },
+            {
+                "title": "Secretaries",
+                "name": "Stephanie Chang, Maggie Jayarethinam, Franklin Hool"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Christine Lew"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Adrian Mandee"
+            },
+            {
+                "title": "Projects Chair",
+                "name": "Yuhao Ma"
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Iqra Abbaali"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "William Lee"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Austin Sherron"
+            }
+        ]
+    },
+    {
+        "year": "2013-2014",
+        "positions": [
+            {
+                "title": "Co-Presidents",
+                "name": "Audrey Auyang, James Louie"
+            },
+            {
+                "title": "Secretaries",
+                "name": "Maggie Jayarethinam, Stephanie Chang"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Christine Lew"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Yuki Wong"
+            },
+            {
+                "title": "Projects Chair",
+                "name": "David Curtis "
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Iqra Abbaali"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "Delian Petrov"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Bryan Cuevas"
+            },
+            {
+                "title": "Webmaster",
+                "name": "Jaskaran Singh"
+            }
+        ]
+    },
+    {
+        "year": "2012-2013",
+        "positions": [
+            {
+                "title": "Co-Presidents",
+                "name": "Johnson Liu, Kevin Lee"
+            },
+            {
+                "title": "Internal Vice President (Fall Quarter)",
+                "name": "Nithin Jilla"
+            },
+            {
+                "title": "Internal Vice President",
+                "name": "Audrey Auyang"
+            },
+            {
+                "title": "Secretary",
+                "name": "Chethana Nair"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Delian Petrov"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Christine Lew"
+            },
+            {
+                "title": "Projects Co-Chairs",
+                "name": "Adam Brenner, Matthew Sprehn"
+            },
+            {
+                "title": "Public Relations Chair",
+                "name": "Iqra Abbaali"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "Lillian Chiou"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Kevin Sison"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Jay Tolentino"
+            }
+        ]
+    },
+    {
+        "year": "2011-2012",
+        "positions": [
+            {
+                "title": "President",
+                "name": "Jerry Huynh"
+            },
+            {
+                "title": "Vice President",
+                "name": "Johnson Liu"
+            },
+            {
+                "title": "Secretary",
+                "name": "Kevin Lee"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Peter Huynh"
+            },
+            {
+                "title": "Events Co-Chairs",
+                "name": "Chris Gau, Audrey Auyang"
+            },
+            {
+                "title": "Projects Chair",
+                "name": " Nikola Metulev"
+            },
+            {
+                "title": "Corporate Outreach Chair",
+                "name": "Nithin Jilla"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Mike Thomas"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Jay Tolentino"
+            }
+        ]
+    },
+    {
+        "year": "2010-2011",
+        "positions": [
+            {
+                "title": "President and Corporate Outreach",
+                "name": "Michael Merchant"
+            },
+            {
+                "title": "Vice President",
+                "name": "Jerry Huynh"
+            },
+            {
+                "title": "Secretary",
+                "name": "Sarah Shekher"
+            },
+            {
+                "title": "Treasurer",
+                "name": "Kresimir Lovric"
+            },
+            {
+                "title": "Events Chair",
+                "name": "Christopher Gau"
+            },
+            {
+                "title": "Projects Co-Chairs",
+                "name": "Lucas Kam, Kevin Brotche, Nate Chow, Kitty, Muhammad Zaman"
+            },
+            {
+                "title": "Academic and Alumni Affairs Chair",
+                "name": "Johnson Liu"
+            }
+        ]
     }
+
 ]

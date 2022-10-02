@@ -1,96 +1,119 @@
 @import 'styles/variables';
 
-
-
-.affiliates {
-    display: flex;
-    justify-content:center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 50px; 
-    width:90%;
-    padding-top:1rem;
-
-}
-
-.affiliate-icon {
-    width: 100px;
-    height: 100px;
-}
-
-.outlineContainer {
-    border: 2px solid $hot-pink;
-    border-radius:40px;
-    padding:2rem;
-}
-
-.awardsCol{
-    padding-top:5rem;
-    text-align: center;
-}
-
-.boardMembers {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
-
-.missionCol {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-
-    border: 2px solid $hot-pink;
-    border-radius:40px;
-    padding:2rem;
-    margin:1rem;
-}
-
-
-.visionColumn{
-    list-style: none;
-}
-
-.visionColumn li {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
+// Vision Style
 .iconBg{
-    border: 2px solid $hot-pink;
-    width:70px;
-    height:70px; 
+    border: 3px solid $hot-pink;
+    width:60px;
+    height:60px; 
     border-radius:50%;
     padding: 0.5rem;
     display:flex;
     align-items:center;
     justify-content:center;
     background-color: $hot-pink;
+    margin-left: calc(50% - 30px);
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
+
+.visionGrid{ p{max-width: 600px;} }
+
+.infoButton {
+    background-color: $hot-pink;
+    padding: 1rem;
+    color: $light-cotton-candy;
+    border: 0;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: calc(1.2rem);
+}
+
+// Member Club Style
+
+.horizontalGallery {
+    display: flex;
+    overflow-x: scroll;
+    width: calc(80vw);
+    margin-bottom: 25px;
+}
+  
+.galleryCard {
+    align-self: center;
+    color:black;
+    min-width: 200px;
+    border-radius: 5px;
+    img {width: 100%; border-radius: 10px;}
+}
+  
+.galleryImageContainer {
+      height: fit-content;
+      padding: 20px;
+}
+
+// Board Style
+
+.boardMembers {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    max-width: 1200px;
+
+    .person {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        min-width:300px;
+        max-width:340px;
+        max-height:400px;
+        // inline-size:40px;
+        text-align:center;
+        padding:20px;
+        h3 {font-size: 1.2rem;}
+    }
+
+    .img {
+        width:200px;
+        height:200px;
+        border-radius:50%;
+        border: 5px solid $hot-pink;
+
+        box-shadow: 0px 16px 35px -4px $blue-shadow;
+        -webkit-box-shadow: 0px 16px 35px -4px $blue-shadow;
+        -moz-box-shadow: 0px 16px 35px -4px $blue-shadow;
+    }
+
+    .details {padding-top:10px;}
+    p {font-size: 1rem;}
+    h4 {font-size: 1.3rem;}
+}
+
+// Past Board Style
+
+.pastContainer {display: flex; flex-wrap: wrap; justify-content: center; max-width: 1200px;}
 
 .pastBoards {
-    border: 2px solid $hot-pink;
-    border-radius:10%;
-    padding: 15px;
-}
-
-.button {
-    background-color: $blueberry;
-    color:$white;
-    border: 2px solid $hot-pink;
-    border-radius:20%;
-    padding:1rem;
-    
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
-    border-radius: 28px;
-
-    box-shadow: 0px 12px 35px -4px $blue-shadow;
-    -webkit-box-shadow: 0px 12px 35px -4px $blue-shadow;
-    -moz-box-shadow: 0px 12px 35px -4px $blue-shadow;
-}
-
-.button:hover{
+    background-color: $hot-pink;
+    border-radius:10px;
+    padding: 1rem;
+    margin:20px;
+    color:$light-cotton-candy;
     cursor: pointer;
+    h3 {margin-bottom: 0;}
 }
+
+
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {}
+
+/* Small devices (portrait tablets and large phones, 380px and up) */
+@media only screen and (min-width: 380px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
