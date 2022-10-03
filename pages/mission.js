@@ -1,6 +1,5 @@
-import { Button, Col, Container, Row, Modal } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { FaHandshake, FaBrain, FaUserGraduate, FaTools, FaSchool, FaPeopleArrows } from "react-icons/fa";
-import React, { useState } from 'react';
 
 import styles from '/styles/Mission.module.scss';
 import Clubs from '../assets/data/clubs.json';
@@ -13,7 +12,7 @@ function ClubsDisplay(props) {
   return (
     <div className={`${styles.galleryCard}`}>
       <div className={`${styles.galleryImageContainer}`}>
-        <a target="_blank" href={website}>
+        <a target="_blank" rel="noreferrer" href={website}>
         <img
           src={logo}
           alt={name}
@@ -24,8 +23,8 @@ function ClubsDisplay(props) {
   )
 }
 
-function Section(props) {
-  const {title, provider} = props;
+function AwardSection(props) {
+  // title, provider
   return (
     <Col style={{textAlign:"center", color:"black", maxWidth:500, marginTop:25, marginBottom:25}} md={6}>
       <h4>{props.title}</h4>
@@ -35,66 +34,35 @@ function Section(props) {
 }
 
 function Person(props) {
+  // name, position, email, image
   return (
       <div className={styles.person}>
-          <h4>{props.position}</h4>
-          <img className={styles.img} src={props.image}/>
-          <div className={styles.details}>
-              <h4>{props.name}</h4>
-              <p>{props.email}</p>
-          </div>
+        <img alt={props.image} src={props.image} alt={props.name}/>
+        <h5>{props.position}</h5>
+        <h4>{props.name}</h4>
+        <p>{props.email}</p>
       </div>
   );
 }
 
 function PastBoard(props) {
-  const [modalShow, setModalShow] = useState(false);
   const { year, positions } = props;
   return (
-    <>
-    <div className={styles.pastBoards} onClick={() => setModalShow(true)}>
-      <h3>{year}</h3>
-    </div>
-    <PastModal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-        year={year}
-        positions={positions}
-      />
-    </>
-  )
-}
-
-function PastModal(props) {
-  const { year, positions } = props;
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">
-          {year}
-        </Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
+    <div className={styles.pastSection}>
+      <h4>{year}</h4>
+      <Row className="justify-content-center">
         {positions.map(position => {
-            const {title, name} = position
-            return (
-              <p>
-                <b>{title}: </b>
-                {name}
-              </p>
+          const {title, name} = position
+          return (
+            <div className={styles.pastBoard}>
+              <h5>{title}</h5>
+              <p>{name}</p>
+            </div>
             )
-        })}
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
-    </Modal>
-  );
+          })}
+      </Row>
+    </div>
+  )
 }
 
 export default function Mission() {
@@ -126,7 +94,7 @@ export default function Mission() {
             <Col><div className={styles.iconBg}><FaHandshake size={42}/></div> <p>Creating partnerships between the academics of our campus and the related industries</p></Col>
           </Row>
         </div>
-        <a target="_blank" href="https://docs.google.com/document/u/1/d/e/2PACX-1vQupcAAOIoyS3EZOpPFuFhin1g4aVpITSgD4QXRgZAYxHtxSv4I5ToApD8JprDHOmoABY1qg81wuYZc/pub"
+        <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vQupcAAOIoyS3EZOpPFuFhin1g4aVpITSgD4QXRgZAYxHtxSv4I5ToApD8JprDHOmoABY1qg81wuYZc/pub"
         ><button className={styles.infoButton} type="button">View Our Constitution</button></a>
       </div>
       
@@ -145,28 +113,27 @@ export default function Mission() {
       <div className="section">
         <h2>What Are ICSSC Committees?</h2>
         <p>ICSSC is comprised of five committees — each serving a different topic and mission. We strive to cover a plethora of interests and encourage members to learn new skills, too!</p>
-        
-        <p>See Our Committees ></p>
+        <p><a href="/committees">See Our Committees ></a></p>
       </div>
 
       {/* Awards Section */}
       <div className="sectionAlt">
         <h2>Awards</h2>
         <Row className="justify-content-center">
-        {AwardsJSON["awards"].map(award => <Section {...award}/>)}
+        {AwardsJSON["awards"].map(award => <AwardSection {...award}/>)}
         </Row>
         <h2>Recognitions</h2>
         <Row className="justify-content-center">
-          {AwardsJSON["recognitions"].map(rec => <Section {...rec}/>)}
+          {AwardsJSON["recognitions"].map(rec => <AwardSection {...rec}/>)}
         </Row>
       </div>
 
       {/* Board Section */}
       <div className="section">
         <h2>Our Board</h2>
-        <Container className={styles.boardMembers}>
+        <div className={styles.boardMembers}>
           {BoardMembers.map(member => <Person {...member} />)}
-        </Container>
+        </div>
       </div>
 
       {/* Past Board Section */}
