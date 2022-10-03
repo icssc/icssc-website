@@ -153,7 +153,10 @@
     color:black;
     min-width: 280px;
     border-radius: 5px;
-    img {width: 100%; border-top-left-radius: 10px; border-top-right-radius: 10px;}
+    img {
+        width: 100%; border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
     h3 {background-color: $light-cotton-candy;}
   }
   
@@ -179,7 +182,10 @@
     .heroTitle {font-size: calc(1em + 1vmax);}
     .heroGrid {flex-direction: column;}
     .heroSplashContainer {text-align: center; padding: 15px}
-    .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 9rem; margin-top:-1.5rem;}
+    .heroIcon1, .heroIcon2, .heroIcon3 {
+        margin-left: 9rem;
+        margin-top:-1.5rem;
+    }
     .heroGridItemSplash {
         height: fit-content;
         background-image: none;
