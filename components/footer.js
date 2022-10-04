@@ -13,17 +13,17 @@ export default function Footer() {
           <div className="col-md-4 align-self-center">
             <ul className="list-inline text-center text-md-right mb-0">
               <li className="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Facebook">
-                <a className="text-white" target="_blank" href="https://www.facebook.com/ICSStudentCouncil/">
+                <a className="text-white" target="_blank" title="Facebook" href="https://www.facebook.com/ICSStudentCouncil/">
                   <FaFacebook />
                 </a>
               </li>
               <li className="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
-                <a className="text-white" target="_blank" href="https://www.instagram.com/icssc.uci/">
+                <a className="text-white" target="_blank" title="Instagram" href="https://www.instagram.com/icssc.uci/">
                   <FaInstagram />
                 </a>
               </li>
               <li className="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Discord">
-                <a className="text-white" target="_blank" href="/discord.html">
+                <a className="text-white" target="_blank" title="Discord" href="/discord.html">
                   <FaDiscord />
                 </a>
               </li>

@@ -88,7 +88,7 @@ export default function Home() {
           </Col>
         </Row>
         <div className={`${styles.eventBox}`}>
-          <Carousel prevLabel={null} nextLabel={null} indicators={false} fade={true} slide={false} touch={false}>
+          <Carousel prevLabel={'Back'} nextLabel={'Next'} indicators={false} fade={true} slide={false} touch={false}>
           {EventsData["past_pictures"].map((past, ind) => (
             <Carousel.Item key={ind}>
               <img
