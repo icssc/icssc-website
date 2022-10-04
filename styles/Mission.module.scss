@@ -106,15 +106,13 @@
     flex-wrap: wrap;
     color: black;
     text-align: center;
-    h4 {
-        color: $hot-pink;
-        font-weight: bolder;
-    }
+    width: 80vw;
 }
 
 .pastSection {
     margin-top: 40px;
     padding-top: 32px;
+    border-radius: 25px;
     box-shadow: 0 -12px 24px -24px #7a7a8d;
     margin-bottom: 40px;
     background-color: $light-cotton-candy;
@@ -122,7 +120,7 @@
 
 .pastBoard {
     display: grid;
-    margin: 25px 0;
+    margin: 20px 0;
     width: 50%;
     max-width: 250px;
     align-self: flex-start;
@@ -132,11 +130,9 @@
     }
     h5 {
         font-size: 1.1rem;
-        font-weight: 540;
+        font-weight: 600;
     }
 }
-
-
 
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {

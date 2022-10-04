@@ -3,8 +3,12 @@
         "year": "2021-2022",
         "positions": [
             {
-                "title": "Co-Presidents",
+                "title": "Co-President",
                 "name": "Patrick Nguyen, Jessie Chang"
+            },
+            {
+                "title": "Co-President",
+                "name": "Jessie Chang"
             },
             {
                 "title": "External Vice President",
@@ -27,8 +31,12 @@
                 "name": "Nicole Pham"
             },
             {
-                "title": "Projects Co-Chairs",
+                "title": "Projects Co-Chair",
                 "name": "Chase Carnaroli, Raman Gupta"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Raman Gupta"
             },
             {
                 "title": "Public Relations Chair",
@@ -47,8 +55,20 @@
                 "name": "Anna Chan"
             },
             {
-                "title": "Graphic Designers",
-                "name": "Bianca Victoria, Elizabeth (Ellie) Lee, Alicia Lee, Rowena Luminarias"
+                "title": "Graphic Designer",
+                "name": "Bianca Victoria"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Elizabeth (Ellie) Lee"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Alicia Lee"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Rowena Luminarias"
             }
         ]
     },
@@ -80,8 +100,12 @@
                 "name": "Patrick Nguyen"
             },
             {
-                "title": "Projects Co-Chairs",
-                "name": "Marawin Chheang, Ritika Roy Choudhury"
+                "title": "Projects Co-Chair",
+                "name": "Marawin Chheang"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Ritika Roy Choudhury"
             },
             {
                 "title": "Public Relations Chair",
@@ -100,8 +124,20 @@
                 "name": "Palak Gajera"
             },
             {
-                "title": "Graphic Designers",
-                "name": "Ellie Lee, Preetham Srinivasan, Bianca Victoria, Naomi Vuong"
+                "title": "Graphic Designer",
+                "name": "Ellie Lee"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Preetham Srinivasan"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Bianca Victoria"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Naomi Vuong"
             }
         ]
     },
@@ -109,8 +145,12 @@
         "year": "2019-2020",
         "positions": [
             {
-                "title": "Co-Presidents",
+                "title": "Co-President",
                 "name": "Avineesh Kompella, Alice Lee"
+            },
+            {
+                "title": "Co-President",
+                "name": "Alice Lee"
             },
             {
                 "title": "External Vice President",
@@ -149,8 +189,20 @@
                 "name": "Melinda Li"
             },
             {
-                "title": "Graphic Designers",
-                "name": "Ryan Hartanto, Kamille Suayan, Bianca Victoria, Naomi Vuong"
+                "title": "Graphic Designer",
+                "name": "Ryan Hartanto"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Kamille Suayan"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": " Bianca Victoria"
+            },
+            {
+                "title": "Graphic Designer",
+                "name": "Naomi Vuong"
             }
         ]
     },
@@ -322,12 +374,16 @@
                 "name": "Delian Petrov"
             },
             {
-                "title": "External Vice President",
+                "title": "External Vice President & Secretary",
                 "name": "Stephanie Chang"
             },
             {
-                "title": "Secretaries",
-                "name": "Stephanie Chang, Maggie Jayarethinam, Franklin Hool"
+                "title": "Secretary",
+                "name": "Maggie Jayarethinam"
+            },
+            {
+                "title": "Secretary",
+                "name": "Franklin Hool"
             },
             {
                 "title": "Treasurer",
@@ -359,12 +415,20 @@
         "year": "2013-2014",
         "positions": [
             {
-                "title": "Co-Presidents",
-                "name": "Audrey Auyang, James Louie"
+                "title": "Co-President",
+                "name": "Audrey Auyang"
             },
             {
-                "title": "Secretaries",
-                "name": "Maggie Jayarethinam, Stephanie Chang"
+                "title": "Co-President",
+                "name": "James Louie"
+            },
+            {
+                "title": "Secretary",
+                "name": "Maggie Jayarethinam"
+            },
+            {
+                "title": "Secretary",
+                "name": "Stephanie Chang"
             },
             {
                 "title": "Treasurer",
@@ -424,8 +488,12 @@
                 "name": "Christine Lew"
             },
             {
-                "title": "Projects Co-Chairs",
-                "name": "Adam Brenner, Matthew Sprehn"
+                "title": "Projects Co-Chair",
+                "name": "Adam Brenner"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Matthew Sprehn"
             },
             {
                 "title": "Public Relations Chair",
@@ -465,8 +533,12 @@
                 "name": "Peter Huynh"
             },
             {
-                "title": "Events Co-Chairs",
-                "name": "Chris Gau, Audrey Auyang"
+                "title": "Events Co-Chair",
+                "name": "Chris Gau"
+            },
+            {
+                "title": "Events Co-Chair",
+                "name": "Audrey Auyang"
             },
             {
                 "title": "Projects Chair",
@@ -510,8 +582,24 @@
                 "name": "Christopher Gau"
             },
             {
-                "title": "Projects Co-Chairs",
-                "name": "Lucas Kam, Kevin Brotche, Nate Chow, Kitty, Muhammad Zaman"
+                "title": "Projects Co-Chair",
+                "name": "Lucas Kam"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Kevin Brotche"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Nate Chow"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Kitty"
+            },
+            {
+                "title": "Projects Co-Chair",
+                "name": "Muhammad Zaman"
             },
             {
                 "title": "Academic and Alumni Affairs Chair",

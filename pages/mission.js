@@ -1,7 +1,8 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, Accordion } from "react-bootstrap";
 import { FaHandshake, FaBrain, FaUserGraduate, FaTools, FaSchool, FaPeopleArrows } from "react-icons/fa";
 
 import styles from '/styles/Mission.module.scss';
+
 import Clubs from '../assets/data/clubs.json';
 import AwardsJSON from '../assets/data/awards.json';
 import BoardMembers from '../assets/data/board.json';
@@ -55,8 +56,8 @@ function PastBoard(props) {
           const {title, name} = position
           return (
             <div className={styles.pastBoard}>
-              <h5>{title}</h5>
-              <p>{name}</p>
+              <h5>{name}</h5>
+              <p>{title}</p>
             </div>
             )
           })}
@@ -140,7 +141,32 @@ export default function Mission() {
       <div className="sectionAlt">
         <h2>Past Board</h2>
         <div className={styles.pastContainer}>
-          {PastBoards.map(board => <PastBoard {...board}/>)}
+          <Accordion defaultActiveKey="0" flush>
+          {PastBoards.map((board, ind) => (
+            <Accordion.Item eventKey={ind}>
+              {/* <div className={styles.pastSection}>
+              <h4>{year}</h4>
+
+            </div> */}
+            <div className={styles.pastSection}>
+              <Accordion.Header>{board.year}</Accordion.Header>
+              <Accordion.Body>
+              {board.positions.map(position => {
+                  const {title, name} = position
+                  return (
+                    <>
+                    <div className={styles.pastBoard}>
+                      <h5>{name}</h5>
+                      <p>{title}</p>
+                    </div>
+                    </>
+                    )
+                  })}
+              </Accordion.Body>
+            </div>
+            </Accordion.Item>
+          ))}
+          </Accordion>
         </div>
       </div>
     </>

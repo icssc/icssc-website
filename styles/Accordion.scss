@@ -1,0 +1,14 @@
+.accordion-button {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    font-size: 2rem
+}
+
+.accordion-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    justify-content: center;
+    align-self: flex-start;
+}
