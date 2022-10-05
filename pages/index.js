@@ -52,6 +52,7 @@ export default function Home() {
               alt="Anteater On Laptop"
               />
             </div>
+            {/* Terminal Container Graphic Inspired from the CalHacks Team at Berkeley */}
             <div className={`${styles.heroGridItemSplash}`}>
               <div className={`${styles.heroSplashContainer}`}>
                 <h1>
@@ -67,6 +68,7 @@ export default function Home() {
       </div>
       
       {/* About Section */}
+      {/* Wave Graphic From the CalHack Team at Berkeley! */}
       <img className={`${styles.heroFooterBackground}`} src="/assets/img/graphics/wave.png" alt="Box Edge"/>
       <div className={`${styles.heroFooter}`}>
         <div className={`${styles.heroFooterContent}`}>
