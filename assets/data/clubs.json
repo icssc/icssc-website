@@ -3,75 +3,75 @@
         "id": "acm",
         "name": "Association For Computing Machinery",
         "logo": "/assets/img/clubs/acm.png",
-        "website": "",
+        "website": "https://acm-uci.org/",
         "description": ""
     },
     {
         "id": "ai",
         "name": "AI at UCI",
         "logo": "/assets/img/clubs/ai.png",
-        "website": "",
+        "website": "https://aiclub.ics.uci.edu/",
         "description": ""
     },
     {
         "id": "blockchain",
         "name": "Blockchain at UCI",
         "logo": "/assets/img/clubs/blockchain.png",
-        "website": "",
+        "website": "https://www.blockchainuci.org/",
         "description": ""
     },
     {
         "id": "ctc",
         "name": "Commit the Change",
-        "logo": "/assets/img/clubs/ctc.png",
-        "website": "",
+        "logo": "/assets/img/clubs/ctc.svg",
+        "website": "https://ctc-uci.com/",
         "description": ""
     },
     {
         "id": "cyber",
         "name": "Cyber @ UCI",
         "logo": "/assets/img/clubs/cyber.png",
-        "website": "",
+        "website": "https://cyberclub.ics.uci.edu/",
         "description": ""
     },
     {
         "id": "hack",
         "name": "Hack at UCI",
         "logo": "/assets/img/clubs/hack.png",
-        "website": "",
+        "website": "https://hack.ics.uci.edu/",
+        "description": ""
+    },
+    {
+        "id": "ieee",
+        "name": "Institute of Electrical and Electronics Engineers",
+        "logo": "/assets/img/clubs/ieee.png",
+        "website": "https://ieee.ics.uci.edu/",
         "description": ""
     },
     {
         "id": "maiss",
         "name": "Management Information Student Society",
         "logo": "/assets/img/clubs/maiss.png",
-        "website": "",
-        "description": ""
-    },
-    {
-        "id": "udsa",
-        "name": "Undergraduate Data Science Association",
-        "logo": "/assets/img/clubs/udsa.png",
-        "website": "",
+        "website": "https://www.maissuci.com/",
         "description": ""
     },
     {
         "id": "vgdc",
         "name": "Video Game Development Club",
         "logo": "/assets/img/clubs/vgdc.png",
-        "website": "",
+        "website": "https://sites.google.com/uci.edu/vgdcuci/",
         "description": ""
     },
     {
         "id": "vrdc",
-        "name": "Virtual REality Development Club",
+        "name": "Virtual Reality Development Club",
         "logo": "/assets/img/clubs/vrdc.png"
     },
     {
         "id": "wics",
         "name": "Women in Information and Computer Science",
         "logo": "/assets/img/clubs/wics.png",
-        "website": "",
+        "website": "https://wics.ics.uci.edu/",
         "description": ""
     }
 ]

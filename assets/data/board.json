@@ -1,80 +1,98 @@
 [
     {
-        "name": "Patrick Nguyen",
+        "name": "Nicole Pham", 
         "position": "Co-President",
-        "email": "patrian1@uci.edu",
-        "image": "/assets/img/board/patrickNguyen.jpeg"
-    },
-    {
-        "name": "Jessie Chang",
-        "position": "Co-President",
-        "email": "jessc16@uci.edu",
-        "image": "/assets/img/board/jessieChang.jpeg"
-    },
-    {
-        "name": "Ryan Mohta",
-        "position": "Internal Vice President",
-        "email": "mohtar@uci.edu",
-        "image": "/assets/img/board/ryanMohta.jpeg"
-    },
-    {
-        "name": "Aaron Lam",
-        "position": "External Vice President",
-        "email": "aarontl1@uci.edu",
-        "image": "/assets/img/board/aaronLam.jpeg"
-    },
-    {
-        "name": "Emily Doan",
-        "position": "Public Relations Chair",
-        "email": "edoan2@uci.edu",
-        "image": "/assets/img/board/emilyDoan.jpeg"
-    },
-    {
-        "name": "Pham",
-        "position": "Events Chair",
         "email": "nmpham2@uci.edu",
-        "image": "/assets/img/board/nicolePham.jpeg"
-    },
-    {
-        "name": "Chase Carnaroli",
-        "position": "Projects Co-Chair",
-        "email": "ccarnaro@uci.edu",
-        "image": "/assets/img/board/chaseCarnaroli.jpeg"
-    },
-    {
-        "name": "Raman Gupta",
-        "position": "Projects Co-Chair",
-        "email": "rxgupta@uci.edu",
-        "image": "/assets/img/board/ramanGupta.jpeg"
-    },
-    {
-        "name": "Jennie Quach",
-        "position": "Corporate Outreach Chair",
-        "email": "quachjh@uci.edu",
-        "image": "/assets/img/board/jennieQuach.jpg"
-    },
-    {
-        "name": "Brian Bulgarelli",
-        "position": "Academic and Alumni Affairs Chair",
-        "email": "bulgareb@uci.edu",
-        "image": "/assets/img/board/brianBulgarelli.jpeg"
-    },
-    {
-        "name": "Shreyas Hukkeri",
-        "position": "Treasurer",
-        "email": "shukkeri@uci.edu",
-        "image": "/assets/img/board/shreyasHukkeri.jpeg"
-    },
-    {
-        "name": "Nathan Nguyen",
-        "position": "Secretary",
-        "email": "nathan8@uci.edu",
-        "image": "/assets/img/board/nathanNguyen.jpeg"
+        "image": "/assets/img/board/pham.png"
     },
     {
         "name": "Anna Chan",
-        "position": "Webmaster",
+        "position": "Co-President",
         "email": "chanan2@uci.edu",
-        "image": "/assets/img/board/annaChan.jpg"
+        "image": "/assets/img/board/AnnaChan.png"
+    },
+    {
+        "name": "Emily Doan",
+        "position": "Internal Vice President",
+        "email": "edoan2.edu",
+        "image": "/assets/img/board/EmilyDoan.png"
+    },
+    {
+        "name": "William Hou",
+        "position": "External Vice President",
+        "email": "houw3@uci.edu",
+        "image": "/assets/img/board/WilliamHou.png"
+    },
+    {
+        "name": "Taylor Quach",
+        "position": "Public Relations Chair",
+        "email": "taylorq1@uci.edu",
+        "image": "/assets/img/board/TaylorQuach.png"
+    },
+    {
+        "name": "Rithvij Pochampally",
+        "position": "Events Co-Chair",
+        "email": "rpochamp@uci.edu",
+        "image": "/assets/img/board/RithvijPochampally.png"
+    },
+    {
+        "name": "Rebecca Ahn",
+        "position": "Events Co-Chair",
+        "email": "rebeca2@uci.edu",
+        "image": "/assets/img/board/RebeccaAhn.png"
+    },
+    {
+        "name": "Frederick Dong",
+        "position": "Projects Chair",
+        "email": "frdong@uci.edu",
+        "image": "/assets/img/board/FrederickDong.png"
+    },
+    {
+        "name": "Kirby Ammari",
+        "position": "Corporate Outreach Chair",
+        "email": "kammari@uci.edu",
+        "image": "/assets/img/board/KirbyAmmari.png"
+    },
+    {
+        "name": "Meenakshi Mynampati",
+        "position": "Academic and Alumni Affairs Chair",
+        "email": "mmynampa@uci.edu",
+        "image": "/assets/img/board/MeenaMynampati.png"
+    },
+    {
+        "name": "Brian Bulgarelli",
+        "position": "Treasurer",
+        "email": "bulgareb@uci.edu",
+        "image": "/assets/img/board/BrianBulgarelli.png"
+    },
+    {
+        "name": "Maithy Le",
+        "position": "Secretary",
+        "email": "maithyl@uci.edu",
+        "image": "/assets/img/board/MaithyLe.png"
+    },
+    {
+        "name": "Ellie Lee",
+        "position": "Graphic Designer",
+        "email": "elizayl4@uci.edu",
+        "image": "/assets/img/board/EllieLee.png"
+    },
+    {
+        "name": "Michelle Huang",
+        "position": "Graphic Designer",
+        "email": "huangm10@uci.edu",
+        "image": "/assets/img/board/MichelleHuang.png"
+    },
+    {
+        "name": "Alaina Klaes",
+        "position": "Graphic Designer",
+        "email": "klaesa@uci.edu",
+        "image": "/assets/img/board/AlainaKlaes.png"
+    },
+    {
+        "name": "Avent Chiu",
+        "position": "Webmaster",
+        "email": "chiual@uci.edu",
+        "image": "/assets/img/board/AventChiu.png"
     }
 ]
