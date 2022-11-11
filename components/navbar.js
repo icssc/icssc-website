@@ -6,7 +6,7 @@ export default function NavBar() {
             <Navbar.Brand href="/index">
                 <img
                     src="/assets/img/logo.svg"
-                    alt="Placeholder Image"
+                    alt="ICSSC Logo"
                     height="45px"
                 />
             </Navbar.Brand>
