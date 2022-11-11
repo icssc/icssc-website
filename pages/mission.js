@@ -80,7 +80,7 @@ export default function Mission() {
       {/* Vision Section */}
       <div className="section">
         <h2>Our Vision</h2>
-        <p>At ICSSC, we will enhance the quality of student life and ensure great jobs for students of all majors and minors within the Donald Bren School of Information and Computer Science by:</p>
+        <p>At ICSSC, we will enhance the quality of student life and ensure great jobs for students of all majors and minors within the Donald Bren School of Information and Computer Sciences by:</p>
         <div className={styles.visionGrid}>
           <Row lg={6} sm={12}>
             <Col><div className={styles.iconBg}><FaSchool size={35}/></div> <p>Understanding, disseminating, and contributing to departmental decisions including curriculum, research, and hiring decisions</p></Col>
