@@ -59,7 +59,7 @@ export default function Home() {
                   ICS Student Council
                 </h1>
                 <p>
-                  Stop by our general meetings! We have various social and academic events for everyone.<br></br><br></br> Join us every <strong>Wednesday 7-8pm at DBH 6011</strong>!
+                  Stop by our general meetings! We have various social and academic events for everyone.<br></br><br></br> Join us every <strong><u>Wednesday 7-8pm at DBH 6011</u></strong>!
                 </p>
                 <a  href="/get-involved">
                   <button type="button" className={`pinkButton`}>Get Involved ></button>
@@ -134,9 +134,11 @@ export default function Home() {
             <p><a href="/sponsors">See All Sponsors ></a></p>
             </Col>
         </Row>
-        <div className={`${styles.elementList}`}>
+
+        {/* As of 2022-2023 we do not have any sponsors to display */}
+        {/* <div className={`${styles.elementList}`}>
               {Sponsors.map(sponsor => <SponsorLogo {...sponsor} key={sponsor.id}/>)}
-        </div>
+        </div> */}
       </div>
 
       {/* Footer Graphic */}
