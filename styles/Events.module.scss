@@ -3,9 +3,12 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    max-width: 80vw;
 }
 
 .eventBox {
+    margin: 10px;
+    row-gap: 20px;
     cursor: pointer;
     border-radius: 10px;
     text-align: left;

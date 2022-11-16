@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Col, Container, Row, Button, Modal } from "react-bootstrap";
 import EventsData from '../assets/data/events.json';
 import React, { useState } from 'react';
@@ -37,7 +36,7 @@ function Event(props) {
   const {src, title, time, desc, isCurrent, rsvp_src} = props;
   return (
     <>
-      <div className={`${styles.eventBox}`} style={{margin:"10px"}} onClick={() => setModalShow(true)}>
+      <div className={`${styles.eventBox}`} onClick={() => setModalShow(true)}>
           <img
               src={src}
           />
