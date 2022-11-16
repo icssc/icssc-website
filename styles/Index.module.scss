@@ -207,7 +207,10 @@
     .heroTitle {font-size: 3.5em;}
     .heroGrid {flex-direction: column;}
     .heroGridItemSplash {background-image: none;}
-    .heroSplashContainer {text-align: center;}
+    .heroSplashContainer {
+        text-align: center;
+        padding: 1.3rem;
+    }
     .heroGridItemSplash {
         height: fit-content;
         background-image: none;
@@ -229,6 +232,7 @@
 @media only screen and (min-width: 768px) {
     .heroIcon1, .heroIcon2, .heroIcon3 {font-size: 1.2em!important}
     .heroGrid {margin-top: 15vh;}
+    .heroSplashContainer {padding: 2rem}
     .heroFooterText {
         width: auto;
         text-align: center;
@@ -237,6 +241,7 @@
     .heroFooterContent{flex-direction: column;}
     .heroFooter img {align-self: center;}
     .galleryCard {min-width: 480px;}
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

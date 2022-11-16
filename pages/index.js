@@ -59,7 +59,7 @@ export default function Home() {
                   ICS Student Council
                 </h1>
                 <p>
-                  Improving ICS students' lives professionally, socially, and academically
+                  Stop by our general meetings! We have various social and academic events for everyone.<br></br><br></br> Join us every <strong>Wednesday 7-8pm at DBH 6011</strong>!
                 </p>
                 <button type="button" className={`pinkButton`} href="/get-involved">Get Involved ></button>
               </div>
