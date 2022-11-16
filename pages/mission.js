@@ -77,7 +77,7 @@ export default function Mission() {
           </Row>
         </div>
         <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vQupcAAOIoyS3EZOpPFuFhin1g4aVpITSgD4QXRgZAYxHtxSv4I5ToApD8JprDHOmoABY1qg81wuYZc/pub"
-        ><button className={styles.infoButton} type="button">View Our Constitution</button></a>
+        ><button className='pinkButton' style={{marginTop: "50px"}} type="button">View Our Constitution</button></a>
       </div>
       
       {/* Member Club Section */}

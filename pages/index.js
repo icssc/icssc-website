@@ -61,7 +61,7 @@ export default function Home() {
                 <p>
                   Improving ICS students' lives professionally, socially, and academically
                 </p>
-                <Button type="button" className={`${styles.heroButton}`} href="/get-involved">Get Involved ></Button>
+                <button type="button" className={`pinkButton`} href="/get-involved">Get Involved ></button>
               </div>
             </div>
         </div>
@@ -75,7 +75,7 @@ export default function Home() {
           <div className={`${styles.heroFooterText}`}>
             <h1>About Us</h1>
             <p>ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.</p>
-            <a href="/get-involved">Learn More ></a>
+            <a href="/mission">Learn More ></a>
           </div>
           <img src='/assets/img/graphics/anteater_hw.png' alt="About Us Graphic" />
         </div>
@@ -90,7 +90,7 @@ export default function Home() {
           </Col>
         </Row>
         <div className={`${styles.eventBox}`}>
-          <Carousel prevLabel={'Back'} nextLabel={'Next'} indicators={false} fade={true} slide={false} touch={false}>
+          <Carousel prevLabel={''} nextLabel={''} indicators={false} fade={true} slide={false} touch={false}>
           {EventsData["past_pictures"].map((past, ind) => (
             <Carousel.Item key={ind}>
               <img

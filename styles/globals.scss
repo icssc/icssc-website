@@ -105,6 +105,19 @@ a {
   opacity: .5;
 }
 
+.pinkButton {
+  background-color: $hot-pink;
+  padding: 1rem;
+  color: $light-cotton-candy;
+  border: 0;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: calc(1.2rem);
+  transition: 0.8s;
+}
+
+.pinkButton:hover {background-color:$strawberry;}
+
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {}
 
