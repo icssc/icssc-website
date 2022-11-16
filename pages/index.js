@@ -61,7 +61,9 @@ export default function Home() {
                 <p>
                   Stop by our general meetings! We have various social and academic events for everyone.<br></br><br></br> Join us every <strong>Wednesday 7-8pm at DBH 6011</strong>!
                 </p>
-                <button type="button" className={`pinkButton`} href="/get-involved">Get Involved ></button>
+                <a  href="/get-involved">
+                  <button type="button" className={`pinkButton`}>Get Involved ></button>
+                </a>
               </div>
             </div>
         </div>
