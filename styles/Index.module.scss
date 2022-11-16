@@ -1,0 +1,269 @@
+@import 'styles/variables';
+
+/* 69px is the height of the navbar */
+// Hero Banner Styles
+.heroBanner {
+    min-height:calc(70vh - 69px);
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.12;
+    width: 100%;
+}
+
+.heroButton {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 12em;
+    position: relative;
+    padding: 7.5px 30px;
+    margin:0;
+    border-radius: 30px;
+    background-color:$hot-pink;
+    border: none;
+}
+
+.heroButton:hover{background-color: hotpink;}
+
+.heroGrid {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    img {
+        max-width: 400px;
+        width: 90vw;
+        height: 100%;
+    }
+}
+
+.heroGridItem, .heroGridItemSplash {
+    margin-left: 66px;
+    margin-right: 66px;
+    max-width: 600px;
+    h1 {
+        margin-top: 15px;
+        position: relative;
+        font-size: 3rem;
+        font-weight: 500;
+        color: $black;
+        max-width: 500px;
+        font-family: 'Bungee';
+    }
+    p {
+        margin-bottom: 25px;
+        font-size: 1.2em;
+    }
+}
+
+@keyframes fadeUp {
+    0% {
+      transform: translateY(6rem);
+      opacity: 0;
+    }
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+.heroIcon1, .heroIcon2, .heroIcon3 {
+    position: absolute;
+    margin-left: 14rem;
+    margin-top: -1rem;
+    animation: fadeUp 5s ease 0ms 1, fadeUp 9s ease 12000ms infinite;
+    opacity: 0;
+    font-family: 'Bungee';
+    color: $hot-pink;
+    border-radius: 10px;
+    padding: .3rem;
+}
+
+.heroIcon1 {animation-delay: 500ms;}
+.heroIcon2 {animation-delay: 3500ms;}
+.heroIcon3 {animation-delay: 6500ms;}
+.heroSplashContainer {padding: 2rem}
+
+.heroGridItemSplash {
+    width: 45vw;
+    background-image: url('/assets/img/graphics/terminal.png');
+    border-radius: 18px;
+    background-size:cover;
+    box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
+}
+
+// Hero Banner Footer
+.heroFooterBackground{margin-top: 2rem; width: 100%;}
+.heroFooter{
+    width: 100%;
+    color: white;
+    margin-top: -1rem;
+    background-color: $blueberry;
+    display: flex;
+    justify-content: center;
+    h1 {font-size: 3em; color: $hot-pink}
+    p {font-size: 1.2em;}
+    a {font-size: 1.2em; color: $hot-pink}
+    img {
+        margin-top: -6rem;
+        right: 2rem;
+        max-width:480px;
+        width: 90vw;
+    }
+}
+.heroFooterContent{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.heroFooterText{
+    width: calc(90% - 550px);
+    padding: 0rem 2rem 7rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+// Event Section Styles
+.eventBox {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    img {
+        max-height: auto;
+        width: 30rem;
+        max-width: 100vw;
+        border-radius: 20px;
+        background-color: $blueberry;
+    }
+}
+
+// Project Section Styles
+.horizontalGallery {
+    display: flex;
+    overflow-x: scroll;
+    width: calc(80vw);
+    margin-bottom: 25px;
+  }
+  
+  .galleryCard {
+    text-align: center;
+    color:black;
+    min-width: 280px;
+    border-radius: 5px;
+    img {
+        width: 100%; border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    h3 {background-color: $light-cotton-candy;}
+  }
+  
+  .galleryImageContainer {
+      height: fit-content;
+      padding: 20px;
+  }
+
+// Sponsor Section Styles
+.elementList {
+    max-width: 1110px;
+    text-align: center;
+}
+
+.elementListItem {
+    display: inline-block;
+    width: 300px;
+    margin: 2rem;
+}
+
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {
+    .heroTitle {font-size: calc(1em + 1vmax);}
+    .heroGrid {flex-direction: column;}
+    .heroSplashContainer {text-align: center; padding: 15px}
+    .heroIcon1, .heroIcon2, .heroIcon3 {
+        margin-left: 9rem;
+        margin-top:-1.5rem;
+    }
+    .heroGridItemSplash {
+        height: fit-content;
+        background-image: none;
+        box-shadow: none;
+        width:auto;
+    }
+    .heroFooterContent{flex-direction: column;}
+    .heroFooter img {align-self: center;}
+    .heroFooterText {
+        width: auto;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .horizontalGallery { width: calc(95vw) }
+}
+
+/* Small devices (portrait tablets and large phones, 380px and up) */
+@media only screen and (min-width: 380px) {
+    .heroTitle {font-size: 3.5em;}
+    .heroGrid {flex-direction: column;}
+    .heroGridItemSplash {background-image: none;}
+    .heroSplashContainer {
+        text-align: center;
+        padding: 1.3rem;
+    }
+    .heroGridItemSplash {
+        height: fit-content;
+        background-image: none;
+        box-shadow:none;
+        width:auto;
+    }
+    .heroIcon1, .heroIcon2, .heroIcon3 {margin-left: 17rem;}
+    .heroFooterContent{flex-direction: column;}
+    .heroFooter img {align-self: center;}
+    .heroFooterText {
+        width: auto;
+        text-align: center;
+        margin-top: 5rem;
+    }
+    .horizontalGallery { width: calc(100vw - 5rem) }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .heroIcon1, .heroIcon2, .heroIcon3 {font-size: 1.2em!important}
+    .heroGrid {margin-top: 15vh;}
+    .heroSplashContainer {padding: 2rem}
+    .heroFooterText {
+        width: auto;
+        text-align: center;
+        margin-top: 10rem;
+    }
+    .heroFooterContent{flex-direction: column;}
+    .heroFooter img {align-self: center;}
+    .galleryCard {min-width: 480px;}
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .heroGrid {flex-direction: row;}
+    .heroGridItemSplash {
+        background-image: url('/assets/img/graphics/app_window.png');
+        box-shadow:$light-cotton-candy -40px 40px 0px -3px, $light-strawberry -40px 40px;
+        width: 45vw;
+    }
+    .heroSplashContainer {text-align: left;}
+    .heroFooterContent{
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1200px;
+    }
+    .heroFooterText{
+        text-align: left;
+        margin: 0;
+    }
+    .horizontalGallery { width: calc(100vw - 20rem) }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

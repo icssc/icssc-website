@@ -37,6 +37,34 @@
             "time":"October 11-15, 2021",
             "desc": "ICS Student Council welcomes you back to school and back to another WebJam! WebJam is a week-long competition where students can form teams to design and develop fully functional web applications. This year's theme is \"New Beginnings\" to not only welcome students back on campus but also welcome beginners to learn something new and participate! The event is open to students of all technical levels and we will be providing workshops to help teach basic and intermediate concepts."
         }
+    ],
+    "past_pictures": [
+        {
+            "src":"/assets/img/events/past/nerdfighter.jpg",
+            "title": "NerdFighter Picture"
+        },
+
+        {
+            "src":"/assets/img/events/past/gingerbreadhouse.jpg",
+            "title": "Gingerbread House Event Picture"
+        },
         
+        {
+            "src":"/assets/img/events/past/arcade_night.jpg",
+            "title": "Arcade Night Picture"
+        },
+
+        {
+            "src":"/assets/img/events/past/supersmash.jpg",
+            "title": "Super Smash Bros Picture"
+        },
+        {
+            "src":"/assets/img/events/past/arcade_night_2.jpg",
+            "title": "Arcade Night Picture 2"
+        },
+        {
+            "src":"/assets/img/events/past/karaoke.jpg",
+            "title": "Karaoke Picture"
+        }
     ]
 }
