@@ -46,25 +46,6 @@ function Person(props) {
   );
 }
 
-function PastBoard(props) {
-  const { year, positions } = props;
-  return (
-    <div className={styles.pastSection}>
-      <h4>{year}</h4>
-      <Row className="justify-content-center">
-        {positions.map(position => {
-          const {title, name} = position
-          return (
-            <div className={styles.pastBoard}>
-              <h5>{name}</h5>
-              <p>{title}</p>
-            </div>
-            )
-          })}
-      </Row>
-    </div>
-  )
-}
 
 export default function Mission() {
   return (
@@ -121,11 +102,11 @@ export default function Mission() {
       <div className="sectionAlt">
         <h2>Awards</h2>
         <Row className="justify-content-center">
-        {AwardsJSON["awards"].map(award => <AwardSection {...award}/>)}
+          {AwardsJSON["awards"].map(award => <AwardSection {...award} key={award.title}/>)}
         </Row>
         <h2>Recognitions</h2>
         <Row className="justify-content-center">
-          {AwardsJSON["recognitions"].map(rec => <AwardSection {...rec}/>)}
+          {AwardsJSON["recognitions"].map(rec => <AwardSection {...rec} key={rec.title}/>)}
         </Row>
       </div>
 
@@ -133,7 +114,7 @@ export default function Mission() {
       <div className="section">
         <h2>Our Board</h2>
         <div className={styles.boardMembers}>
-          {BoardMembers.map(member => <Person {...member} />)}
+          {BoardMembers.map(member => <Person {...member} key={member.name}/>)}
         </div>
       </div>
 
@@ -142,30 +123,24 @@ export default function Mission() {
         <h2>Past Board</h2>
         <div className={styles.pastContainer}>
           <Accordion defaultActiveKey="0" flush>
-          {PastBoards.map((board, ind) => (
-            <Accordion.Item eventKey={ind}>
-              {/* <div className={styles.pastSection}>
-              <h4>{year}</h4>
-
-            </div> */}
-            <div className={styles.pastSection}>
-              <Accordion.Header>{board.year}</Accordion.Header>
-              <Accordion.Body>
-              {board.positions.map(position => {
-                  const {title, name} = position
-                  return (
-                    <>
-                    <div className={styles.pastBoard}>
-                      <h5>{name}</h5>
-                      <p>{title}</p>
-                    </div>
-                    </>
-                    )
-                  })}
-              </Accordion.Body>
-            </div>
-            </Accordion.Item>
-          ))}
+            {PastBoards.map((board, ind) => (
+              <Accordion.Item eventKey={ind} key={ind}>
+              <div className={styles.pastSection}>
+                <Accordion.Header>{board.year}</Accordion.Header>
+                <Accordion.Body>
+                `{board.positions.map((position, index) => {
+                    const {title, name} = position;
+                    return (
+                        <div className={styles.pastBoard} key={index}>
+                          <h5>{name}</h5>
+                          <p>{title}</p>
+                        </div>
+                      )
+                    })}`
+                </Accordion.Body>
+              </div>
+              </Accordion.Item>
+            ))}
           </Accordion>
         </div>
       </div>
