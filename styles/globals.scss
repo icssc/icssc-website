@@ -39,6 +39,9 @@ body {
   background-color: $light-cotton-candy;
 }
 
+// Removes ReactBootstrap Modals' additional padding
+.modal-open, nav {padding-right: 0px!important;}
+
 .nav-link, .navbar-nav{
   color: $white!important;
   font-size: 1.2rem;
@@ -53,7 +56,7 @@ a {
   box-sizing: border-box;
 }
 
-.section, .sectionAlt {
+.section, .sectionAlt, .sectionDarkAlt {
   display: flex;
   flex-direction: column;
   min-height:auto;
@@ -82,8 +85,16 @@ a {
   }
 }
 
+// Alternative Section, lighter background
 .sectionAlt {
   background-color: $light-cotton-candy;
+  p {color:$black}
+  a {color:$hot-pink}
+}
+
+// Slightly darker alternative section
+.sectionDarkAlt{
+  background-color: $white;
   p {color:$black}
   a {color:$hot-pink}
 }

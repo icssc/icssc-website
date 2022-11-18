@@ -61,25 +61,32 @@ function Event(props) {
 export default function Events() {
   return (
     <>
-      <h1>Events</h1>
-      <h1 className="text-center">Current Events</h1>
-      {<p className="text-center">No current events! Stay tuned for more :)</p>}
-      <Row style={{justifyContent:"center"}}>
-      <div className={`${styles.sectionEvents} `}>
-        <div className={`${styles.eventsGrid}`}>
-            {EventsData["current"].map(past => <Event {...past} isCurrent={true}/>)}
+      {/* Event Title Section */}
+      <div className="sectionAlt">
+      <h2>Current Events</h2>
+      {<p>No current events! Stay tuned for more :)</p>}
+      {/* Uncomment This To Display Current Events */}
+      {/* <Row style={{justifyContent:"center"}}>
+        <div className={`${styles.sectionEvents} `}>
+          <div className={`${styles.eventsGrid}`}>
+              {EventsData["current"].map(past => <Event {...past} isCurrent={true}/>)}
+          </div>
         </div>
+      </Row> */}
       </div>
-      </Row>
 
-      <h1 className="text-center mt-5 pt-5">Past Events</h1>
-      <Row style={{justifyContent:"center"}}>
-      <div className={`${styles.sectionEvents} `}>
-        <div className={`${styles.eventsGrid}`}>
-            {EventsData["past"].map(past => <Event {...past} isCurrent={false}/>)}
+      
+      {/* Event Past Section */}
+      <div className="sectionDarkAlt">
+        <h2>Past Events</h2>
+        <Row style={{justifyContent:"center"}}>
+        <div className={`${styles.sectionEvents} `}>
+          <div className={`${styles.eventsGrid}`}>
+              {EventsData["past"].map(past => <Event {...past} isCurrent={false}/>)}
+          </div>
         </div>
+        </Row>
       </div>
-      </Row>
       
     </>
   )
