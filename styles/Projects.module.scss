@@ -18,11 +18,15 @@
 .projectGrid {
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
+    &:nth-child(odd) {flex-direction: row;}
+    &:nth-child(1) {margin-top: 2rem;}
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
-    margin: 2rem 0;
+    margin: 6rem 0;
+    
     img, div {
         flex-grow: 0;
         max-width: 50%;
@@ -57,8 +61,6 @@
             background-color: $strawberry;
             cursor: pointer;
         }
-        
-        
     }
 }
 

@@ -30,7 +30,7 @@ export default function Projects() {
             <h1>Projects</h1>
             
             <p>ICSSC offers development projects to benefit the UCI community. 
-                Anyone is welcome to contribute to the projects at our <u><a href="https://github.com/icssc">GitHub</a></u>
+                Anyone is welcome to contribute to the projects at our <u><a href="https://github.com/icssc" rel="noreferrer" target="_blank">GitHub</a></u>.
             </p>
             
             </div>
