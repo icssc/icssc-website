@@ -2,7 +2,8 @@ import { Nav, Navbar, NavDropdown, NavItem } from "react-bootstrap";
 
 export default function NavBar() {
     return (
-        <Navbar variant="dark" fixed="top" expand="lg" style={{ backgroundColor: "#535D93", boxShadow:"0px .5px 10px"}}>
+        <Navbar variant="dark" fixed="top" expand="lg" style={{ backgroundColor: "#ffffff2e", backdropFilter: "blur(8px)",WebkitBackdropFilter:"blur(11.5px)",
+        msFilter:"blur(11.5px)"}}>
             <Navbar.Brand href="/index">
                 <img
                     src="/assets/img/logo.svg"
