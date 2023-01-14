@@ -1,6 +1,7 @@
 import Sponsors from '../assets/data/sponsors.json'
 import { Col, Row, Button, Carousel } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
+import ProjectsData from '../assets/data/projects.json';
 
 import styles from '/styles/Index.module.scss';
 
@@ -21,16 +22,16 @@ function SponsorLogo(props) {
 }
 
 function ProjectDisplay(props) {
-  const {src} = props
+  const {name, img} = props
   return (
     // Placeholder img and props. Will update when graphics are updated
     <div className={`${styles.galleryCard}`}>
       <div className={`${styles.galleryImageContainer}`}>
         <img
-          src={'https://th.bing.com/th/id/OIP.gPjZVOnX-A2jyUrN3gcTcQHaFj?pid=ImgDet&rs=1'}
-          alt="Placeholder Image"
+          src={img}
+          alt={name}
         />
-        <h3>Title</h3>
+        <h3>{name}</h3>
       </div>
     </div>
   )
@@ -113,11 +114,8 @@ export default function Home() {
         <Row>
             <div className={`${styles.horizontalGallery}`}>
               {/* Map project data onto ProjectDisplay. Placeholder for now */}
-              <ProjectDisplay/>
-              <ProjectDisplay/>
-              <ProjectDisplay/>
-              <ProjectDisplay/>
-              <ProjectDisplay/>
+              {ProjectsData.map(project => <ProjectDisplay {...project} key={project.name}/>)}
+
             </div>
         </Row>
         <p><a href="/projects">Discover Our Projects ></a></p>
