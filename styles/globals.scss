@@ -13,8 +13,7 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: $blueberry;
-  border-radius: 2px;
+  background: gray;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -43,7 +42,7 @@ body {
 .modal-open, nav {padding-right: 0px!important;}
 
 .nav-link, .navbar-nav{
-  color: $white!important;
+  color: black!important;
   font-size: 1.2rem;
 }
 
