@@ -1,33 +1,38 @@
 [
     {
-        "img": "https://github.com/icssc/AntAlmanac/raw/main/public/banner.png",
+        "img": "/assets/img/projects/AntAlmanac.jpg",
         "name": "AntAlmanac",
         "desc": "AntAlmanac is a schedule planning and course exploration tool for UCI students.",
-        "src": "https://antalmanac.com/"
+        "src": "https://antalmanac.com/",
+        "repo": "https://github.com/icssc/AntAlmanac"
     },
     {
-        "img": "https://github.com/icssc/peterportal-public-api/raw/master/public/images/peterportal-banner-logo.png?raw=true",
+        "img": "/assets/img/projects/PeterPortal.jpg",
         "name": "PeterPortal",
         "desc": "PeterPortal is a web application aimed to aid UCI students with course discovery. We consolidate public data available on multiple UCI sources on the application to improve the user experience when planning their course schedule.",
-        "src": "https://peterportal.org/"
+        "src": "https://peterportal.org/",
+        "repo": "https://github.com/icssc/peterportal-client"
     },
     {
-        "img": "/assets/img/logo.png",
+        "img": "/assets/img/projects/Zotistics.jpg",
         "name": "Zotistics",
         "desc": "Zotistics is UCI's premier grade distribution analysis tool! We use the PeterPortal Public API to consolidate UCI grade data by professors, classes, quarters, and more",
-        "src": "https://zotistics.com/"
+        "src": "https://zotistics.com/",
+        "repo": "https://github.com/icssc/Zotistics"
     },
     {
-        "img": "https://github.com/icssc/peterportal-public-api/raw/master/public/images/peterportal-banner-logo.png?raw=true",
+        "img": "/assets/img/projects/PeterPortalAPI.jpg",
         "name": "PeterPortal Public API",
         "desc": "PeterPortal Public API provides software developers with easy-access to UC Irvine publicly available data such as: courses information, professor information, grade distribution, and schedule of classes.",
-        "src": "https://api.peterportal.org/"
+        "src": "https://api.peterportal.org/",
+        "repo": "https://github.com/icssc/peterportal-public-api"
     },
     {
-        "img": "/assets/img/logo.png",
+        "img": "/assets/img/projects/Fellowship.jpg",
         "name": "ICSSC Fellowship",
         "desc": "The Fellowship is an asynchronous web development crash course that teaches fundamental software development skills. By the end of the course, students will have the skillset necessary to create their own React websites and will have the opportunity to contribute to one our ICSSC Projects such as AntAlmanac, PeterPortal, or Zotistics!",
-        "src": "https://fellowship.icssc.club/"
+        "src": "https://fellowship.icssc.club/",
+        "repo": "https://github.com/icssc/fellowship"
     }
 ]
 
