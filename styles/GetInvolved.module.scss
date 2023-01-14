@@ -1,0 +1,86 @@
+@import 'styles/variables';
+
+
+.section {
+    margin-top: 6rem;
+    text-align: center;
+    text-align: -webkit-center;
+    margin-bottom: 8rem;
+    h1 {
+        margin: 2rem 0;
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 0.25em;
+    }
+    h2 {
+        font-size: 2.3rem;
+        margin-top: 2.3rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+        margin-top: 1.8rem;
+    }
+    p, b, em, a {
+        font-size: 1.2rem;
+        max-width: 800px;
+        vertical-align: middle;
+    }
+    b, em, a {display: block;}
+    p{display: inline;}
+    a {
+        margin-top: 0.5rem;
+
+        text-decoration:underline;
+    }
+    b {
+        font-size: 1.35rem;
+        margin-bottom: 1rem;
+    }
+    em {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        margin-bottom: 1rem;
+
+    }
+}
+
+.oneContainer {
+    box-shadow: $hot-pink 0px 3px 8px;
+    &:nth-child(odd) {box-shadow: $blueberry 0px 3px 8px;}
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem 0;
+    h2 {margin-top: 0px;}
+    
+}
+
+.halfContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    div {max-width: 45%;}
+    p {font-size: 1.1rem;}
+}
+
+.committeeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.committee {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 10px auto;
+    p {font-size: 1rem;}
+}
+
+/* Small devices (portrait tablets and large phones, 380px and down) */
+@media only screen and (max-width: 580px) {
+    .halfContainer div {max-width: 100%;}
+
+}
