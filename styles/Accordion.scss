@@ -2,7 +2,8 @@
     background-color: transparent;
     border-color:transparent;
     width: 100%;
-    font-size: 2rem
+    font-size: 2rem;
+    &:hover {cursor: pointer;}
 }
 
 .accordion-body {
