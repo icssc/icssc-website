@@ -55,7 +55,7 @@ a {
   box-sizing: border-box;
 }
 
-.section, .sectionAlt, .sectionDarkAlt {
+.section, .sectionAlt {
   display: flex;
   flex-direction: column;
   min-height:auto;
@@ -91,13 +91,6 @@ a {
   a {color:$hot-pink}
 }
 
-// Slightly darker alternative section
-.sectionDarkAlt{
-  background-color: $white;
-  p {color:$black}
-  a {color:$hot-pink}
-}
-
 .footerImage {
   width:80vw;
   max-width: 650px;
@@ -127,6 +120,16 @@ a {
 }
 
 .pinkButton:hover {background-color:$strawberry;}
+
+
+// Bootstrap Styles
+.btn-primary {
+  background-color: hotpink;
+  border-color: $black;
+  color: color;
+  &:hover {background-color: rgb(255, 0, 128);}
+}
+
 
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {}

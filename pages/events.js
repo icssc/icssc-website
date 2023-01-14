@@ -77,7 +77,7 @@ export default function Events() {
 
       
       {/* Event Past Section */}
-      <div className="sectionDarkAlt">
+      <div className="section">
         <h2>Past Events</h2>
         <Row style={{justifyContent:"center"}}>
         <div className={`${styles.sectionEvents} `}>
