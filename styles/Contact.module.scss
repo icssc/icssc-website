@@ -1,0 +1,29 @@
+@import 'styles/variables';
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    transform: translateY(20px);
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 240px);
+    align-content: center;
+    
+}
+
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    width: 250px;
+    h3 {font-size: 2rem;}
+    p {font-size: 1.4rem;}
+}
