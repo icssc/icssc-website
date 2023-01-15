@@ -1,0 +1,51 @@
+@import 'styles/variables';
+
+
+.banner {
+    margin-top: 6rem;
+    text-align: center;
+    text-align: -webkit-center;
+    h1 {
+        margin: 2rem 0;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    p {
+        font-size: 1.3rem;
+        max-width: 800px;
+        display: inline;
+        vertical-align: middle;
+    }
+}
+
+.committee {
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    p {color: rgb(37, 37, 37)}
+    h2 {
+        font-size: 2.3rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+        margin-top: 1.8rem;
+    }
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        p {
+            width: 150px;
+            font-size: 1.1rem;
+            color: black;
+            margin: 1rem 0;
+        }
+    }
+    box-shadow: $hot-pink 0px 3px 8px;
+    &:nth-child(odd) {box-shadow: $blueberry 0px 3px 8px;}
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 3rem 0;
+    margin-bottom: 6rem;
+}
