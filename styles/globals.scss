@@ -38,6 +38,9 @@ body {
   background-color: $light-cotton-candy;
 }
 
+// Removes ReactBootstrap Modals' additional padding
+.modal-open, nav {padding-right: 0px!important;}
+
 .nav-link, .navbar-nav{
   color: black!important;
   font-size: 1.2rem;
@@ -81,6 +84,7 @@ a {
   }
 }
 
+// Alternative Section, lighter background
 .sectionAlt {
   background-color: $light-cotton-candy;
   p {color:$black}
@@ -116,6 +120,16 @@ a {
 }
 
 .pinkButton:hover {background-color:$strawberry;}
+
+
+// Bootstrap Styles
+.btn-primary {
+  background-color: hotpink;
+  border-color: $black;
+  color: color;
+  &:hover {background-color: rgb(255, 0, 128);}
+}
+
 
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {}
