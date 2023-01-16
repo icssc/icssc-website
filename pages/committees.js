@@ -24,7 +24,7 @@ export default function Committees() {
       <h1>Committees</h1>
         <p>ICS Student Council has five committees to provide different ways for students to contribute to the community. </p>
       </div>
-      {CommitteesJSON.map(committee => <Committee {...committee}/> )}
+      {CommitteesJSON.map(committee => <Committee {...committee} key={committee.name}/> )}
     </Container>
   )
 }
