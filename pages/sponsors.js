@@ -6,16 +6,17 @@ function Sponsor(props) {
   const {id, name, description, link, logo} = props;
 
   return (
-    <section id={id}>
-      <Container>
-        <Row>
-          <Col lg={6}>
+    <div id={id}>
+      <>
+        <Row className="mb-5">
+          <Col lg={6} className='align-self-center'>
             <a href={link}>
-              <Image 
+              <img 
                 src={logo}
                 alt={`${name} logo`}
-                height={300}
-                width={300}
+                width='300'
+                height='150'
+                style={{objectFit:"contain"}}
               />
             </a>
           </Col>
@@ -26,23 +27,19 @@ function Sponsor(props) {
             <p>{description}</p>
           </Col>
         </Row>
-      </Container>
-    </section>
+      </>
+    </div>
   )
 }
 
 export default function Sponsors() {
   return (
-    <>
-      <h1>Sponsors</h1>
-      <main>
-        <Container>
-          <header>
-            <h2>Our 2020 Sponsors</h2>
-          </header>
-          {SponsorsData.map(sponsor => <Sponsor {...sponsor}/>)}
-        </Container>
-      </main>
-    </>
+    <Container>
+      <div className="banner">
+        <h1>Sponsors</h1>
+      </div>
+      <h2>Our 2020 Sponsors</h2>
+      {SponsorsData.map(sponsor => <Sponsor {...sponsor} key={sponsor.name}/>)}
+    </Container>
   )
 }
