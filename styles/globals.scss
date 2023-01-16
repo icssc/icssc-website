@@ -3,8 +3,8 @@
 // Future Proof Scroll Bar Style
 /* Works on Firefox */
 * {
-  scrollbar-width: thin;
-  scrollbar-color: $strawberry;
+  scrollbar-width: 8px;
+  scrollbar-color: $strawberry gray;
 }
 
 /* Works on Chrome, Edge, and Safari */
