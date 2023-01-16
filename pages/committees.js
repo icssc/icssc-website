@@ -1,36 +1,30 @@
 import CommitteesJSON from '../assets/data/committees.json';
-import { Container } from 'react-bootstrap';
-
+import { Container } from 'react-bootstrap'
+import styles from '/styles/Committees.module.scss'
 
 function Committee(props) {
   const {name, desc, members} = props;
   return (
-    <Container className="justify-content-md-center text-center">
-      <h2 className="h1">{name}</h2>
-      <p className="h5 mb-0">{desc}</p>
-      <br/>
-      <Container>
-        <h3>{name} Members</h3>
+    <div className={styles.committee}>
+      <h2>{name}</h2>
+      <p>{desc}</p>
+      <>
         <div>
           {members.map(member => <p key={member}>{member}</p>)}
         </div>
-      </Container>
-    </Container>
+      </>
+    </div>
   )
 }
 
 export default function Committees() {
   return (
-    <>
+    <Container>
+      <div className={styles.banner}>
       <h1>Committees</h1>
-      <main role="main">
-        <section class="container u-content-space u-bg-arrow-wrapper">
-          <div class="text-center u-bg-arrow-bottom">
-            <p class="h5 mb-0">ICS Student Council has five committees to provide different ways for students to contribute to the community. </p>
-          </div>
-        </section>
-        {CommitteesJSON.map(committee => <Committee {...committee}/> )}
-      </main>
-    </>
+        <p>ICS Student Council has five committees to provide different ways for students to contribute to the community. </p>
+      </div>
+      {CommitteesJSON.map(committee => <Committee {...committee} key={committee.name}/> )}
+    </Container>
   )
 }
