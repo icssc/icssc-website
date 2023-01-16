@@ -1,0 +1,80 @@
+@import 'styles/variables';
+
+.eventsGrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 80vw;
+}
+
+.eventBox {
+    margin: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: $light-cotton-candy;
+    width: 300px;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.05) 0px 8px 16px -8px;
+    &:hover { transform: scale(1.2);}
+    transition: 0.3s;
+    img {
+        max-width: 300px;
+        display: block;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        max-height: 300px;
+        min-height: 300px;
+        object-fit: cover;
+    }
+    p {
+        font-size: 0.9rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+    h4 {
+        font-size: 1.4rem;
+        padding-left: 1rem;
+        text-align: left;
+    }
+}
+
+.sectionEvents {
+    max-width: 1300px;
+}
+
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {
+    .eventBox {
+        max-width: none;
+        margin-top: 15px;
+        min-height: none;
+        img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            max-height: 200px;
+            min-height: 0px;
+        }
+        p {
+            font-size: 0.7rem;
+            padding-left: .5rem;
+        }
+        h4 {
+            font-size: 1.2rem;
+            padding-left: .5rem;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 380px and up) */
+@media only screen and (min-width: 380px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
