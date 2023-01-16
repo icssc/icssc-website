@@ -52,6 +52,23 @@ a {
   box-sizing: border-box;
 }
 
+.banner {
+  margin-top: 6rem;
+  text-align: center;
+  text-align: -webkit-center;
+  h1 {
+      margin: 2rem 0;
+      font-size: 4rem;
+      font-weight: 800;
+  }
+  p {
+      font-size: 1.3rem;
+      max-width: 800px;
+      display: inline;
+      vertical-align: middle;
+  }
+}
+
 .section, .sectionAlt {
   display: flex;
   flex-direction: column;
