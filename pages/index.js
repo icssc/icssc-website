@@ -78,7 +78,7 @@ export default function Home() {
           <div className={`${styles.heroFooterText}`}>
             <h1>About Us</h1>
             <p>ICS Student Council, founded in 2010, is a student-run organization that serves ICS students. Our mission is to deepen students' connections with the Donald Bren School of Information and Computer Sciences & UCI Alumni and improve them professionally, socially, and academically.</p>
-            <a href="/mission">Learn More ></a>
+            <a href="/about">Learn More ></a>
           </div>
           <img src='/assets/img/graphics/anteater_hw.png' alt="About Us Graphic" />
         </div>
