@@ -1,5 +1,5 @@
 import Sponsors from '../assets/data/sponsors.json'
-import { Col, Row, Button, Carousel } from 'react-bootstrap';
+import { Col, Row, Button, Carousel, Alert } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
 import ProjectsData from '../assets/data/projects.json';
 
@@ -38,9 +38,15 @@ function ProjectDisplay(props) {
   )
 }
 
+
+
 export default function Home() {
   return (
     <>
+      <Alert key={'info'} variant={'info'}>
+          Candidate Delcarations have begun! Click{' '}
+          <Alert.Link href="/election">here</Alert.Link> to learn more.
+        </Alert>
       {/* Hero Banner */}
       <div className={`${styles.heroBanner}`}>
         <div className={`${styles.heroGrid}`}>

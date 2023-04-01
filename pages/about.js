@@ -76,7 +76,7 @@ export default function Mission() {
             <Col><div className={styles.iconBg}><FaHandshake size={42}/></div> <p>Creating partnerships between the academics of our campus and the related industries</p></Col>
           </Row>
         </div>
-        <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vQupcAAOIoyS3EZOpPFuFhin1g4aVpITSgD4QXRgZAYxHtxSv4I5ToApD8JprDHOmoABY1qg81wuYZc/pub"
+        <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vTP7A3qVqX3ZXJ44WT7x4vhUsOWGBQMCenB4Ls76rUsJURfz8bJl0UIITJyKZWQJ-3-m7BB8RMKzvxB/pub"
         ><button className='pinkButton' style={{marginTop: "50px"}} type="button">View Our Constitution</button></a>
       </div>
       
@@ -128,7 +128,7 @@ export default function Mission() {
               <div className={styles.pastSection}>
                 <Accordion.Header>{board.year}</Accordion.Header>
                 <Accordion.Body>
-                `{board.positions.map((position, index) => {
+                {board.positions.map((position, index) => {
                     const {title, name} = position;
                     return (
                         <div className={styles.pastBoard} key={index}>
@@ -136,7 +136,7 @@ export default function Mission() {
                           <p>{title}</p>
                         </div>
                       )
-                    })}`
+                    })}
                 </Accordion.Body>
               </div>
               </Accordion.Item>
