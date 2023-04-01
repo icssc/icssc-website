@@ -31,9 +31,8 @@ export default function GetInvolved() {
             <h3>President</h3>
             <p>Chair all meetings of ICSSC, provide general oversight over all ICSSC activities, ensure that all tasks are completed, advise other leaders as needed, and hold all leaders accountable. A limit of two candidates may run as Co-Presidents.</p>
           </div>
-
+            <br />
             <hr/>
-
           <div>
             <h3>Vice-Presidents</h3>
             <p>Support the President in their duties and assume presidential duties if the current President is unable to perform, assist the President in their duties. The Vice President is also responsible for running the weekly meetings council wide meetings and attending the Representatives meeting.</p>
