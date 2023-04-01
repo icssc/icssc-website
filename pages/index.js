@@ -22,17 +22,18 @@ function SponsorLogo(props) {
 }
 
 function ProjectDisplay(props) {
-  const {name, img} = props
+  const {name, img,src} = props
   return (
-    // Placeholder img and props. Will update when graphics are updated
     <div className={`${styles.galleryCard}`}>
-      <div className={`${styles.galleryImageContainer}`}>
-        <img
-          src={img}
-          alt={name}
-        />
-        <h3>{name}</h3>
-      </div>
+      <a href={src} rel="noreferrer" target="_blank">
+        <div className={`${styles.galleryImageContainer}`}>
+          <img
+            src={img}
+            alt={name}
+          />
+          <h3>{name}</h3>
+        </div>
+      </a>
     </div>
   )
 }
