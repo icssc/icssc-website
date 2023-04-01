@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
       <title>ICS Student Council</title>
+      <link rel="icon" href="/assets/img/favicon.svg" />
     </Head>
     <SSRProvider>
       <Layout>
