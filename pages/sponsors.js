@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
 import SponsorsData from '../assets/data/sponsors.json';
 

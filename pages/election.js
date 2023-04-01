@@ -1,19 +1,8 @@
-import InvolvedJSON from '../assets/data/get-involved.json';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import styles from "/styles/Election.module.scss";
 
 
-function Committee(props) {
-  const {name, desc} = props;
-  return (
-    <div className={styles.committee}>
-      <h5>{name}</h5>
-      <p className="">{desc}</p>
-    </div>
-  )
-}
-
-export default function GetInvolved() {
+export default function Election() {
   return (
     <>
     <Container>

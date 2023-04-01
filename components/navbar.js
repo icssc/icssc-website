@@ -18,7 +18,7 @@ export default function NavBar() {
                     <Nav.Item title="Join" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/get-involved">Join Us</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item title="Join" className="mr-4 mb-2 mb-lg-0">
+                    <Nav.Item title="Election" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/election">Election</Nav.Link>
                     </Nav.Item>
                     <Nav.Item title="About" className="mr-4 mb-2 mb-lg-0">
