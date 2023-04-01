@@ -19,32 +19,38 @@ export default function GetInvolved() {
     <Container>
       <div className={styles.section}>
         <h1>'23-'24 Executive Board Elections</h1>
+        
         <div className={styles.oneContainer}>
-          <h2>Positions</h2>
           <b>Candidate declarations begin on Week 1, Monday and close on Friday at 11:59 PM.</b>
-          <p>Note: Other board positions will be filled through application later in the quarter.<br/>Learn more about the roles through our <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vTP7A3qVqX3ZXJ44WT7x4vhUsOWGBQMCenB4Ls76rUsJURfz8bJl0UIITJyKZWQJ-3-m7BB8RMKzvxB/pub"
-        >constitution</a>.</p>
-          <div className={styles.halfContainer}>
-            <div>
-              <h3>President</h3>
-              <p>Chair all meetings of ICSSC, provide general oversight over all ICSSC activities, ensure that all tasks are completed, advise other leaders as needed, and hold all leaders accountable. A limit of two candidates may run as Co-Presidents.</p>
-            </div>
-            <div>
-              <h3>Vice-President</h3>
-              <p>Support the President in his duties and assume presidential duties if the current President is unable to perform, assist the President in his or her duties. The Vice President is also responsible for running the weekly meetings council wide meetings and attending the Representatives meeting.</p>
-            </div>
+          <p>Note: Other board positions will be filled through application later in the quarter.<br/>Learn more about the roles through our <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vTP7A3qVqX3ZXJ44WT7x4vhUsOWGBQMCenB4Ls76rUsJURfz8bJl0UIITJyKZWQJ-3-m7BB8RMKzvxB/pub">
+            constitution</a>.</p>
+        </div>
+
+        <div className={styles.oneContainer}>
+          <div>
+            <h3>President</h3>
+            <p>Chair all meetings of ICSSC, provide general oversight over all ICSSC activities, ensure that all tasks are completed, advise other leaders as needed, and hold all leaders accountable. A limit of two candidates may run as Co-Presidents.</p>
+          </div>
+
+            <hr/>
+
+          <div>
+            <h3>Vice-Presidents</h3>
+            <p>Support the President in their duties and assume presidential duties if the current President is unable to perform, assist the President in their duties. The Vice President is also responsible for running the weekly meetings council wide meetings and attending the Representatives meeting.</p>
           </div>
 
           <div className={styles.halfContainer}>
             <div>
-              <h3>Internal</h3>
+              <h3>Internal VP</h3>
               <p>In charge of general communications inside the council and member retention.</p>
             </div>
             <div>
-              <h3>External</h3>
+              <h3>External VP</h3>
               <p>In charge of communications with ICS clubs and the consortium.</p>
             </div>
           </div>
+          <a target="_blank" rel="noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSfTfE-ra5_lsWP31sri3SkkhgqVJ_I8HTFhBfPITiwO_i6Z2Q/closedform">
+          <button className='pinkButton' style={{marginTop: "25px"}} type="button">Candidacy Form</button></a>
         </div>
       </div>
       
