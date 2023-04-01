@@ -18,7 +18,7 @@ export default function GetInvolved() {
     <>
     <Container>
       <div className={styles.section}>
-        <h1>Election</h1>
+        <h1>'23-'24 Executive Board Elections</h1>
         <div className={styles.oneContainer}>
           <h2>Positions</h2>
           <b>Candidate declarations begin on Week 1, Monday and close on Friday at 11:59 PM.</b>
