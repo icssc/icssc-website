@@ -5,7 +5,6 @@
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    max-width: 80vw;
 }
 
 .eventBox {
@@ -27,20 +26,25 @@
         min-height: 300px;
         object-fit: cover;
     }
-    p {
-        font-size: 0.9rem;
+    span {
         padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    p {
+        font-size: 1.15rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         text-align: left;
     }
     h4 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         padding-left: 1rem;
         text-align: left;
     }
 }
 
 .sectionEvents {
-    max-width: 1300px;
+    max-width: 90vw;
 }
 
 /* Extra small devices (phones, 380px and down) */
@@ -57,7 +61,6 @@
             min-height: 0px;
         }
         p {
-            font-size: 0.7rem;
             padding-left: .5rem;
         }
         h4 {
@@ -67,14 +70,16 @@
     }
 }
 
-/* Small devices (portrait tablets and large phones, 380px and up) */
-@media only screen and (min-width: 380px) {}
+/* Small devices (portrait tablets and large phones, 380px and down) */
+@media only screen and (max-width: 380px) {}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .sectionEvents {max-width: 95vw;}
+}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {}

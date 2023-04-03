@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <>
       <Alert key={'info'} variant={'info'}>
-          Candidate Delcarations have begun! Click{' '}
+          Candidate Declarations have begun! Click{' '}
           <Alert.Link href="/election">here</Alert.Link> to learn more.
         </Alert>
       {/* Hero Banner */}
