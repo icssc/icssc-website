@@ -66,7 +66,7 @@ export default function Events() {
       {/* Event Title Section */}
       <div className="sectionAlt">
       <h2>Upcoming Events</h2>
-      {<p>No current events! Stay tuned for more :)</p>}
+      {/* {<p>No current events! Stay tuned for more :)</p>} */}
       {/* Uncomment This To Display Current Events */}
       <Row style={{justifyContent:"center"}}>
         <div className={`${styles.sectionEvents} `}>
