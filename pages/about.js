@@ -110,40 +110,6 @@ export default function Mission() {
         </Row>
       </div>
 
-      {/* Board Section */}
-      <div className="section">
-        <h2>Our Board</h2>
-        <div className={styles.boardMembers}>
-          {BoardMembers.map(member => <Person {...member} key={member.name}/>)}
-        </div>
-      </div>
-
-      {/* Past Board Section */}
-      <div className="sectionAlt">
-        <h2>Past Board</h2>
-        <div className={styles.pastContainer}>
-          <Accordion defaultActiveKey="0" flush>
-            {PastBoards.map((board, ind) => (
-              <Accordion.Item eventKey={ind} key={ind}>
-              <div className={styles.pastSection}>
-                <Accordion.Header>{board.year}</Accordion.Header>
-                <Accordion.Body>
-                {board.positions.map((position, index) => {
-                    const {title, name} = position;
-                    return (
-                        <div className={styles.pastBoard} key={index}>
-                          <h5>{name}</h5>
-                          <p>{title}</p>
-                        </div>
-                      )
-                    })}
-                </Accordion.Body>
-              </div>
-              </Accordion.Item>
-            ))}
-          </Accordion>
-        </div>
-      </div>
     </>
   )
 }
