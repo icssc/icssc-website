@@ -1,44 +1,5 @@
 @import 'styles/variables';
 
-// Vision Style
-.iconBg{
-    border: 3px solid $hot-pink;
-    width:60px;
-    height:60px; 
-    border-radius:50%;
-    padding: 0.5rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-color: $hot-pink;
-    margin-left: calc(50% - 30px);
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
-.visionGrid{ p{max-width: 600px;} }
-
-// Member Club Style
-.horizontalGallery {
-    display: flex;
-    overflow-x: scroll;
-    width: calc(80vw);
-    margin-bottom: 25px;
-}
-  
-.galleryCard {
-    align-self: center;
-    color:black;
-    min-width: 200px;
-    border-radius: 5px;
-    img {width: 100%; border-radius: 10px;}
-}
-  
-.galleryImageContainer {
-      height: fit-content;
-      padding: 20px;
-}
-
 // Board Style
 
 .boardMembers {
@@ -46,7 +7,7 @@
     flex-wrap:wrap;
     justify-content:center;
     width:100vw;
-    max-width: 1100px;
+    max-width: 1110px;
 
     .person {
         display:flex;
@@ -62,14 +23,14 @@
     }
 
     img {
-        width:175px;
-        height:175px;
+        width:150px;
+        height:150px;
         border-radius:10px;
         border: 3px solid $hot-pink;
 
-        box-shadow: 0px 16px 35px -4px $blue-shadow;
-        -webkit-box-shadow: 0px 16px 35px -4px $blue-shadow;
-        -moz-box-shadow: 0px 16px 35px -4px $blue-shadow;
+        box-shadow: 0px 16px 35px -4px $light-black-shadow;
+        -webkit-box-shadow: 0px 16px 35px -4px $light-black-shadow;
+        -moz-box-shadow: 0px 16px 35px -4px $light-black-shadow;
     }
 
     p {
@@ -78,11 +39,13 @@
         min-height: 48px;
     }
     h4, h5 {
+        color: black;
         font-size: 1rem;
         font-weight: 600;
     }
     h5 {
         margin-bottom: .3rem;
+        font-size: 0.95rem;
         color: $hot-pink;
         padding-top: 10px;
     }
@@ -123,7 +86,6 @@
         font-weight: 600;
     }
 }
-
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {
     .boardMembers img {
