@@ -1,21 +1,22 @@
+import Image from "next/image";
 import { Col, Container, Row } from "react-bootstrap";
-import SponsorsData from '../assets/data/sponsors.json';
+import SponsorsData from "../assets/data/sponsors.json";
 
 function Sponsor(props) {
-  const {id, name, description, link, logo} = props;
+  const { id, name, description, link, logo } = props;
 
   return (
     <div id={id}>
       <>
         <Row className="mb-5">
-          <Col lg={6} className='align-self-center'>
+          <Col lg={6} className="align-self-center">
             <a href={link}>
-              <img 
+              <Image
                 src={logo}
                 alt={`${name} logo`}
-                width='300'
-                height='150'
-                style={{objectFit:"contain"}}
+                width={300}
+                height={150}
+                objectFit="contain"
               />
             </a>
           </Col>
@@ -28,7 +29,7 @@ function Sponsor(props) {
         </Row>
       </>
     </div>
-  )
+  );
 }
 
 export default function Sponsors() {
@@ -38,7 +39,9 @@ export default function Sponsors() {
         <h1>Sponsors</h1>
       </div>
       <h2>Our 2020 Sponsors</h2>
-      {SponsorsData.map(sponsor => <Sponsor {...sponsor} key={sponsor.name}/>)}
+      {SponsorsData.map((sponsor) => (
+        <Sponsor {...sponsor} key={sponsor.name} />
+      ))}
     </Container>
-  )
+  );
 }
