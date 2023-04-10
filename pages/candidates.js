@@ -11,6 +11,7 @@ function Candidate(props) {
             />
             <div>
                 <h4>{name}</h4>
+                <h5>{email}</h5>
                 <p>{statement}</p>
             </div>
         </div>
