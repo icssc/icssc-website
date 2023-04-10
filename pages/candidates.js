@@ -3,7 +3,7 @@ import candidatesData from '../assets/data/candidates.json';
 import styles from '/styles/Candidates.module.scss';
 
 function Candidate(props) {
-    const {name, email, statement, src} = props
+    const {name, email, year, major, statement, src} = props
     return (
         <div className={`${styles.candidateGrid}`}>
             <img
@@ -26,7 +26,7 @@ export default function Candidates() {
             <hr/>
             <h2>President</h2>
             {candidatesData.president.map((candidate, index) => <Candidate key={index} {...candidate}/>)}
-            
+
             <hr/>
             <h2>Internal Vice President</h2>
             {candidatesData.ivp.map((candidate, index) => <Candidate key={index} {...candidate}/>)}
