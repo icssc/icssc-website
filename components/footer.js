@@ -23,7 +23,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Discord">
-                <a className="text-white" target="_blank" title="Discord" href="/discord.html">
+                <a className="text-white" target="_blank" title="Discord" href="https://discord.gg/c4t5dGcM9S">
                   <FaDiscord />
                 </a>
               </li>
