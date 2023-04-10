@@ -15,13 +15,16 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="collapsable-navbar" />
             <Navbar.Collapse id="collapsable-navbar">
                 <Nav className="ml-auto mt2 mt-lg-0">
+                    <NavDropdown title="Election" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0 nav-unique-element" >
+                        <NavDropdown.Item href="/election">Election</NavDropdown.Item>
+                        <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
+                    </NavDropdown>
                     <NavDropdown title="About" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0" >
                         <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
                         <NavDropdown.Item href="/committees">Committees</NavDropdown.Item>
                         <NavDropdown.Item href="/board">Board</NavDropdown.Item>
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/get-involved">Join Us</NavDropdown.Item>
-                        <NavDropdown.Item href="/candidates">Election</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/events">Events</Nav.Link>

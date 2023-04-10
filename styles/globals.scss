@@ -46,6 +46,12 @@ body {
   font-size: 1.2rem;
 }
 
+// For one special nav element on the left.
+.nav-unique-element {
+  border-right: solid;
+  padding-right: 1.5rem;
+  border-width: 1px;
+}
 
 a {
   color: inherit;
@@ -146,8 +152,13 @@ a {
 /* Small devices (portrait tablets and large phones, 380px and up) */
 @media only screen and (min-width: 380px) {}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .nav-unique-element {
+    border-right: none;
+    padding-right: 0;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
