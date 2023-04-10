@@ -20,8 +20,8 @@ export default function NavBar() {
                         <NavDropdown.Item href="/committees">Committees</NavDropdown.Item>
                         <NavDropdown.Item href="/board">Board</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/election">Election</NavDropdown.Item>
                         <NavDropdown.Item href="/get-involved">Join Us</NavDropdown.Item>
+                        <NavDropdown.Item href="/candidates">Election</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/events">Events</Nav.Link>

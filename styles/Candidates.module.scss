@@ -1,0 +1,94 @@
+@import 'styles/variables';
+
+.container {
+    h2 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 600;
+        margin-top: 50px;
+        margin-bottom: -10px;
+    }
+}
+
+.banner {
+    margin-top: 6rem;
+    text-align: center;
+    text-align: -webkit-center;
+    h1 {
+        margin: 2rem 0;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    p {
+        font-size: 1.3rem;
+        display: inline;
+        vertical-align: middle;
+    }
+}
+
+.candidateGrid {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    &:nth-child(odd) {flex-direction: row;}
+    &:nth-child(1) {margin-top: 2rem;}
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    
+    img, div {
+        flex-grow: 0;
+        flex-basis: 50%;
+    }
+
+    img {
+        border-radius: 10px;
+        margin-top: 2.3em;
+        max-width: 500px;
+        max-height: 500px;
+        object-fit: cover;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+    div {
+        h4 {
+            font-size: 2.3rem;
+            font-weight: 600;
+        }
+        padding-left: 1.3em;
+        padding-right: 1.3em;
+        font-size: 1.3rem;
+        font-weight: 0;
+    }
+    button {
+        margin-right: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.23);
+        padding: 5px 15px;
+        border-radius: 2px;
+        background-color: transparent;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        &:hover {
+            background-color: $strawberry;
+            cursor: pointer;
+        }
+    }
+}
+
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+    .candidateGrid {
+        text-align: center;
+        img, div {
+            max-width: 100%;
+            flex-basis: 100%;
+        }
+        img {margin-bottom: 1rem;}
+    }
+    
+}
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {
+    .candidateGrid button {margin: 0.25em 0;}
+}
