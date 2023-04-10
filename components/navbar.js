@@ -15,18 +15,14 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="collapsable-navbar" />
             <Navbar.Collapse id="collapsable-navbar">
                 <Nav className="ml-auto mt2 mt-lg-0">
-                    <Nav.Item title="Join" className="mr-4 mb-2 mb-lg-0">
-                        <Nav.Link href="/get-involved">Join Us</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item title="Election" className="mr-4 mb-2 mb-lg-0">
-                        <Nav.Link href="/election">Election</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item title="About" className="mr-4 mb-2 mb-lg-0">
-                        <Nav.Link href="/about">About</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item title="Committees" className="mr-4 mb-2 mb-lg-0">
-                        <Nav.Link href="/committees">Committees</Nav.Link>
-                    </Nav.Item>
+                    <NavDropdown title="About" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0" >
+                        <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
+                        <NavDropdown.Item href="/committees">Committees</NavDropdown.Item>
+                        <NavDropdown.Item href="/board">Board</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="/election">Election</NavDropdown.Item>
+                        <NavDropdown.Item href="/get-involved">Join Us</NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/events">Events</Nav.Link>
                     </Nav.Item>

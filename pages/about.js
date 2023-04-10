@@ -95,7 +95,7 @@ export default function Mission() {
       <div className="section">
         <h2>What Are ICSSC Committees?</h2>
         <p>ICSSC is comprised of five committees — each serving a different topic and mission. We strive to cover a plethora of interests and encourage members to learn new skills, too!</p>
-        <p><a href="/committees">See Our Committees ></a></p>
+        <p><a href="/committees">See Our Committees</a></p>
       </div>
 
       {/* Awards Section */}
@@ -110,40 +110,6 @@ export default function Mission() {
         </Row>
       </div>
 
-      {/* Board Section */}
-      <div className="section">
-        <h2>Our Board</h2>
-        <div className={styles.boardMembers}>
-          {BoardMembers.map(member => <Person {...member} key={member.name}/>)}
-        </div>
-      </div>
-
-      {/* Past Board Section */}
-      <div className="sectionAlt">
-        <h2>Past Board</h2>
-        <div className={styles.pastContainer}>
-          <Accordion defaultActiveKey="0" flush>
-            {PastBoards.map((board, ind) => (
-              <Accordion.Item eventKey={ind} key={ind}>
-              <div className={styles.pastSection}>
-                <Accordion.Header>{board.year}</Accordion.Header>
-                <Accordion.Body>
-                {board.positions.map((position, index) => {
-                    const {title, name} = position;
-                    return (
-                        <div className={styles.pastBoard} key={index}>
-                          <h5>{name}</h5>
-                          <p>{title}</p>
-                        </div>
-                      )
-                    })}
-                </Accordion.Body>
-              </div>
-              </Accordion.Item>
-            ))}
-          </Accordion>
-        </div>
-      </div>
     </>
   )
 }

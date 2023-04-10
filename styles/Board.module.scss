@@ -1,0 +1,108 @@
+@import 'styles/variables';
+
+// Board Style
+
+.boardMembers {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:100vw;
+    max-width: 1110px;
+
+    .person {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        max-width:220px;
+        max-height:400px;
+        width: 50%;
+        text-align:center;
+        margin-top: 40px;
+        padding: 20px;
+        h3 {font-size: 1.2rem;}
+    }
+
+    img {
+        width:175px;
+        height:175px;
+        border-radius:10px;
+        border: 3px solid $hot-pink;
+
+        box-shadow: 0px 16px 35px -4px $light-black-shadow;
+        -webkit-box-shadow: 0px 16px 35px -4px $light-black-shadow;
+        -moz-box-shadow: 0px 16px 35px -4px $light-black-shadow;
+    }
+
+    p {
+        font-size: .8rem;
+        margin-bottom: .5rem;
+        min-height: 48px;
+    }
+    h4, h5 {
+        color: black;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    h5 {
+        margin-bottom: .3rem;
+        font-size: 0.95rem;
+        color: $hot-pink;
+        padding-top: 10px;
+    }
+}
+
+// Past Board Style
+
+.pastContainer {
+    max-width: 1110px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+    text-align: center;
+    width: 80vw;
+}
+
+.pastSection {
+    margin-top: 40px;
+    padding-top: 32px;
+    border-radius: 25px;
+    box-shadow: 0 -12px 24px -24px #7a7a8d;
+    margin-bottom: 40px;
+    background-color: $light-cotton-candy;
+}
+
+.pastBoard {
+    display: grid;
+    margin: 20px 0;
+    width: 50%;
+    max-width: 250px;
+    align-self: flex-start;
+    p {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    h5 {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+}
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {
+    .boardMembers img {
+        width: 120px; height: 120px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 380px and up) */
+@media only screen and (min-width: 380px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .boardMembers {width:80vw;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
