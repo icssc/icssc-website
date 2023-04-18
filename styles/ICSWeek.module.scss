@@ -1,0 +1,98 @@
+@import 'styles/variables';
+
+.banner {
+    margin-top: 6rem;
+    text-align: center;
+    text-align: -webkit-center;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin: 2rem 0;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    p {
+        font-size: 1.3rem;
+        max-width: 800px;
+        display: inline;
+        vertical-align: middle;
+    }
+
+    // Hide image when the title overflows
+    @media only screen and (max-width: 480px) {
+        img {
+            display: none;
+        }
+    }
+}
+
+.anteater {
+    max-width: 400px;
+    width:80vw;
+}
+
+.schedule {
+    margin-top: 5vh;
+    text-align: center;
+    overflow: auto;
+    font-size: 1.2rem;
+      .content:hover {
+        cursor: pointer;
+      }
+      
+      td:hover > strong {
+          color: #4282FB;
+      }
+      
+      thead {
+        background-color: $blueberry;
+        color: #FAFCFD;
+      }
+      
+}
+
+.sponsorSection {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+
+    .sponsorContainer {
+        padding: 35px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    
+    img {
+        max-width:300px;
+        width: 80vw;
+        &:hover {transform: scale(1.2);}
+        transition: 0.3s;
+    }
+}
+
+.modalSpan {
+    font-weight: bold;
+    a {
+        color:#4282FB;
+        text-decoration: underline;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 992px and down) */
+@media only screen and (max-width: 992px) {
+    .table tr td { display: block;} 
+}
+/* Extra small devices (phones, 380px and down) */
+@media only screen and (max-width: 380px) {
+    .projectGrid button {margin: 0.25em 0;}
+}

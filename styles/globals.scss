@@ -41,6 +41,8 @@ body {
 // Removes ReactBootstrap Modals' additional padding
 .modal-open, nav {padding-right: 0px!important;}
 
+.modal-body {font-size: 1.15rem;}
+
 .nav-link, .navbar-nav{
   color: black!important;
   font-size: 1.2rem;
