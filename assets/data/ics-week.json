@@ -1,0 +1,146 @@
+{
+  "row1": [
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "ICS Fair",
+      "date": "Friday, May 19, 2023",
+      "time": "10 AM - 2 PM",
+      "desc": "Join us at the Engineering Quad on May 19th, 2023 for the ICS Fair. At the fair, you'll have the chance to engage with various booths and activities hosted by ICS organizations. With over 3,000 ICS students in attendance, the fair is an excellent opportunity to network and socialize.",
+      "location": "Engineering Quad",
+      "rsvp": "",
+      "img": "",
+      "location_link": "https://goo.gl/maps/MpgvkZmAPADX8F1F9"
+    }
+  ],
+
+  "row2": [
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    }
+  ],
+
+  "row3": [
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "name": "",
+      "date": "",
+      "time": "",
+      "location": "",
+      "rsvp": "",
+      "img": "",
+      "location_link": ""
+    }
+  ]
+}
