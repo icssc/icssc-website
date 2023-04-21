@@ -1,0 +1,100 @@
+@import 'styles/variables';
+
+.banner {
+    margin-top: 6rem;
+    text-align: center;
+    text-align: -webkit-center;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin: 2rem 0;
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    p {
+        font-size: 1.3rem;
+        max-width: 800px;
+        display: inline;
+        vertical-align: middle;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #007bff;
+    }
+}
+
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 50px;
+    justify-content: space-around;
+    margin: 4rem 0px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    max-width: 900px;
+    justify-content: center;
+    padding:20px;
+    background-color: $blueberry;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+    &:hover { transform: scale(1.05);}
+    transition: 0.3s;
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+    }
+    
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: $light-cotton-candy;
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        flex-direction: column;
+        padding: 40px;
+
+        img {
+            align-self: center;
+            margin-bottom: 1rem;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+    
+    }
+}
