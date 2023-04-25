@@ -17,10 +17,19 @@ export default function Election() {
           style={{marginTop:"-3rem", marginBottom:"-3rem"}}
         />
         <div className={styles.oneContainer}>
+          <b>Election has ended! Thank you to everyone who voted! </b>
+          <p>
+            <u>President</u>: Kirby Ammari & Rithvij Pochampally <br/>
+            <u>Internal Vice President</u>: Taylor Quach <br/>
+            <u>External Vice President</u>: Rebecca Ahn <br/>
+          </p>
+        </div>
+
+        {/* <div className={styles.oneContainer}>
           <b>Candidate declarations begin on Week 1, Monday and close on Friday at 11:59 PM.</b>
           <p>Note: Other board positions will be filled through application later in the quarter.<br/>Learn more about the roles through our <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vTP7A3qVqX3ZXJ44WT7x4vhUsOWGBQMCenB4Ls76rUsJURfz8bJl0UIITJyKZWQJ-3-m7BB8RMKzvxB/pub">
             constitution</a>.</p>
-        </div>
+        </div> */}
 
         <div className={styles.oneContainer}>
           <div>
