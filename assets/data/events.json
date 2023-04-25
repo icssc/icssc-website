@@ -1,16 +1,32 @@
 {
     "current": [
         {
-            "src":"/assets/img/events/event_egghunt.jpg",
-            "title":"ICSSC Egg Hunt!",
-            "time":"Wednesday, April 5th, 2023",
+            "src":"/assets/img/events/event_specializations.jpg",
+            "title":"CS Specializations 101",
+            "time":"Wednesday, April 26th, 2023",
             "location": "DBH 6011 7-8 PM",
-            "desc": "Tired of looking for all those bugs in your code? Come look for some Easter eggs instead in the ICSSC Egg Hunt!! 🥚 You will be competing in teams to search for eggs hidden in DBH, and the first to find all eggs will win a prize!",
-            "rsvp_src": "https://bit.ly/ICSSCEggHunt2023"
+            "desc": "Are you a CS major⁉️ Are you unsure what all of the specialization tracks are? Join us this WEDNESDAY April 26th, 2023 to learn about the different specializations from one of the Peer Academic Advisors!",
+            "rsvp_src": "https://tinyurl.com/ICSSCCS"
         }
     ],
 
     "past": [
+        {
+            "src":"/assets/img/events/event_gamenight.jpg",
+            "title":"ICSSC Game Night",
+            "time":"Wednesday, April 19th, 2023",
+            "location": "ICS 428 7-8 PM",
+            "desc": "Looking for a fun way to unwind after a long day of coding? Join our game night🎮🕹️🎲♟️, featuring an array of board games, card games, and video games. This is the perfect opportunity to enjoy some friendly competition with your fellow students. So come join us for a night of fun and feel free to bring any of your favorite games!"
+        },
+
+        {
+            "src":"/assets/img/events/event_egghunt.jpg",
+            "title":"ICSSC Egg Hunt!",
+            "time":"Wednesday, April 5th, 2023",
+            "location": "DBH 6011 7-8 PM",
+            "desc": "Tired of looking for all those bugs in your code? Come look for some Easter eggs instead in the ICSSC Egg Hunt!! 🥚 You will be competing in teams to search for eggs hidden in DBH, and the first to find all eggs will win a prize!"
+        },
+
         {
             "src":"/assets/img/events/event_stpatricks.jpg",
             "title":"Root Beer Floats and Chill",
