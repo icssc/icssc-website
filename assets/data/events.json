@@ -1,16 +1,32 @@
 {
     "current": [
         {
-            "src":"/assets/img/events/event_specializations.jpg",
-            "title":"CS Specializations 101",
-            "time":"Wednesday, April 26th, 2023",
-            "location": "DBH 6011 7-8 PM",
-            "desc": "Are you a CS major⁉️ Are you unsure what all of the specialization tracks are? Join us this WEDNESDAY April 26th, 2023 to learn about the different specializations from one of the Peer Academic Advisors!",
-            "rsvp_src": "https://tinyurl.com/ICSSCCS"
+            "src":"/assets/img/events/event_hike.jpg",
+            "title":"ICSSC's Evening Hike",
+            "time":"Saturday, May 6th, 2023",
+            "location": "Bommer Canyon Trail Head 5PM",
+            "desc": "😵‍💫 Been too busy studying for midterms to touch grass recently? Come join us for a hike next weekend to let off some steam at 🌿Bommer Canyon🪨 ! Invite your friends, Bits and Bytes fams, or feel free to come by yourself! We will also be holding a photo contest 📸 Make sure to wear appropriate outerwear and shoes for hiking! If you need a ride or will be able to provide one, fill out the RSVP form and the carpool spreadsheet 🚙",
+            "rsvp_src": "https://bit.ly/ICSSCEveningHike2023"
+        },
+        {
+            "src":"/assets/img/events/event_microtalk.png",
+            "title":"ICSSC's Micro Talks",
+            "time":"Wednesday, May 10th, 2023",
+            "location": "ICS 428 7-8 PM",
+            "desc": "ICSSC Events Committee ran out of ideas! 🫵 So you’re the next event! Steal the stage (aka front of ICS 428) with a 1-2 minute microtalk on anything you want: your hopes, dreams, passions, among us victories, or a random topic from our wheel 🎡",
+            "rsvp_src": "https://bit.ly/ICSSCMicroTalks"
         }
     ],
 
     "past": [
+        {
+            "src":"/assets/img/events/event_specializations.jpg",
+            "title":"CS Specializations 101",
+            "time":"Wednesday, April 26th, 2023",
+            "location": "DBH 6011 7-8 PM",
+            "desc": "Are you a CS major⁉️ Are you unsure what all of the specialization tracks are? Join us this WEDNESDAY April 26th, 2023 to learn about the different specializations from one of the Peer Academic Advisors!"
+        },
+
         {
             "src":"/assets/img/events/event_gamenight.jpg",
             "title":"ICSSC Game Night",
