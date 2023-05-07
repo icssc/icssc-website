@@ -22,6 +22,11 @@
     text-align: center;
     font-size: 1rem;
     padding: 1rem;
+    img {
+        max-height: 80vw;
+        max-width: 80vw;
+        height: 250px;
+    }
     p {color: rgb(37, 37, 37)}
     h2 {
         font-size: 2.3rem;

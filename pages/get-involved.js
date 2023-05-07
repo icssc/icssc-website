@@ -1,14 +1,18 @@
-import InvolvedJSON from '../assets/data/get-involved.json';
+import CommitteesJSON from '../assets/data/committees.json';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import styles from "/styles/GetInvolved.module.scss";
 
 
 function Committee(props) {
-  const {name, desc} = props;
+  const {name, short_desc, graphic} = props;
   return (
     <div className={styles.committee}>
+      <img
+        src={graphic}
+        alt={name}
+      />
       <h5>{name}</h5>
-      <p className="">{desc}</p>
+      <p>{short_desc}</p>
     </div>
   )
 }
@@ -27,10 +31,18 @@ export default function GetInvolved() {
           
           <div className={styles.halfContainer}>
             <div>
+              <img
+                src={'/assets/img/graphics/BeABitByte.png'}
+                alt={'Be a Bit/Byte'}
+              />
               <h3>Be a Bit/Byte</h3>
               <p>Here's your chance by applying to become a bit or byte! As a byte you are going to be the mentor, the role model, and most importantly of all, your best friend to your bit! As for bits, have fun!</p>
             </div>
             <div>
+            <img
+              src={'/assets/img/graphics/JoinAFamily.png'}
+              alt={'Join a Family'}
+            />
               <h3>Join a Family</h3>
               <p>In a Bits & Byte Fam, there are 2 bytes with 2-6 bytes each! Stay connected with the ICS community through events that promote academic success and community bonding</p>
             </div>
@@ -50,18 +62,14 @@ export default function GetInvolved() {
             <b>Applications are closed. Check back in Fall Quarter for recruitment.</b>
             <p> ICS Students can apply to any of the following committees.</p>
             <div className={styles.committeeContainer}>
-              {InvolvedJSON.map(committee => <Committee {...committee} key={committee.name}/>)}
+              {CommitteesJSON.map(committee => <Committee {...committee} key={committee.name}/>)}
           </div>
         </div>
         
         <div className={styles.oneContainer}>
           <h2>Apply to Our Board</h2>
           <b>Applications are closed. Check back in Spring Quarter for applications.</b>
-          <em>Running for President, Internal VP, or External VP, requires that you have already been a full-member for Fall, Winter, and Spring Quarter.</em>
-          <p>
-          With ICSSC being a large organization, board serves to hold the club together. We lead the committees and take care of club-wide logistics.
-          ICSSC provides the following board roles:
-          </p>        
+          <em>Running for President, Internal VP, or External VP, requires that you have already been a full-member for Fall, Winter, and Spring Quarter.</em>      
         </div>
       </div>
     </Container>

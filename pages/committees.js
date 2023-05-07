@@ -3,9 +3,13 @@ import { Container } from 'react-bootstrap'
 import styles from '/styles/Committees.module.scss'
 
 function Committee(props) {
-  const {name, desc, members} = props;
+  const {name, desc, graphic, members} = props;
   return (
     <div className={styles.committee}>
+      <img
+        src={graphic}
+        alt={name}
+      />
       <h2>{name}</h2>
       <p>{desc}</p>
       <>
