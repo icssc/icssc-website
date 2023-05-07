@@ -60,6 +60,11 @@
     flex-direction: row;
     justify-content: space-between;
     div {max-width: 45%;}
+    img {
+        height:200px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
     p {font-size: 1.1rem;}
 }
 
