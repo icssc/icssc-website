@@ -1,16 +1,14 @@
 {
     "current": [
+    ],
+
+    "past": [
         {
             "src":"/assets/img/events/event_microtalk.png",
             "title":"ICSSC's Micro Talks",
             "time":"Wednesday, May 10th, 2023",
             "location": "ICS 428 7-8 PM",
-            "desc": "ICSSC Events Committee ran out of ideas! 🫵 So you’re the next event! Steal the stage (aka front of ICS 428) with a 1-2 minute microtalk on anything you want: your hopes, dreams, passions, among us victories, or a random topic from our wheel 🎡",
-            "rsvp_src": "https://bit.ly/ICSSCMicroTalks"
-        }
-    ],
-
-    "past": [
+            "desc": "ICSSC Events Committee ran out of ideas! 🫵 So you’re the next event! Steal the stage (aka front of ICS 428) with a 1-2 minute microtalk on anything you want: your hopes, dreams, passions, among us victories, or a random topic from our wheel 🎡"        },
         {
             "src":"/assets/img/events/event_hike.jpg",
             "title":"ICSSC's Evening Hike",

@@ -1,47 +1,51 @@
 {
   "row1": [
     {
-      "name": "",
-      "date": "",
-      "time": "",
-      "location": "",
+      "club": "WICS x CTC",
+      "name": "Git Workshop",
+      "time": "6:30 - 8 PM",
+      "desc": "Always hear people use Git for their projects but don’t know exactly what that is? 🤨 Look no further! 😍 WICS is collaborating with CTC for a Git workshop where you will learn the essentials of version control which you can use in your next project. 🙌 Join us on 5/15/23 from 6:30 - 8:00 pm in DBH 6011 and don’t forget to RSVP! Looking forward to seeing you all there! Please come prepared with your favorite IDE, a GitHub account, and git downloaded on your laptop :)",
+      "location": "DBH 6011",
+      "rsvp": "bit.ly/WICSxCTC23",
+      "img": "/assets/img/ics-week/wicsctc.jpg",
+      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
+    },
+    {
+      "club":"VGDC @ UCI",
+      "name": "Game Board Workshop",
+      "time": "1 - 2 PM",
+      "desc": "",
+      "location": "DBH 1412",
+      "rsvp": "",
+      "img": "",
+      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
+    },
+    {
+      "club": "Uber",
+      "name": "Info-Session",
+      "time": "12 - 1 PM",
+      "desc": "Are you interested in learning about one of the world's largest ride-sharing companies? Join us for an Uber Info Session at UCI, where you'll hear from Uber representatives and learn about the opportunities available at Uber! Don't miss out on this chance to learn more and get started on your Uber journey!",
+      "location": "ONLINE",
       "rsvp": "",
       "img": "",
       "location_link": ""
     },
     {
-      "name": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "rsvp": "",
-      "img": "",
-      "location_link": ""
+      "club": "Data @ UCI",
+      "name": "Intro to Data Engineering Workshop",
+      "time": "6:30 - 7:30 PM",
+      "desc": "You've heard of Data Science, Data Analytics, but what is Data Engineering? 🤔 Come learn about the field of Data Engineering with a previous panelist, Jacob Emerson, on Thursday 10/18 at ISEB 1200!! Jacob, a Data Engineer ⚙️ at Pacific Life will take you through the purpose and processes of Data Engineering and will also demonstrate a fun demo for a special insight. See you there! 📊",
+      "location": "ISEB 1200",
+      "rsvp": "https://docs.google.com/forms/d/e/1FAIpQLSeuOw78zm0_22kcL2ivEP9RbiW_4uM3e3RPP2x-yR7Lj7C44w/viewform",
+      "img": "/assets/img/ics-week/data.jpg",
+      "location_link": "https://goo.gl/maps/FRDh8rsRNQSWJZyN9"
     },
     {
-      "name": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "rsvp": "",
-      "img": "",
-      "location_link": ""
-    },
-    {
-      "name": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "rsvp": "",
-      "img": "",
-      "location_link": ""
-    },
-    {
+      "club": "",
       "name": "ICS Fair",
-      "date": "Friday, May 19, 2023",
       "time": "10 AM - 2 PM",
       "desc": "Join us at the Engineering Quad on May 19th, 2023 for the ICS Fair. At the fair, you'll have the chance to engage with various booths and activities hosted by ICS organizations. With over 3,000 ICS students in attendance, the fair is an excellent opportunity to network and socialize.",
-      "location": "Engineering Quad",
+      "location": "Engineering Gateway",
       "rsvp": "",
       "img": "",
       "location_link": "https://goo.gl/maps/MpgvkZmAPADX8F1F9"
@@ -50,45 +54,50 @@
 
   "row2": [
     {
+      "club": "Design at UCI",
+      "name": "Zine-Making Potluck",
+      "time": "8 - 9 PM",
+      "desc": "Are you looking for a fun art or design project to add to your portfolio? Come join us for a zine-making social! Please fill out the RSVP form if you plan on attending. This social will also be a potluck, so please state what item you will be bringing on the RSVP form as well! . Any contribution is greatly appreciated! We hope to see you there 🤩",
+      "location": "SSL 228",
+      "rsvp": "https://docs.google.com/forms/d/e/1FAIpQLSf6a2wTJjhZHdMCecCMod8SZSa_K7xQkABFrfF33xF80VsNnA/viewform",
+      "img": "/assets/img/ics-week/design.jpg",
+      "location_link": "https://goo.gl/maps/uzf5mZpvcTqKDELu5"
+    },
+    {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
       "location_link": ""
     },
     {
-      "name": "",
-      "date": "",
-      "time": "",
-      "location": "",
-      "rsvp": "",
-      "img": "",
-      "location_link": ""
+      "club": "ICSSC",
+      "name": "Type Type Revolution",
+      "time": "7 - 8 PM",
+      "desc": "So you think you can type?? Come to ICSSC’s Type Type Revolution competition, where you can show off your mad typing skills and lyrical abilities. Come to DBH 6011 at 7pm on Wednesday, May 17th to type your heart out! The top three competitors will be winning some super cool prizes, so make sure to RSVP to compete!",
+      "location": "DBH 6011",
+      "rsvp": "https://bit.ly/TypeTypeRevolution2023 ",
+      "img": "/assets/img/ics-week/icssc.png",
+      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
-      "name": "",
-      "date": "",
-      "time": "",
-      "location": "",
+      "club": "Hack @ UCI",
+      "name": "HackNights Competition",
+      "time": "7 - 9 PM",
+      "desc": "Are you new to hackathons? 🤔 Or are you just itching to do something this Thursday? 😫 Introducing our Hacknights, a mini hackathon! Come showcase your skills and have some fun! 😎 🙌",
+      "location": "DBH 6011",
       "rsvp": "",
       "img": "",
-      "location_link": ""
+      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
-      "location": "",
-      "rsvp": "",
-      "img": "",
-      "location_link": ""
-    },
-    {
-      "name": "",
-      "date": "",
-      "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
@@ -98,45 +107,50 @@
 
   "row3": [
     {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
       "location_link": ""
     },
     {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
       "location_link": ""
     },
     {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
       "location_link": ""
     },
     {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
       "location_link": ""
     },
     {
+      "club": "",
       "name": "",
-      "date": "",
       "time": "",
+      "desc": "",
       "location": "",
       "rsvp": "",
       "img": "",
