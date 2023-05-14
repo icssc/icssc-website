@@ -54,6 +54,7 @@ function EventModal(props) {
                 title={name}
                 width={200}
                 height={200}
+                style={{objectFit:"contain"}}
             />}
             <span className={styles.modalSpan}>
                 <p>{time} | <a href= {location_link} target="_blank" rel="noreferrer">{location}</a></p>
