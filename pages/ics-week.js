@@ -22,7 +22,8 @@ function Event(props) {
             <EventModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
-                name={`${club}: ${name}`}
+                club={club}
+                name={name}
                 desc={desc}
                 time={time}
                 img={img}
@@ -35,7 +36,7 @@ function Event(props) {
 }
 
 function EventModal(props) {
-    const {name, time, desc, location , rsvp, img, location_link} = props;
+    const {club, name, time, desc, location , rsvp, img, location_link} = props;
     return (
       <Modal
         {...props}
@@ -45,6 +46,8 @@ function EventModal(props) {
       >
         <Modal.Header closeButton >
           <Modal.Title id="contained-modal-title-vcenter" >
+            {club && club}
+            {club && ': '}
             {name}
           </Modal.Title>
         </Modal.Header>
@@ -69,7 +72,7 @@ function EventModal(props) {
     );
   }
 
-export default function Projects() {
+export default function ICSWeek() {
     return (
         <Container>
             <div className={styles.banner}>
