@@ -6,11 +6,15 @@ import styles from '/styles/ICSWeek.module.scss';
 
 function Event(props) {
     const [modalShow, setModalShow] = useState(false);
-    const {name, time, desc, location , rsvp, img, location_link} = props;
+    const {club, name, time, desc, location , rsvp, img, location_link} = props;
     return (
         <>
             {name && <td className={styles.content} onClick={() => setModalShow(true)}>
-                <strong>{name}</strong>
+                <span>
+                    {club && club}
+                    {club && <br/>}
+                    <strong>{name}</strong>
+                </span>
                 <br/>{time}<br/>
                 <u>{location}</u>
             </td>}
@@ -18,7 +22,7 @@ function Event(props) {
             <EventModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
-                name={name}
+                name={`${club}: ${name}`}
                 desc={desc}
                 time={time}
                 img={img}
@@ -50,6 +54,7 @@ function EventModal(props) {
                 title={name}
                 width={200}
                 height={200}
+                style={{objectFit:"contain"}}
             />}
             <span className={styles.modalSpan}>
                 <p>{time} | <a href= {location_link} target="_blank" rel="noreferrer">{location}</a></p>
@@ -78,6 +83,9 @@ export default function Projects() {
                 <p>
                     Welcome to ICS Week, a week-long event celebrating the Donald Bren School of Information and Computer Science and its community! ICSSC, in collaboration with ICS affiliated organizations and supported by the ICS department, promises that this event is to be a one-of-a-kind experience.
                 </p>
+                <br/>
+                <br />
+                <p>There will also be a raffle on our Instagram: @icssc.uci so make sure to follow us and stay posted.</p>
             </div>
             
             <div className={styles.schedule}>
@@ -96,10 +104,10 @@ export default function Projects() {
                             {EventsData["row1"].map((event, ind) => <Event {...event}  key={ind}/>)}
                         </tr>
                         <tr>
-                            {/* {EventsData["row2"].map((event, ind) => <Event {...event}  key={ind}/>)} */}
+                            {EventsData["row2"].map((event, ind) => <Event {...event}  key={ind}/>)}
                         </tr>
                         <tr>
-                            {/* {EventsData["row3"].map((event, ind) => <Event {...event}  key={ind}/>)} */}
+                            {EventsData["row3"].map((event, ind) => <Event {...event}  key={ind}/>)}
                         </tr>
                     </tbody>
                 </table>
@@ -119,6 +127,18 @@ export default function Projects() {
                         <img 
                             src='/assets/img/sponsors/sticker-mule-logo-light.png'
                             alt="Sticker Mule"
+                        />
+                    </a>
+
+                    <a
+                        href= "https://www.uber.com/"
+                        title=""
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                        <img 
+                            src='/assets/img/sponsors/uber.png'
+                            alt="Uber"
                         />
                     </a>
                     
