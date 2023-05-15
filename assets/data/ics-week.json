@@ -26,9 +26,9 @@
       "time": "12 - 1 PM",
       "desc": "Are you interested in learning about one of the world's largest ride-sharing companies? Join us for an Uber Info Session at UCI, where you'll hear from Uber representatives and learn about the opportunities available at Uber! Don't miss out on this chance to learn more and get started on your Uber journey!",
       "location": "ONLINE",
-      "rsvp": "",
+      "rsvp": "https://flows.beamery.com/uber/ics23-registration",
       "img": "/assets/img/sponsors/uber.png",
-      "location_link": ""
+      "location_link": "https://flows.beamery.com/uber/ics23-registration"
     },
     {
       "club": "Data @ UCI",
