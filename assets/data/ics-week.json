@@ -6,7 +6,7 @@
       "time": "6:30 - 8 PM",
       "desc": "Always hear people use Git for their projects but don’t know exactly what that is? 🤨 Look no further! 😍 WICS is collaborating with CTC for a Git workshop where you will learn the essentials of version control which you can use in your next project. 🙌 Join us on 5/15/23 from 6:30 - 8:00 pm in DBH 6011 and don’t forget to RSVP! Looking forward to seeing you all there! Please come prepared with your favorite IDE, a GitHub account, and git downloaded on your laptop :)",
       "location": "DBH 6011",
-      "rsvp": "bit.ly/WICSxCTC23",
+      "rsvp": "",
       "img": "/assets/img/ics-week/wicsctc.jpg",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
@@ -14,10 +14,10 @@
       "club":"VGDC @ UCI",
       "name": "Game Board Workshop",
       "time": "1 - 2 PM",
-      "desc": "",
+      "desc": "If you want more from ICS week, stop by for our Game Board Workshop on May 16th at the DBH 1412 from 1 to 2pm! We are also boothing for ICS Fair later this week on May 19th as well! See you there!",
       "location": "DBH 1412",
       "rsvp": "",
-      "img": "",
+      "img": "/assets/img/ics-week/vgdc.jpg",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
@@ -59,7 +59,7 @@
       "time": "8 - 9 PM",
       "desc": "Are you looking for a fun art or design project to add to your portfolio? Come join us for a zine-making social! Please fill out the RSVP form if you plan on attending. This social will also be a potluck, so please state what item you will be bringing on the RSVP form as well! . Any contribution is greatly appreciated! We hope to see you there 🤩",
       "location": "SSL 228",
-      "rsvp": "https://docs.google.com/forms/d/e/1FAIpQLSf6a2wTJjhZHdMCecCMod8SZSa_K7xQkABFrfF33xF80VsNnA/viewform",
+      "rsvp": "",
       "img": "/assets/img/ics-week/design.jpg",
       "location_link": "https://goo.gl/maps/uzf5mZpvcTqKDELu5"
     },
