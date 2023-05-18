@@ -26,9 +26,9 @@
       "time": "12 - 1 PM",
       "desc": "Are you interested in learning about one of the world's largest ride-sharing companies? Join us for an Uber Info Session at UCI, where you'll hear from Uber representatives and learn about the opportunities available at Uber! Don't miss out on this chance to learn more and get started on your Uber journey!",
       "location": "ONLINE",
-      "rsvp": "https://flows.beamery.com/uber/ics23-registration",
+      "rsvp": "",
       "img": "/assets/img/sponsors/uber.png",
-      "location_link": "https://flows.beamery.com/uber/ics23-registration"
+      "location_link": ""
     },
     {
       "club": "Data @ UCI",
@@ -44,10 +44,10 @@
       "club": "",
       "name": "ICS Fair",
       "time": "10 AM - 2 PM",
-      "desc": "Join us at the Engineering Quad on May 19th, 2023 for the ICS Fair. At the fair, you'll have the chance to engage with various booths and activities hosted by ICS organizations. With over 3,000 ICS students in attendance, the fair is an excellent opportunity to network and socialize.",
+      "desc": "The carnival is coming to town! Get ready for ICS Fair🎠🎡🎪! ICS Fair is the culmination of a week long celebration of ICS events! We're featuring booths from all ICS-affiliated organizations, and different activities dedicated to ICS students! Join us in playing carnival games, winning prizes, and checking out all of the booths! There will be free snacks, stickers and shirts!",
       "location": "Engineering Gateway",
       "rsvp": "",
-      "img": "",
+      "img": "/assets/img/ics-week/icssc.jpg",
       "location_link": "https://goo.gl/maps/MpgvkZmAPADX8F1F9"
     }
   ],
@@ -79,7 +79,7 @@
       "time": "7 - 8 PM",
       "desc": "So you think you can type?? Come to ICSSC’s Type Type Revolution competition, where you can show off your mad typing skills and lyrical abilities. Come to DBH 6011 at 7pm on Wednesday, May 17th to type your heart out! The top three competitors will be winning some super cool prizes, so make sure to RSVP to compete!",
       "location": "DBH 6011",
-      "rsvp": "https://bit.ly/TypeTypeRevolution2023 ",
+      "rsvp": "",
       "img": "/assets/img/ics-week/icssc.png",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
@@ -87,10 +87,10 @@
       "club": "Hack @ UCI",
       "name": "HackNights Competition",
       "time": "7 - 9 PM",
-      "desc": "Are you new to hackathons? 🤔 Or are you just itching to do something this Thursday? 😫 Introducing our Hacknights, a mini hackathon! Come showcase your skills and have some fun! 😎 🙌",
+      "desc": "👨‍💻👩‍💻 Get ready to code without the stress! HackNights is back 🔙 and this time, as a competitive mini-hackathon 🏆 Come develop a project based on a surprise prompt 👀 and compete for the chance to win Google Home Minis 🤩 If you’re tired from competitive coding, feel free to meet new people, work on your homework or other projects, or chill and relax with us 😎 Snacks and drinks 🍫🥤 will also be provided throughout the event, so stop by for a good time to destress! 🧘",
       "location": "DBH 6011",
-      "rsvp": "",
-      "img": "",
+      "rsvp": "https://tinyurl.com/hacknights-competition",
+      "img": "/assets/img/ics-week/hack.jpg",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
