@@ -33,12 +33,12 @@ function Sponsor(props) {
 
 export default function Sponsors() {
   return (
-    <Container>
+    <Container style={{height:"calc(80vh)"}}>
       <div className="banner">
         <h1>Sponsors</h1>
       </div>
-      <h2>Our 2020 Sponsors</h2>
-      {SponsorsData.map(sponsor => <Sponsor {...sponsor} key={sponsor.name}/>)}
+      <h2 style={{textAlign:"center"}}>More sponsor info coming soon!</h2>
+      {/* {SponsorsData.map(sponsor => <Sponsor {...sponsor} key={sponsor.name}/>)} */}
     </Container>
   )
 }

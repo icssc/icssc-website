@@ -77,7 +77,7 @@ export default function ICSWeek() {
         <Container>
             <div className={styles.banner}>
                 <div>
-                    <h1>ICS Week</h1>
+                    <h1>ICS Week 2023</h1>
                     <img
                         className={styles.anteater}
                         src="\assets\img\graphics\ICS_Week_Logo_1.png"
@@ -88,7 +88,7 @@ export default function ICSWeek() {
                 </p>
                 <br/>
                 <br />
-                <p>There will also be a raffle on our Instagram: @icssc.uci so make sure to follow us and stay posted.</p>
+                <p>ICS Week has ended! Follow us on Instagram @icssc.uci to keep posted about the next one.</p>
             </div>
             
             <div className={styles.schedule}>
