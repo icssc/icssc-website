@@ -1,5 +1,20 @@
 {
     "current": [
+        {
+            "src":"/assets/img/events/event_icsscfair.jpg",
+            "title":"ICSSC at AIFs",
+            "time":"Monday, September 25th, 2023",
+            "location": "Aldrich Park 11AM -4 PM",
+            "desc": "💻 Interested in Computer Science? Want to get involved in the ICS community here at UCI? 🧑‍💻Come talk to the Information and Computer Science Student Council at AIF this Monday, September 25th at AIF from 11 am to 4 pm! Meet our board members, learn about new opportunities 👀, and learn about upcoming events 📅!"
+        },
+        {
+            "src":"/assets/img/events/event_meetboard.jpg",
+            "title":"Meet the ICSSC Board",
+            "time":"Wednesday, September 27th, 2023",
+            "location": "DBH 6011 or Zoom 7-8 PM",
+            "desc": "Curious about ICSSC? 🖥️ Want to get to know ICSSC's board members? 👀 Join us for our Hybrid Meet the Board + Q&A! 🥳 Ask any questions you may have before the quarter starts and have a chance to connect and network with the board members. 💙 Make sure to RSVP on our Linktree to jump in on the fun! 😃",
+            "rsvp_src": "https://uci.zoom.us/j/99078488635"
+        }
     ],
 
     "past": [
@@ -8,7 +23,8 @@
             "title":"ICSSC's Micro Talks",
             "time":"Wednesday, May 10th, 2023",
             "location": "ICS 428 7-8 PM",
-            "desc": "ICSSC Events Committee ran out of ideas! 🫵 So you’re the next event! Steal the stage (aka front of ICS 428) with a 1-2 minute microtalk on anything you want: your hopes, dreams, passions, among us victories, or a random topic from our wheel 🎡"        },
+            "desc": "ICSSC Events Committee ran out of ideas! 🫵 So you’re the next event! Steal the stage (aka front of ICS 428) with a 1-2 minute microtalk on anything you want: your hopes, dreams, passions, among us victories, or a random topic from our wheel 🎡"
+        },
         {
             "src":"/assets/img/events/event_hike.jpg",
             "title":"ICSSC's Evening Hike",
