@@ -17,7 +17,7 @@
 
     {
         "name": "Events Committee",
-        "desc": "The Events Committee coordinates and hosts a variety of different events designed for the ICS student body. From encouraging new and old ICS students socially through things like the ICS Bonfire or our longer event Nerd Fighter, to improving skills technically and professionally like with our Med App Jam competition. The Events Committee is here to help the students of ICS however they need.",
+        "desc": "The Events Committee coordinates and hosts a variety of different events designed for the ICS student body. From encouraging new and old ICS students socially through things like the ICS Bonfire or our longer event Brain Games, to improving skills technically and professionally like with our WebJam competition. The Events Committee is here to help the students of ICS however they need.",
         "short_desc": "To plan and host events that will benefit ICS Students academically, professionally, and socially.",
         "graphic": "/assets/img/graphics/EventsCommittee.png",
         "members": [

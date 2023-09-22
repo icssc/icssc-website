@@ -23,7 +23,7 @@ function EventModal(props) {
         {desc}
       </Modal.Body>
       <Modal.Footer>
-        {iscurrent && <Button variant="success" href={rsvp_src}>RSVP</Button>}
+        {rsvp_src && <Button variant="success" href={rsvp_src}>RSVP</Button>}
         <Button onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
