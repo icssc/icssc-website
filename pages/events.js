@@ -6,7 +6,8 @@ import Image from "next/image";
 import styles from "/styles/Events.module.scss";
 
 function EventModal(props) {
-  const { title, time, location, desc, rsvp_src } = props;
+  const { title, time, location, desc, rsvp_src, onHide } = props;
+
   return (
     <Modal
       {...props}
@@ -29,15 +30,17 @@ function EventModal(props) {
             RSVP
           </Button>
         )}
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );
 }
 
 function Event(props) {
+  const { src, title, time, location } = props;
+
   const [modalShow, setModalShow] = useState(false);
-  const { src, title, time, location, desc, iscurrent, rsvp_src } = props;
+
   return (
     <>
       <div className={`${styles.eventBox}`} onClick={() => setModalShow(true)}>
@@ -50,12 +53,7 @@ function Event(props) {
       <EventModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        title={title}
-        desc={desc}
-        iscurrent={iscurrent}
-        time={time}
-        location={location}
-        rsvp_src={rsvp_src}
+        {...props}
       />
     </>
   );
@@ -65,7 +63,7 @@ export default function Events() {
   const currentDate = new Date();
   const events = EventsData.events;
 
-  const currentEvents = events.filter((event) => {
+  const upcomingEvents = events.filter((event) => {
     /**
      * eventDate expects the format of event.time to be of a format "Monday, September 25th, 2023"
      * Including the day, then month + date (with a suffix!), and lastly a year is necessary for the formatting
@@ -86,21 +84,21 @@ export default function Events() {
     return currentDate < eventDate;
   });
 
-  const pastEvents = events.slice(currentEvents.length);
+  // Slice the array at the index after upcomingEvents to get pastEvents
+  const pastEvents = events.slice(upcomingEvents.length);
 
   return (
     <>
+      {/* Upcoming Events */}
       <div className="sectionAlt">
-        {/* Event Title Section */}
         <h2>Upcoming Events</h2>
 
-        {/* Events */}
-        {currentEvents?.length > 0 ? (
+        {upcomingEvents?.length > 0 ? (
           <Row style={{ justifyContent: "center" }}>
             <div className={`${styles.sectionEvents} `}>
               <div className={`${styles.eventsGrid}`}>
-                {currentEvents?.map((event) => (
-                  <Event {...event} iscurrent="true" key={event.title} />
+                {upcomingEvents?.map((event) => (
+                  <Event {...event} key={event.title} />
                 ))}
               </div>
             </div>
@@ -113,15 +111,20 @@ export default function Events() {
       {/* Past Events */}
       <div className="section">
         <h2>Past Events</h2>
-        <Row style={{ justifyContent: "center" }}>
-          <div className={`${styles.sectionEvents} `}>
-            <div className={`${styles.eventsGrid}`}>
-              {pastEvents?.map((pastEvent) => (
-                <Event {...pastEvent} isCurrent={false} key={pastEvent.title} />
-              ))}
+
+        {pastEvents?.length > 0 ? (
+          <Row style={{ justifyContent: "center" }}>
+            <div className={`${styles.sectionEvents} `}>
+              <div className={`${styles.eventsGrid}`}>
+                {pastEvents?.map((event) => (
+                  <Event {...event} key={event.title} />
+                ))}
+              </div>
             </div>
-          </div>
-        </Row>
+          </Row>
+        ) : (
+          <p>No past events! Stay tuned for more {";)"}</p>
+        )}
       </div>
     </>
   );
