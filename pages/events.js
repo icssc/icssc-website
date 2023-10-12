@@ -62,6 +62,32 @@ function Event(props) {
 }
 
 export default function Events() {
+  const currentDate = new Date();
+  const events = EventsData.events;
+
+  const currentEvents = events.filter((event) => {
+    /**
+     * eventDate expects the format of event.time to be of a format "Monday, September 25th, 2023"
+     * Including the day, then month + date (with a suffix!), and lastly a year is necessary for the formatting
+     */
+    const eventDate = new Date(
+      event.time
+        .split(" ")
+        .slice(1)
+        .join(" ")
+        .replace(/(\d)(st|nd|rd|th)/, "$1")
+    );
+
+    if (isNaN(eventDate)) {
+      // console.error(`Invalid time format for event: ${event.title}`);
+      return false;
+    }
+
+    return currentDate < eventDate;
+  });
+
+  const pastEvents = events.slice(currentEvents.length);
+
   return (
     <>
       <div className="sectionAlt">
@@ -69,11 +95,11 @@ export default function Events() {
         <h2>Upcoming Events</h2>
 
         {/* Events */}
-        {EventsData.current.length > 0 ? (
+        {currentEvents?.length > 0 ? (
           <Row style={{ justifyContent: "center" }}>
             <div className={`${styles.sectionEvents} `}>
               <div className={`${styles.eventsGrid}`}>
-                {EventsData["current"].map((event) => (
+                {currentEvents?.map((event) => (
                   <Event {...event} iscurrent="true" key={event.title} />
                 ))}
               </div>
@@ -84,13 +110,13 @@ export default function Events() {
         )}
       </div>
 
-      {/* Event Past Section */}
+      {/* Past Events */}
       <div className="section">
         <h2>Past Events</h2>
         <Row style={{ justifyContent: "center" }}>
           <div className={`${styles.sectionEvents} `}>
             <div className={`${styles.eventsGrid}`}>
-              {EventsData.past.map((pastEvent) => (
+              {pastEvents?.map((pastEvent) => (
                 <Event {...pastEvent} isCurrent={false} key={pastEvent.title} />
               ))}
             </div>

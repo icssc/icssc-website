@@ -1,5 +1,5 @@
 {
-    "current": [
+    "events": [
         {
             "src":"/assets/img/events/event_icsscfair.jpg",
             "title":"ICSSC at AIFs",
@@ -14,10 +14,7 @@
             "location": "DBH 6011 or Zoom 7-8 PM",
             "desc": "Curious about ICSSC? 🖥️ Want to get to know ICSSC's board members? 👀 Join us for our Hybrid Meet the Board + Q&A! 🥳 Ask any questions you may have before the quarter starts and have a chance to connect and network with the board members. 💙 Make sure to RSVP on our Linktree to jump in on the fun! 😃",
             "rsvp_src": "https://uci.zoom.us/j/99078488635"
-        }
-    ],
-
-    "past": [
+        },
         {
             "src":"/assets/img/events/event_microtalk.png",
             "title":"ICSSC's Micro Talks",
