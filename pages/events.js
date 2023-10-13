@@ -5,6 +5,11 @@ import Image from "next/image";
 
 import styles from "/styles/Events.module.scss";
 
+function isISODateString(str) {
+  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/;
+  return isoDateRegex.test(str);
+}
+
 function EventModal(props) {
   const { title, time, location, desc, rsvp_src, onHide } = props;
 
@@ -41,27 +46,34 @@ function Event(props) {
 
   const [modalShow, setModalShow] = useState(false);
 
+  const dateString = new Date(time + "T00:00:00").toLocaleDateString("en-US", {
+    timeZone: "America/Los_Angeles",
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
+  // Handles "legacy" time formatting
+  const formattedTime = dateString == "Invalid Date" ? time : dateString;
+
   return (
     <>
       <div className={`${styles.eventBox}`} onClick={() => setModalShow(true)}>
         <Image src={src} alt="Event Image" width={100} height={100} />
         <h4 style={{ marginTop: "10px", fontWeight: "600" }}>{title}</h4>
-        <p>
-          {location} {time}
-        </p>
+
+        <p>{location}</p>
+        <p>{formattedTime}</p>
       </div>
       <EventModal
         show={modalShow}
         onHide={() => setModalShow(false)}
         {...props}
+        time={formattedTime}
       />
     </>
   );
-}
-
-function isISODateString(str) {
-  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/;
-  return isoDateRegex.test(str);
 }
 
 export default function Events() {
@@ -69,7 +81,6 @@ export default function Events() {
   const events = EventsData.events;
 
   const upcomingEvents = events.filter((event) => {
-    // event.time is expected to be of the format YYYY-MM-DD
     if (!isISODateString(event.time)) {
       // console.warn(`Invalid ISO time format for event: ${event.title}`);
       return false;
@@ -78,8 +89,14 @@ export default function Events() {
     return currentDate < event.time;
   });
 
-  // Slice the array at the index after upcomingEvents to get pastEvents
-  const pastEvents = events.slice(upcomingEvents.length);
+  const pastEvents = events.filter((event) => {
+    if (!isISODateString(event.time)) {
+      // console.warn(`Invalid ISO time format for event: ${event.title}`);
+      return true;
+    }
+
+    return currentDate > event.time;
+  });
 
   return (
     <>
