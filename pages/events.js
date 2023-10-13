@@ -59,29 +59,23 @@ function Event(props) {
   );
 }
 
+function isISODateString(str) {
+  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/;
+  return isoDateRegex.test(str);
+}
+
 export default function Events() {
-  const currentDate = new Date();
+  const currentDate = new Date().toISOString().split("T")[0];
   const events = EventsData.events;
 
   const upcomingEvents = events.filter((event) => {
-    /**
-     * eventDate expects the format of event.time to be of a format "Monday, September 25th, 2023"
-     * Including the day, then month + date (with a suffix!), and lastly a year is necessary for the formatting
-     */
-    const eventDate = new Date(
-      event.time
-        .split(" ")
-        .slice(1)
-        .join(" ")
-        .replace(/(\d)(st|nd|rd|th)/, "$1")
-    );
-
-    if (isNaN(eventDate)) {
-      // console.error(`Invalid time format for event: ${event.title}`);
+    // event.time is expected to be of the format YYYY-MM-DD
+    if (!isISODateString(event.time)) {
+      // console.warn(`Invalid ISO time format for event: ${event.title}`);
       return false;
     }
 
-    return currentDate < eventDate;
+    return currentDate < event.time;
   });
 
   // Slice the array at the index after upcomingEvents to get pastEvents
