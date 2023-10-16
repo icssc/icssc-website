@@ -59,10 +59,18 @@ export default function GetInvolved() {
             Applications are closed. Check back in Fall Quarter for recruitment.
           </b> */}
           <b>
-            <a href="https://docs.google.com/spreadsheets/d/1U6If78kK7aEvHrwo-7_aZIbEl9BD60Ka4jJn5mSD1xg/edit#gid=0">
+            <a
+              href="https://docs.google.com/spreadsheets/d/1U6If78kK7aEvHrwo-7_aZIbEl9BD60Ka4jJn5mSD1xg/edit#gid=0"
+              target="_blank"
+              rel="noreferrer"
+            >
               Read Byte Intros Here!
             </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqhDUzTZsY4fGt9GIdSp1wm_DRxskmv_EYQwKCbGM-X1JREQ/viewform">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdqhDUzTZsY4fGt9GIdSp1wm_DRxskmv_EYQwKCbGM-X1JREQ/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
               Apply Here! Applications are due 10/22!
             </a>
           </b>
