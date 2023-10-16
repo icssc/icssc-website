@@ -43,9 +43,7 @@ export default function GetInvolved() {
         <div className={styles.oneContainer}>
           <h2>Apply To Our Committees</h2>
           {/* <b>Applications are closed. Check back in Fall Quarter for recruitment.</b> */}
-          <b>
-            Applications are closed. Check back in Fall Quarter for recruitment.
-          </b>
+          <b>Applications are open!</b>
           <p> ICS Students can apply to any of the following committees.</p>
           <div className={styles.committeeContainer}>
             {CommitteesJSON.map((committee) => (
