@@ -55,8 +55,16 @@ export default function GetInvolved() {
 
         <div className={styles.oneContainer}>
           <h2>The Bits & Bytes Program</h2>
-          <b>
+          {/* <b>
             Applications are closed. Check back in Fall Quarter for recruitment.
+          </b> */}
+          <b>
+            <a href="https://docs.google.com/spreadsheets/d/1U6If78kK7aEvHrwo-7_aZIbEl9BD60Ka4jJn5mSD1xg/edit#gid=0">
+              Read Byte Intros Here!
+            </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqhDUzTZsY4fGt9GIdSp1wm_DRxskmv_EYQwKCbGM-X1JREQ/viewform">
+              Apply Here! Applications are due 10/22!
+            </a>
           </b>
           <p>
             Bits & Bytes is a year long mentorship program organized by ICS
