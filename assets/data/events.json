@@ -1,10 +1,34 @@
 {
     "current": [
         {
+            "src":"/assets/img/events/internpanel.jpg",
+            "title":"Internship Panel",
+            "time":"Wednesday, October 18th, 2023",
+            "location": "DBH 6011 7- 8 PM",
+            "desc": "Looking for advice in applying for internships this application season ❓ Come meet our panelists and receive insight/listen to personal experiences about the application process at our ICSSC Internship Pane!"
+        }
+    ],
+
+    "past": [
+        {
+            "src":"/assets/img/events/bitsbytes.jpg",
+            "title":"Bits & Bytes Intro",
+            "time":"Wednesday, October 11th, 2023",
+            "location": "ICS 428 7- 8 PM",
+            "desc": "Don't miss out on an opportunity to make mentor/mentee connections this year! Come out and meet our \"Bytes!\"Find the Byte best fitted to support you as a \"Bit\"!"
+        },
+        {
+            "src":"/assets/img/events/gen_meeting.jpg",
+            "title":"ICSSC General Meeting",
+            "time":"Wednesday, October 4th, 2023",
+            "location": "ICS 428 7- 8 PM",
+            "desc": "We are so glad you got to relax with us at the Bonfire today! 😍 However, ICSSC isn't just a social club. Interested in learning more about ICSSC❓Wanted to join a committee last year but didn't get the chance? Come talk to our board members and learn how you can join the team 💜."
+        },
+        {
             "src":"/assets/img/events/event_icsscfair.jpg",
             "title":"ICSSC at AIFs",
             "time":"Monday, September 25th, 2023",
-            "location": "Aldrich Park 11AM -4 PM",
+            "location": "Aldrich Park 11 AM - 4 PM",
             "desc": "💻 Interested in Computer Science? Want to get involved in the ICS community here at UCI? 🧑‍💻Come talk to the Information and Computer Science Student Council at AIF this Monday, September 25th at AIF from 11 am to 4 pm! Meet our board members, learn about new opportunities 👀, and learn about upcoming events 📅!"
         },
         {
@@ -12,12 +36,8 @@
             "title":"Meet the ICSSC Board",
             "time":"Wednesday, September 27th, 2023",
             "location": "DBH 6011 or Zoom 7-8 PM",
-            "desc": "Curious about ICSSC? 🖥️ Want to get to know ICSSC's board members? 👀 Join us for our Hybrid Meet the Board + Q&A! 🥳 Ask any questions you may have before the quarter starts and have a chance to connect and network with the board members. 💙 Make sure to RSVP on our Linktree to jump in on the fun! 😃",
-            "rsvp_src": "https://uci.zoom.us/j/99078488635"
-        }
-    ],
-
-    "past": [
+            "desc": "Curious about ICSSC? 🖥️ Want to get to know ICSSC's board members? 👀 Join us for our Hybrid Meet the Board + Q&A! 🥳 Ask any questions you may have before the quarter starts and have a chance to connect and network with the board members. 💙 Make sure to RSVP on our Linktree to jump in on the fun! 😃"
+        },
         {
             "src":"/assets/img/events/event_microtalk.png",
             "title":"ICSSC's Micro Talks",
