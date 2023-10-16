@@ -1,12 +1,13 @@
 import CommitteesJSON from "../assets/data/committees.json";
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import styles from "/styles/GetInvolved.module.scss";
+import Image from "next/image";
 
 function Committee(props) {
   const { name, short_desc, graphic } = props;
   return (
     <div className={styles.committee}>
-      <img src={graphic} alt={name} />
+      <Image src={graphic} alt={name} width={300} height={200} />
       <h5>{name}</h5>
       <p>{short_desc}</p>
     </div>
@@ -20,8 +21,8 @@ export default function GetInvolved() {
         <h1>Get Involved in ICSSC</h1>
         <p>
           ICSSC offers a variety of committees and programs that any student can
-          be apart of. Don't feel like committing too much time? Don't worry!
-          Everyone can attend our meetings and workshops!
+          be apart of. {"Don't"} feel like committing too much time? {"Don't "}
+          worry! Everyone can attend our meetings and workshops!
         </p>
 
         <div className={styles.oneContainer}>
@@ -67,22 +68,26 @@ export default function GetInvolved() {
 
           <div className={styles.halfContainer}>
             <div>
-              <img
+              <Image
                 src={"/assets/img/graphics/BeABitByte.png"}
                 alt={"Be a Bit/Byte"}
+                width={300}
+                height={200}
               />
               <h3>Be a Bit/Byte</h3>
               <p>
-                Here's your chance by applying to become a bit or byte! As a
+                {"Here's"} your chance by applying to become a bit or byte! As a
                 byte you are going to be the mentor, the role model, and most
                 importantly of all, your best friend to your bit! As for bits,
                 have fun!
               </p>
             </div>
             <div>
-              <img
+              <Image
                 src={"/assets/img/graphics/JoinAFamily.png"}
                 alt={"Join a Family"}
+                width={300}
+                height={200}
               />
               <h3>Join a Family</h3>
               <p>
