@@ -63,10 +63,10 @@ export default function GetInvolved() {
 
         <div className={styles.oneContainer}>
           <h2>The Bits & Bytes Program</h2>
-          {/* <b>
-            Applications are closed. Check back in Fall Quarter for recruitment.
-          </b> */}
           <b>
+            Applications are closed. Check back in Fall Quarter for recruitment.
+          </b>
+          {/* <b>
             <a
               href="https://docs.google.com/spreadsheets/d/1U6If78kK7aEvHrwo-7_aZIbEl9BD60Ka4jJn5mSD1xg/edit#gid=0"
               target="_blank"
@@ -81,7 +81,7 @@ export default function GetInvolved() {
             >
               Apply Here! Applications are due 10/22!
             </a>
-          </b>
+          </b> */}
           <p>
             Bits & Bytes is a year long mentorship program organized by ICS
             Student Council at UC Irvine to help new ICS students transition to
