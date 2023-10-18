@@ -1,10 +1,31 @@
 {
     "events": [
         {
+            "src":"/assets/img/events/internpanel.jpg",
+            "title":"Internship Panel",
+            "time":"Wednesday, October 18th, 2023",
+            "location": "DBH 6011 7- 8 PM",
+            "desc": "Looking for advice in applying for internships this application season ❓ Come meet our panelists and receive insight/listen to personal experiences about the application process at our ICSSC Internship Pane!"
+        },
+        {
+            "src":"/assets/img/events/bitsbytes.jpg",
+            "title":"Bits & Bytes Intro",
+            "time":"Wednesday, October 11th, 2023",
+            "location": "ICS 428 7- 8 PM",
+            "desc": "Don't miss out on an opportunity to make mentor/mentee connections this year! Come out and meet our \"Bytes!\"Find the Byte best fitted to support you as a \"Bit\"!"
+        },
+        {
+            "src":"/assets/img/events/gen_meeting.jpg",
+            "title":"ICSSC General Meeting",
+            "time":"Wednesday, October 4th, 2023",
+            "location": "ICS 428 7- 8 PM",
+            "desc": "We are so glad you got to relax with us at the Bonfire today! 😍 However, ICSSC isn't just a social club. Interested in learning more about ICSSC❓Wanted to join a committee last year but didn't get the chance? Come talk to our board members and learn how you can join the team 💜."
+        },
+        {
             "src":"/assets/img/events/event_icsscfair.jpg",
             "title":"ICSSC at AIFs",
             "time":"Monday, September 25th, 2023",
-            "location": "Aldrich Park 11 AM-4 PM",
+            "location": "Aldrich Park 11 AM - 4 PM",
             "desc": "💻 Interested in Computer Science? Want to get involved in the ICS community here at UCI? 🧑‍💻Come talk to the Information and Computer Science Student Council at AIF this Monday, September 25th at AIF from 11 am to 4 pm! Meet our board members, learn about new opportunities 👀, and learn about upcoming events 📅!"
         },
         {
@@ -27,7 +48,8 @@
             "title":"ICSSC's Evening Hike",
             "time":"Saturday, May 6th, 2023",
             "location": "Bommer Canyon Trail Head 5PM",
-            "desc": "😵‍💫 Been too busy studying for midterms to touch grass recently? Come join us for a hike next weekend to let off some steam at 🌿Bommer Canyon🪨 ! Invite your friends, Bits and Bytes fams, or feel free to come by yourself! We will also be holding a photo contest 📸 Make sure to wear appropriate outerwear and shoes for hiking! If you need a ride or will be able to provide one, fill out the RSVP form and the carpool spreadsheet 🚙"        },
+            "desc": "😵‍💫 Been too busy studying for midterms to touch grass recently? Come join us for a hike next weekend to let off some steam at 🌿Bommer Canyon🪨 ! Invite your friends, Bits and Bytes fams, or feel free to come by yourself! We will also be holding a photo contest 📸 Make sure to wear appropriate outerwear and shoes for hiking! If you need a ride or will be able to provide one, fill out the RSVP form and the carpool spreadsheet 🚙"        
+        },
         {
             "src":"/assets/img/events/event_specializations.jpg",
             "title":"CS Specializations 101",

@@ -25,6 +25,23 @@ export default function GetInvolved() {
         <p>ICSSC offers a variety of committees and programs that any student can be apart of. Don't feel like committing too much time? Don't worry! Everyone can attend our meetings and workshops!</p>
         
         <div className={styles.oneContainer}>
+          <h2>Our Newsletter</h2>
+          <p>Sign up to recieve email updates on our events, promotions, announcements, and more!</p>
+          
+          <a href="https://icssc.link/ICSSCNewsletter" rel="noreferrer" target="_blank">Sign Up Here</a>
+          </div> 
+
+
+          <div className={styles.oneContainer}>
+            <h2>Apply To Our Committees</h2>
+            <b>Applications are closed. Check back in Fall Quarter for recruitment.</b>
+            <p> ICS Students can apply to any of the following committees.</p>
+            <div className={styles.committeeContainer}>
+              {CommitteesJSON.map(committee => <Committee {...committee} key={committee.name}/>)}
+          </div>
+        </div>
+
+        <div className={styles.oneContainer}>
           <h2>The Bits & Bytes Program</h2>
           <b>Applications are closed. Check back in Fall Quarter for recruitment.</b>
           <p>Bits & Bytes is a year long mentorship program organized by ICS Student Council at UC Irvine to help new ICS students transition to life at UCI through organized socials! Group leaders, aka Bytes, will guide and provide a community at UCI for incoming freshmen and transfers, aka Bits.</p>
@@ -53,13 +70,18 @@ export default function GetInvolved() {
           <h2>The Fellowship Program</h2>
           <p>The Fellowship is an asynchronous web development crash course that teaches fundamental software development skills. By the end of the course, students will have the skillset necessary to create their own React websites and will have the opportunity to contribute to one our ICSSC Projects such as AntAlmanac, PeterPortal, or Zotistics!</p>
           
-          <a href="https://fellowship.icssc.club/" rel="noreferrer" target="_blank">View Fellowship ></a>
+          <a href="https://fellowship.icssc.club/" rel="noreferrer" target="_blank">View Fellowship</a>
           </div> 
 
 
           <div className={styles.oneContainer}>
-            <h2>Apply To Our Committees</h2>
-            <b>Applications are closed. Check back in Fall Quarter for recruitment.</b>
+            <a href="https://icssc.link/CommitteeApplication2023" rel="noreferrer" target="_blank">
+              <h2>Apply To Our Committees</h2>
+            </a>
+            {/* <b>Applications are closed. Check back in Fall Quarter for recruitment.</b> */}
+            <b>
+              Applications are open!
+            </b>
             <p> ICS Students can apply to any of the following committees.</p>
             <div className={styles.committeeContainer}>
               {CommitteesJSON.map(committee => <Committee {...committee} key={committee.name}/>)}
