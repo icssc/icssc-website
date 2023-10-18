@@ -11,7 +11,7 @@ function isISODateString(str) {
 }
 
 function EventModal(props) {
-  const { title, time, location, desc, rsvp_src, onHide } = props;
+  const { title, time, location, desc, rsvp_src, onHide, pastEvent } = props;
 
   return (
     <Modal
@@ -30,7 +30,7 @@ function EventModal(props) {
         {desc}
       </Modal.Body>
       <Modal.Footer>
-        {rsvp_src && (
+        {rsvp_src && !pastEvent && (
           <Button variant="success" href={rsvp_src}>
             RSVP
           </Button>
@@ -109,7 +109,7 @@ export default function Events() {
             <div className={`${styles.sectionEvents} `}>
               <div className={`${styles.eventsGrid}`}>
                 {upcomingEvents?.map((event) => (
-                  <Event {...event} key={event.title} />
+                  <Event {...event} key={event.title} pastEvent={false} />
                 ))}
               </div>
             </div>
@@ -128,7 +128,7 @@ export default function Events() {
             <div className={`${styles.sectionEvents} `}>
               <div className={`${styles.eventsGrid}`}>
                 {pastEvents?.map((event) => (
-                  <Event {...event} key={event.title} />
+                  <Event {...event} key={event.title} pastEvent={true} />
                 ))}
               </div>
             </div>
