@@ -1,13 +1,12 @@
 import CommitteesJSON from "../assets/data/committees.json";
 import { Container } from "react-bootstrap";
 import styles from "/styles/GetInvolved.module.scss";
-import Image from "next/image";
 
 function Committee(props) {
   const { name, short_desc, graphic } = props;
   return (
     <div className={styles.committee}>
-      <Image src={graphic} alt={name} width={300} height={200} />
+      <img src={graphic} alt={name} width={300} height={200} />
       <h5>{name}</h5>
       <p>{short_desc}</p>
     </div>
@@ -43,8 +42,8 @@ export default function GetInvolved() {
 
         <div className={styles.oneContainer}>
           <h2>Apply To Our Committees</h2>
-          {/* <b>Applications are closed. Check back in Fall Quarter for recruitment.</b> */}
-          <b>
+          <b>Applications are closed. Check back in Fall Quarter for recruitment.</b>
+          {/* <b>
             <a
               href="https://forms.gle/oXRCES81JUihBy789"
               target="_blank"
@@ -52,7 +51,7 @@ export default function GetInvolved() {
             >
               Applications are open!
             </a>
-          </b>
+          </b> */}
           <p> ICS Students can apply to any of the following committees.</p>
           <div className={styles.committeeContainer}>
             {CommitteesJSON.map((committee) => (
@@ -92,7 +91,7 @@ export default function GetInvolved() {
 
           <div className={styles.halfContainer}>
             <div>
-              <Image
+              <img
                 src={"/assets/img/graphics/BeABitByte.png"}
                 alt={"Be a Bit/Byte"}
                 width={300}
@@ -107,7 +106,7 @@ export default function GetInvolved() {
               </p>
             </div>
             <div>
-              <Image
+              <img
                 src={"/assets/img/graphics/JoinAFamily.png"}
                 alt={"Join a Family"}
                 width={300}
