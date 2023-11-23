@@ -1,7 +1,6 @@
 import { Row, Button, Modal } from "react-bootstrap";
 import EventsData from "../assets/data/events.json";
 import React, { useState } from "react";
-import Image from "next/image";
 
 import styles from "/styles/Events.module.scss";
 
@@ -60,7 +59,8 @@ function Event(props) {
   return (
     <>
       <div className={`${styles.eventBox}`} onClick={() => setModalShow(true)}>
-        <Image src={src} alt="Event Image" width={100} height={100} />
+        {/*eslint-disable-next-line @next/next/no-img-element*/}
+        <img src={src} alt="Event Image" />
         <h4 style={{ marginTop: "10px", fontWeight: "600" }}>{title}</h4>
 
         <p>{location}</p>
