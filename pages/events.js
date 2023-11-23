@@ -44,7 +44,7 @@ function Event(props) {
   const { src, title, time, location } = props;
 
   const [modalShow, setModalShow] = useState(false);
-
+  
   const dateString = new Date(time + "T00:00:00").toLocaleDateString("en-US", {
     timeZone: "America/Los_Angeles",
     weekday: "long",
