@@ -1,15 +1,13 @@
 {
-    "current": [
+    "events": [
         {
             "src":"/assets/img/events/spacex.png",
             "title":"Space X + Obsidian Entertainment Office Tours",
-            "time":"January 22 & 31, 2024",
+            "time":"2024-01-31",
+            "customTime":"January 22 & 31, 2024",
             "location": "",
             "desc": "Let us know you are interested by filling out the RSVP form which will drop at Monday, December 18, 2023 at 9:00 PM. There are only 20 spots for SpaceX and 24 for Obsidian so sign up quickly, as it will be first come first serve! There will be 10 spots reserved for internal ICSSC members for SpaceX and 14 spots for Obsidian. UPDATE - NO SPOTS LEFT."
-        }
-    ],
-
-    "past": [
+        },
         {
             "src":"/assets/img/events/Webjam-IG.PNG",
             "title":"WebJam 2023",
@@ -71,7 +69,8 @@
             "title":"Meet the ICSSC Board",
             "time":"Wednesday, September 27th, 2023",
             "location": "DBH 6011 or Zoom 7-8 PM",
-            "desc": "Curious about ICSSC? 🖥️ Want to get to know ICSSC's board members? 👀 Join us for our Hybrid Meet the Board + Q&A! 🥳 Ask any questions you may have before the quarter starts and have a chance to connect and network with the board members. 💙 Make sure to RSVP on our Linktree to jump in on the fun! 😃"
+            "desc": "Curious about ICSSC? 🖥️ Want to get to know ICSSC's board members? 👀 Join us for our Hybrid Meet the Board + Q&A! 🥳 Ask any questions you may have before the quarter starts and have a chance to connect and network with the board members. 💙 Make sure to RSVP on our Linktree to jump in on the fun! 😃",
+            "rsvp_src": "https://uci.zoom.us/j/99078488635"
         },
         {
             "src":"/assets/img/events/event_microtalk.png",
@@ -85,7 +84,8 @@
             "title":"ICSSC's Evening Hike",
             "time":"Saturday, May 6th, 2023",
             "location": "Bommer Canyon Trail Head 5PM",
-            "desc": "😵‍💫 Been too busy studying for midterms to touch grass recently? Come join us for a hike next weekend to let off some steam at 🌿Bommer Canyon🪨 ! Invite your friends, Bits and Bytes fams, or feel free to come by yourself! We will also be holding a photo contest 📸 Make sure to wear appropriate outerwear and shoes for hiking! If you need a ride or will be able to provide one, fill out the RSVP form and the carpool spreadsheet 🚙"        },
+            "desc": "😵‍💫 Been too busy studying for midterms to touch grass recently? Come join us for a hike next weekend to let off some steam at 🌿Bommer Canyon🪨 ! Invite your friends, Bits and Bytes fams, or feel free to come by yourself! We will also be holding a photo contest 📸 Make sure to wear appropriate outerwear and shoes for hiking! If you need a ride or will be able to provide one, fill out the RSVP form and the carpool spreadsheet 🚙"        
+        },
         {
             "src":"/assets/img/events/event_specializations.jpg",
             "title":"CS Specializations 101",

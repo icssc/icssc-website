@@ -4,8 +4,14 @@ import React, { useState } from "react";
 
 import styles from "/styles/Events.module.scss";
 
+function isISODateString(str) {
+  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/; // YYYY-MM-DD
+  return isoDateRegex.test(str);
+}
+
 function EventModal(props) {
-  const { src, title, time, location, desc, iscurrent, rsvp_src } = props;
+  const { title, time, location, desc, rsvp_src, onHide, pastEvent } = props;
+
   return (
     <Modal
       {...props}
@@ -23,80 +29,124 @@ function EventModal(props) {
         {desc}
       </Modal.Body>
       <Modal.Footer>
-        {rsvp_src && (
+        {rsvp_src && !pastEvent && (
           <Button variant="success" href={rsvp_src}>
             RSVP
           </Button>
         )}
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );
 }
 
 function Event(props) {
+  const { src, title, time, customTime, location } = props;
+
   const [modalShow, setModalShow] = useState(false);
-  const { src, title, time, location, desc, iscurrent, rsvp_src } = props;
+
+  const dateString = new Date(time + "T00:00:00").toLocaleDateString("en-US", {
+    timeZone: "America/Los_Angeles",
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
+  // Handles "legacy" time formatting
+  const formattedTime = dateString == "Invalid Date" ? time : dateString;
+
   return (
     <>
       <div className={`${styles.eventBox}`} onClick={() => setModalShow(true)}>
-        <img src={src} />
+        {/*eslint-disable-next-line @next/next/no-img-element*/}
+        <img src={src} alt="Event Image" />
         <h4 style={{ marginTop: "10px", fontWeight: "600" }}>{title}</h4>
-        <p>
-          {location}
-          <br /> {time}
-        </p>
+
+        <p>{location}</p>
+        <p>{customTime ?? formattedTime}</p>
       </div>
       <EventModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        title={title}
-        desc={desc}
-        iscurrent={iscurrent}
-        time={time}
-        location={location}
-        rsvp_src={rsvp_src}
+        {...props}
+        time={customTime ?? formattedTime}
       />
     </>
   );
 }
 
 export default function Events() {
+  const currentDate = new Date().toISOString().split("T")[0];
+  const eventsData = EventsData.events;
+
+  const upcomingEvents = eventsData.filter((event) => {
+    if (!isISODateString(event.time)) {
+      // console.warn(`Invalid ISO time format for event: ${event.title}`);
+      return false;
+    }
+
+    return currentDate < event.time;
+  });
+
+  const pastEvents = eventsData.filter((event) => {
+    if (!isISODateString(event.time)) {
+      // console.warn(`Invalid ISO time format for event: ${event.title}`);
+      return true;
+    }
+
+    return currentDate > event.time;
+  });
+
   return (
     <>
-      {/* Event Title Section */}
+      {/* Upcoming Events */}
       <div className="sectionAlt">
         <h2>Upcoming Events</h2>
-        {/* {<p>No current events! Stay tuned for more :)</p>} */}
-        {/* Uncomment This To Display Current Events */}
-        <p>Check out our{` `}
-          <a target="_blank" title="Instagram" href="https://www.instagram.com/icssc.uci/">
+        <p>
+          Check out our{" "}
+          <a
+            target="_blank"
+            title="Instagram"
+            href="https://www.instagram.com/icssc.uci/"
+            rel="noreferrer"
+          >
             Instagram
-          </a> for more!
+          </a>{" "}
+          for more!
         </p>
-        <Row style={{ justifyContent: "center" }}>
-          <div className={`${styles.sectionEvents} `}>
-            <div className={`${styles.eventsGrid}`}>
-              {EventsData["current"].map((past) => (
-                <Event {...past} iscurrent="true" key={past.title} />
-              ))}
+        {upcomingEvents?.length > 0 ? (
+          <Row style={{ justifyContent: "center" }}>
+            <div className={`${styles.sectionEvents} `}>
+              <div className={`${styles.eventsGrid}`}>
+                {upcomingEvents?.map((event) => (
+                  <Event {...event} key={event.title} pastEvent={false} />
+                ))}
+              </div>
             </div>
-          </div>
-        </Row>
+          </Row>
+        ) : (
+          <p>No current events! Stay tuned for more {":)"}</p>
+        )}
       </div>
 
-      {/* Event Past Section */}
+      {/* Past Events */}
       <div className="section">
         <h2>Past Events</h2>
-        <Row style={{ justifyContent: "center" }}>
-          <div className={`${styles.sectionEvents} `}>
-            <div className={`${styles.eventsGrid}`}>
-              {EventsData["past"].map((past) => (
-                <Event {...past} isCurrent={false} key={past.title} />
-              ))}
+
+        {pastEvents?.length > 0 ? (
+          <Row style={{ justifyContent: "center" }}>
+            <div className={`${styles.sectionEvents} `}>
+              <div className={`${styles.eventsGrid}`}>
+                {pastEvents?.map((event) => (
+                  <Event {...event} key={event.title} pastEvent={true} />
+                ))}
+              </div>
             </div>
-          </div>
-        </Row>
+          </Row>
+        ) : (
+          <p>No past events! Stay tuned for more {";)"}</p>
+        )}
       </div>
     </>
   );
