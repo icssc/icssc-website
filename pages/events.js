@@ -70,7 +70,7 @@ function Event(props) {
         show={modalShow}
         onHide={() => setModalShow(false)}
         {...props}
-        time={formattedTime}
+        time={customTime ?? formattedTime}
       />
     </>
   );
