@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import styles from "/styles/Events.module.scss";
 
 function isISODateString(str) {
-  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/;
+  const isoDateRegex = /^\d{4}-\d{2}-\d{2}$/; // YYYY-MM-DD
   return isoDateRegex.test(str);
 }
 
@@ -41,10 +41,10 @@ function EventModal(props) {
 }
 
 function Event(props) {
-  const { src, title, time, location } = props;
+  const { src, title, time, customTime, location } = props;
 
   const [modalShow, setModalShow] = useState(false);
-  
+
   const dateString = new Date(time + "T00:00:00").toLocaleDateString("en-US", {
     timeZone: "America/Los_Angeles",
     weekday: "long",
@@ -64,7 +64,7 @@ function Event(props) {
         <h4 style={{ marginTop: "10px", fontWeight: "600" }}>{title}</h4>
 
         <p>{location}</p>
-        <p>{formattedTime}</p>
+        <p>{customTime ?? formattedTime}</p>
       </div>
       <EventModal
         show={modalShow}
@@ -78,9 +78,9 @@ function Event(props) {
 
 export default function Events() {
   const currentDate = new Date().toISOString().split("T")[0];
-  const events = EventsData.events;
+  const eventsData = EventsData.events;
 
-  const upcomingEvents = events.filter((event) => {
+  const upcomingEvents = eventsData.filter((event) => {
     if (!isISODateString(event.time)) {
       // console.warn(`Invalid ISO time format for event: ${event.title}`);
       return false;
@@ -89,7 +89,7 @@ export default function Events() {
     return currentDate < event.time;
   });
 
-  const pastEvents = events.filter((event) => {
+  const pastEvents = eventsData.filter((event) => {
     if (!isISODateString(event.time)) {
       // console.warn(`Invalid ISO time format for event: ${event.title}`);
       return true;
@@ -103,7 +103,18 @@ export default function Events() {
       {/* Upcoming Events */}
       <div className="sectionAlt">
         <h2>Upcoming Events</h2>
-
+        <p>
+          Check out our{" "}
+          <a
+            target="_blank"
+            title="Instagram"
+            href="https://www.instagram.com/icssc.uci/"
+            rel="noreferrer"
+          >
+            Instagram
+          </a>{" "}
+          for more!
+        </p>
         {upcomingEvents?.length > 0 ? (
           <Row style={{ justifyContent: "center" }}>
             <div className={`${styles.sectionEvents} `}>

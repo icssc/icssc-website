@@ -119,5 +119,20 @@
             "Marcel Tcheng",
             "Nathan Yang"
         ]
+    },
+    {
+        "name": "Graphics",
+        "desc": "The Graphics Committee creates graphics for all aspects of ICSSC, from event advertisement graphics to website/project assets, stickers, promotional material, and even merch! Our team is continuing to make creative and exciting artworks for current club events, while also getting started on reworking the graphics of some of ICSSC’s ongoing projects.",
+        "short_desc": "To create exciting artwork that represents ICSSC",
+        "graphic": "/assets/img/graphics/GraphicsCommittee.png",
+        "members": [
+            "Michelle Huang",
+            "Alaina Klaes",
+            "Ellie Lee",
+            "Katherine Phung",
+            "Mae King",
+            "Nico Hartman",
+           "Audrey Chen "
+        ]
     }
 ]
