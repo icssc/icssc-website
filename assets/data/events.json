@@ -1,16 +1,22 @@
 {
     "current": [
         {
-            "src":"/assets/img/events/Webjam-IG.PNG",
-            "title":"WebJam 2023",
-            "time":"November 13-17, 2023",
-            "location": "Donald Bren Hall",
-            "desc": "ICSSC’s annual WebJam is a week-long programming competition & celebration where you’ll have the chance to work on web application design and development in teams of 1-4. 🐠 Throughout the week, we’ll have useful workshops, mentors, and snacks to support you with your projects! 💡 At the end of the week, you’ll have the chance to present your project to our panel of professor judges and earn some prizes! 🎉",
-            "rsvp_src": "https://webjam.icssc.club"
+            "src":"/assets/img/events/spacex.png",
+            "title":"Space X + Obsidian Entertainment Office Tours",
+            "time":"January 22 & 31, 2024",
+            "location": "",
+            "desc": "Let us know you are interested by filling out the RSVP form which will drop at Monday, December 18, 2023 at 9:00 PM. There are only 20 spots for SpaceX and 24 for Obsidian so sign up quickly, as it will be first come first serve! There will be 10 spots reserved for internal ICSSC members for SpaceX and 14 spots for Obsidian. UPDATE - NO SPOTS LEFT."
         }
     ],
 
     "past": [
+        {
+            "src":"/assets/img/events/Webjam-IG.PNG",
+            "title":"WebJam 2023",
+            "time":"November 13-17, 2023",
+            "location": "Donald Bren Hall",
+            "desc": "ICSSC’s annual WebJam is a week-long programming competition & celebration where you’ll have the chance to work on web application design and development in teams of 1-4. 🐠 Throughout the week, we’ll have useful workshops, mentors, and snacks to support you with your projects! 💡 At the end of the week, you’ll have the chance to present your project to our panel of professor judges and earn some prizes! 🎉"
+        },
         {
             "src":"/assets/img/events/Artsy_Autumn_IG.png",
             "title":"Artsty Autumn",
