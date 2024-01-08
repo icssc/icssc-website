@@ -69,6 +69,11 @@ export default function Events() {
         <h2>Upcoming Events</h2>
         {/* {<p>No current events! Stay tuned for more :)</p>} */}
         {/* Uncomment This To Display Current Events */}
+        <p>Check out our{` `}
+          <a target="_blank" title="Instagram" href="https://www.instagram.com/icssc.uci/">
+            Instagram
+          </a> for more!
+        </p>
         <Row style={{ justifyContent: "center" }}>
           <div className={`${styles.sectionEvents} `}>
             <div className={`${styles.eventsGrid}`}>

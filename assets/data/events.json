@@ -1,15 +1,50 @@
 {
     "current": [
         {
-            "src":"/assets/img/events/internpanel.jpg",
-            "title":"Internship Panel",
-            "time":"Wednesday, October 18th, 2023",
-            "location": "DBH 6011 7- 8 PM",
-            "desc": "Looking for advice in applying for internships this application season ❓ Come meet our panelists and receive insight/listen to personal experiences about the application process at our ICSSC Internship Pane!"
+            "src":"/assets/img/events/spacex.png",
+            "title":"Space X + Obsidian Entertainment Office Tours",
+            "time":"January 22 & 31, 2024",
+            "location": "",
+            "desc": "Let us know you are interested by filling out the RSVP form which will drop at Monday, December 18, 2023 at 9:00 PM. There are only 20 spots for SpaceX and 24 for Obsidian so sign up quickly, as it will be first come first serve! There will be 10 spots reserved for internal ICSSC members for SpaceX and 14 spots for Obsidian. UPDATE - NO SPOTS LEFT."
         }
     ],
 
     "past": [
+        {
+            "src":"/assets/img/events/Webjam-IG.PNG",
+            "title":"WebJam 2023",
+            "time":"November 13-17, 2023",
+            "location": "Donald Bren Hall",
+            "desc": "ICSSC’s annual WebJam is a week-long programming competition & celebration where you’ll have the chance to work on web application design and development in teams of 1-4. 🐠 Throughout the week, we’ll have useful workshops, mentors, and snacks to support you with your projects! 💡 At the end of the week, you’ll have the chance to present your project to our panel of professor judges and earn some prizes! 🎉"
+        },
+        {
+            "src":"/assets/img/events/Artsy_Autumn_IG.png",
+            "title":"Artsty Autumn",
+            "time":"Wednesday, November 8th",
+            "location": "DBH 6011 7 - 8 PM",
+            "desc": "If you love fall too, come and unwind with some festive fall craft activities TOMORROW! 🎃 We'll have 3 different artsy stations: mini pumpkins decorating, coloring pages, and origami."
+        },
+        {
+            "src":"/assets/img/events/Bits&BytesFamReveal2023_InstagramSquare.png",
+            "title":"Bits & Bytes Fam Reveal",
+            "time":"Wednesday, October 25th",
+            "location": "DBH 6011 7 - 8 PM",
+            "desc": "Meet your bytes, celebrate with your co-bits, and compete against other families with your new friends and mentors!🏁"
+        },
+        {
+            "src":"/assets/img/events/ROUND1_IG.png",
+            "title":"Web Jam",
+            "time":"Saturday, October 21st",
+            "location": "Mainplace Mall 2 - 5 PM",
+            "desc": "Join us at Round1, a entertainment center that offers Bowling, Karaoke, Ping Pong, Pool Tables, Claw Games, Arcade games, food, drinks, and more! 🍕 You'll be sure to have some good times with fun company. 🎊"
+        },
+        {
+            "src":"/assets/img/events/internpanel.jpg",
+            "title":"Internship Panel",
+            "time":"Wednesday, October 18th, 2023",
+            "location": "DBH 6011 7 - 8 PM",
+            "desc": "Looking for advice in applying for internships this application season ❓ Come meet our panelists and receive insight/listen to personal experiences about the application process at our ICSSC Internship Pane!"
+        },
         {
             "src":"/assets/img/events/bitsbytes.jpg",
             "title":"Bits & Bytes Intro",
