@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  column-gap: 30px;
+
+  img {
+    width: 350px;
+    height: 350px;
+}
+}
+
+.card__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.main{
+  background-color: white;
+  padding: 8%;
+  margin: 4rem 0px;
+
+  p {
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+      flex-direction: column;
+      padding: 2rem;
+
+      img {
+          align-self: center;
+          margin-bottom: 1rem;
+      }
+      h1, h2 {
+          text-align: center;
+      }
+  
+  }
+}
