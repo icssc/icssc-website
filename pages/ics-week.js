@@ -77,7 +77,7 @@ export default function ICSWeek() {
         <Container>
             <div className={styles.banner}>
                 <div>
-                    <h1>ICS Week 2023</h1>
+                    <h1>ICS Week 2024</h1>
                     <img
                         className={styles.anteater}
                         src="\assets\img\graphics\ICS_Week_Logo_1.png"
@@ -88,36 +88,39 @@ export default function ICSWeek() {
                 </p>
                 <br/>
                 <br />
-                <p>ICS Week has ended! Follow us on Instagram @icssc.uci to keep posted about the next one.</p>
+                <p>ICS Week is coming! Follow us on Instagram @icssc.uci to keep posted about the upcoming events!</p>
+                <br />
+                <br />
+                <p>Events to be announced!</p>
             </div>
             
             <div className={styles.schedule}>
                 <table className="table">
                     <thead>
                         <tr>
-                        <th>Monday <br/>(5/15)</th>
-                        <th>Tuesday <br/>(5/16)</th>
-                        <th>Wednesday <br/>(5/17)</th>
-                        <th>Thursday <br/>(5/18)</th>
-                        <th>Friday <br/>(5/19)</th>
+                        <th>Monday <br/>(5/13)</th>
+                        <th>Tuesday <br/>(5/14)</th>
+                        <th>Wednesday <br/>(5/15)</th>
+                        <th>Thursday <br/>(5/16)</th>
+                        <th>Friday <br/>(5/17)</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            {EventsData["row1"].map((event, ind) => <Event {...event}  key={ind}/>)}
+                            {/* {EventsData["row1"].map((event, ind) => <Event {...event}  key={ind}/>)} */}
                         </tr>
                         <tr>
-                            {EventsData["row2"].map((event, ind) => <Event {...event}  key={ind}/>)}
+                            {/* {EventsData["row2"].map((event, ind) => <Event {...event}  key={ind}/>)} */}
                         </tr>
                         <tr>
-                            {EventsData["row3"].map((event, ind) => <Event {...event}  key={ind}/>)}
+                            {/* {EventsData["row3"].map((event, ind) => <Event {...event}  key={ind}/>)} */}
                         </tr>
                     </tbody>
                 </table>
             </div>
             
             <div className={styles.sponsorSection}>
-                <h2>
+                {/* <h2>
                     Thank You to Our Sponsors
                 </h2>
                 <div className={styles.sponsorContainer}>
@@ -145,7 +148,7 @@ export default function ICSWeek() {
                         />
                     </a>
                     
-                </div>  
+                </div>   */}
             </div>
 
             <div style={{textAlign:"center"}}>

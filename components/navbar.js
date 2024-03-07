@@ -15,10 +15,10 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="collapsable-navbar" />
             <Navbar.Collapse id="collapsable-navbar">
                 <Nav className="ml-auto mt2 mt-lg-0">
-                    {/* <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0">
+                    <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0 nav-unique-element">
                         <Nav.Link href="/ics-week">ICS Week</Nav.Link>
                     </Nav.Item>
-                    <NavDropdown title="Election" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0 nav-unique-element" >
+                    {/* <NavDropdown title="Election" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0 nav-unique-element" >
                         <NavDropdown.Item href="/election">Election</NavDropdown.Item>
                         <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
                     </NavDropdown> */}
