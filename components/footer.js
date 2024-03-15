@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-8 text-center text-md-left mb-3 mb-md-0">
-            <small className="text-white">&copy; 2023 ICSSC. All Rights Reserved.</small>
+            <small className="text-white">&copy; 2024 ICSSC. All Rights Reserved.</small>
           </div>
 
           <div className="col-md-4 align-self-center">
