@@ -1,4 +1,4 @@
-import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import styles from "/styles/Election.module.scss";
 
 
@@ -7,8 +7,8 @@ export default function Election() {
     <>
     <Container>
       <div className={styles.section}>
-        <h1>'23-'24 Executive Board Elections</h1>
-        {/* Voting Form:  https://bit.ly/ICSSC23-24Voting*/}
+        <h1>'24-'25 Executive Board Elections</h1>
+        {/* Voting Form:  https://icssc.link/election-candidacy-declaration */}
         <img 
           src="/assets/img/graphics/anteater_election.png"
           alt="Anteater on Podium"
@@ -16,20 +16,21 @@ export default function Election() {
           width="300px"
           style={{marginTop:"-3rem", marginBottom:"-3rem"}}
         />
-        <div className={styles.oneContainer}>
+        {/* <div className={styles.oneContainer}>
           <b>Election has ended! Thank you to everyone who voted! </b>
           <p>
             <u>President</u>: Kirby Ammari & Rithvij Pochampally <br/>
             <u>Internal Vice President</u>: Taylor Quach <br/>
             <u>External Vice President</u>: Rebecca Ahn <br/>
           </p>
-        </div>
+        </div> */}
 
-        {/* <div className={styles.oneContainer}>
-          <b>Candidate declarations begin on Week 1, Monday and close on Friday at 11:59 PM.</b>
+        <div className={styles.oneContainer}>
+          {/* <b>Candidate declarations begin on Week 1, Monday and close on Friday at 11:59 PM.</b> */}
+          <b>Applications for candidacy have started and will close on Friday at 11:59 PM.</b>
           <p>Note: Other board positions will be filled through application later in the quarter.<br/>Learn more about the roles through our <a target="_blank" rel="noreferrer" href="https://docs.google.com/document/u/1/d/e/2PACX-1vTP7A3qVqX3ZXJ44WT7x4vhUsOWGBQMCenB4Ls76rUsJURfz8bJl0UIITJyKZWQJ-3-m7BB8RMKzvxB/pub">
             constitution</a>.</p>
-        </div> */}
+        </div>
 
         <div className={styles.oneContainer}>
           <div>
@@ -53,7 +54,7 @@ export default function Election() {
               <p>In charge of communications with ICS clubs and the consortium.</p>
             </div>
           </div>
-          <a target="_blank" rel="noreferrer" href="https://bit.ly/ICSSC23-24Declarations">
+          <a target="_blank" rel="noreferrer" href="https://icssc.link/election-candidacy-declaration">
           <button className='pinkButton' style={{marginTop: "25px"}} type="button">Candidacy Form</button></a>
         </div>
       </div>

@@ -43,10 +43,16 @@ function ProjectDisplay(props) {
 export default function Home() {
   return (
     <>
-      {/* <Alert key={'info'} variant={'info'}>
-        Election results are out! Click{' '}
-        <Alert.Link href="/election">here</Alert.Link> to see our elected executive board.
-      </Alert> */}
+      <Alert key={'info'} variant={'info'}>
+        Candidate Delcarations have begun! Click{' '}
+        <Alert.Link href="/election">here</Alert.Link> to learn more.
+
+        {/* Candidate Declarations are out! Click{' '}
+        <Alert.Link href="/candidates">here</Alert.Link> to learn more. */}
+        
+        {/* Election results are out! Click{' '}
+        <Alert.Link href="/election">here</Alert.Link> to see our elected executive board. */}
+      </Alert>
       {/* Hero Banner */}
       <div className={`${styles.heroBanner}`}>
         <div className={`${styles.heroGrid}`}>
