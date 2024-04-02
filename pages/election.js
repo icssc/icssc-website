@@ -70,7 +70,7 @@ export default function Election() {
           <div className={`${styles.container} ${styles.right}`}>
             <div className={styles.content}>
               <h2>Week 2</h2>
-              <p>All ICS Student Council Elections Declared Candidates must attend ICS Student Council’s Meeting on Wednesday (4/12/2023) at 7:00-8:00 PM in DBH 6011. ICSSC Declared Candidates are allowed to give a 2–3-minute introductory speech about themselves and their qualifications for their applicable position. The voting period will begin after all the speeches have finished.</p>
+              <p>All ICS Student Council Elections Declared Candidates must attend ICS Student Council’s Meeting on Wednesday (4/10/2024) at 7:00-8:00 PM in DBH 6011. ICSSC Declared Candidates are allowed to give a 2–3-minute introductory speech about themselves and their qualifications for their applicable position. The voting period will begin after all the speeches have finished.</p>
             </div>
           </div>
           <div className={`${styles.container} ${styles.left}`}>
