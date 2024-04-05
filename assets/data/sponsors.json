@@ -1,30 +1,9 @@
 [
     {
-        "id": "deloitte",
-        "name": "Deloitte",
-        "logo": "/assets/img/sponsors/deloitte-logo.png",
-        "link": "https://www2.deloitte.com/us/en.html",
-        "description": "Deloitte drives progress. Our firms around the world help clients become leaders wherever they choose to compete. Deloitte invests in outstanding people of diverse talents and backgrounds and empowers them to achieve more than they could elsewhere. Our work combines advice with action and integrity. We believe that when our clients and society are stronger, so are we."
-    },
-    {
-        "id": "neudesic",
-        "name": "Neudesic",
-        "logo": "/assets/img/sponsors/neudesic-logo.png",
-        "link": "https://www.neudesic.com/",
-        "description": "Neudesic is the trusted technology partner in business innovation, delivering impactful business results to clients through digital modernization and evolution. Founded in 2002, Neudesic is a privately held company headquartered in Irvine, California, and serves clients globally from offices in the United States and India."
-    },
-    {
-        "id": "wolfram",
-        "name": "Wolfram",
-        "logo": "/assets/img/sponsors/wolframlogo2.png",
-        "link": "https://www.wolfram.com/company/",
-        "description": "Founded by Stephen Wolfram in 1987, Wolfram Research is one of the world's most respected computer, web and cloud software companies—as well as a powerhouse of scientific and technical innovation. As a pioneer in computation and computational knowledge, we have pursued a long-term vision to develop the science, technology and tools to make computation an ever-more-potent force in today's and tomorrow's world."
-    },
-    {
-        "id": "ardent",
-        "name": "Ardent Labs",
-        "logo": "/assets/img/sponsors/ardent-labs-logo.png",
-        "link": "https://www.ardentlabs.io/",
-        "description": "Ardent Labs' team of entrepreneurs develop business ideas in learning science and technology. The minimum viable product (MVP) of these ideas are quickly developed and tested to get feedback and market validation. Successful MVPs will receive seed funding to fully develop the app. The most promising ones get spun-off as independent companies by the lead entrepreneur(s) from the lab upon receiving venture funding."
+        "id": "glub",
+        "name": "Glub Inc.",
+        "logo": "/assets/img/sponsors/Glub_Gradient.png",
+        "link": "https://www.glub.xyz/ ",
+        "description": "Glub is a group social platform where your group's adventures come to life. Express your group's unique vibe through Glub. And revisit your group's most memorable moments with our weekly recap! More than an app, Glub is a vibrant way of life — join now and start crafting your unforgettable Glub story!"
     }
 ]
