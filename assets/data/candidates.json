@@ -1,48 +1,40 @@
 {
   "president": [
     {
-      "name": "Kirby Ammari",
-      "src": "/assets/img/candidates/kirby.JPG",
-      "email": "kammari@uci.edu",
-      "year": "2",
+      "name": "Taylor Quach",
+      "src": "/assets/img/candidates/cand_tayl.jpg",
+      "email": "taylorq1@uci.edu",
+      "year": "3",
       "major": "Computer Science",
-      "statement": "Hey everyone! I’m Kirby Ammari, a 2nd-year Computer Science major running for ICSSC’s executive board as a Co-President! I have been a member of ICSSC for 2 years, initially as a Corporate Committee member and now as the Corporate Chair. I’ve also been a logistics organizer for Hack at UCI for a year now, helping with Zothacks, Hack@UCI, and VenusHacks. Through these positions, I’ve gained experience working with and for multiple teams, organizing large events, and building corporate relationships. As a Co-President, I hope to make ICSSC a community for all students to develop their passions and build meaningful relationships at UCI!"
+      "statement": "Hello, everyone! My name is Taylor Quach, and I am currently a third-year Computer Science Major running for Co-President of ICSSC! As a part of ICSSC, I have had the opportunity to serve as a Public Relations Committee Member, Public Relations Chair, and I currently hold the position of Internal Vice President. In addition to my roles within ICSSC, I have also been involved in VenusHacks as a marketing and corporate organizer. Through these experiences, I have organized numerous large events, facilitated communication with companies and various UCI offices, and expanded media outreach within the ICS community. Over the past three years, I have learned the importance of creating a community that allows everyone to grow together socially, academically, and professionally which is something that I want to make sure persists for many years to come!"
     },
     {
-      "name": "Rithvij Pochampally",
-      "src": "/assets/img/candidates/rithvij.jpg",
-      "email": "rpochamp@uci.edu",
-      "year": "2",
+      "name": "Meenakshi Mynampati",
+      "src": "/assets/img/candidates/cand_meen.jpg",
+      "email": "mmynampa@uci.edu",
+      "year": "3",
       "major": "Computer Science",
-      "statement": "Hey y’all! I’m Rithvij Pochampally, a 2nd year Computer Science major running to be next year’s ICSSC’s Co-President. I have been a part of ICSSC for the past 2 years, first as an Events Committee Member and now a Co-Chair for Events Committee. Through ICSSC, I have taken opportunities to grow both academically and socially, meeting numerous friends and colleagues in the process. Being a Co-Chair for Events Committee showed me how much I love to help lead others to create events that help the ICS community. As a Co-President, I’d love to continue this passion of mine and help lead ICSSC in creating a place that people want to take part in!"
+      "statement": "Hi! I'm Meena Mynampati, a 3rd year CS major, running with Taylor Quach for ICSSC Co-president! I've been the Academic and Alumni Affairs chair for the last two years, and was a member of the committee the year before that. I was also Logistics director for my acapella group, and I'm currently an organizer on VenusHack's corporate committee. Having been in ICSSC since my freshman year, I'm so so thankful to have found such a fun and supportive community, and as co-president I would love to continue that legacy!"
     }
   ],
   "ivp": [
     {
-      "name": "Taylor Quach",
-      "src": "/assets/img/candidates/taylor.jpg",
-      "email": "taylorq1@uci.edu",
+      "name": "Jeffrey Meng",
+      "src": "/assets/img/candidates/cand_jeff.jpeg",
+      "email": "jkm@uci.edu",
       "year": "2",
       "major": "Computer Science",
-      "statement": "Hi everyone! My name is Taylor Quach and I am currently a 2nd year Computer Science Major. Within ICSSC, I am the Public Relations Committee Chair as well as a mentor in our Bits and Bytes program. As Internal Vice President, I want to encourage both our current members and new and upcoming members to form relations and gain meaningful connections within ICSSC. This past year, I have been responsible for ICSSC's social media presence and keeping members informed of all upcoming opportunities and events. My experience with coordinating with committee members as well as the ICS Student Affairs Office will aid me in coordinating internal socials and multiple avenues for our members to make new friends across committees. If given the opportunity, I would love to make a greater difference within ICSSC and encourage more chances to meet others within the organization."
+      "statement": "Hey Everyone! I'm Jeffrey Meng, and I'm currently a second year CS major and the Events Committee Co-Chair of ICSSC. This is my second year as part of ICSSC, and I've really enjoyed getting to meet a bunch of people both within ICSSC and as part of the broader ICS community! I envision ICSSC as a place where our current and new internal members can build meaningful connections with our large internal community, full of people with diverse talents and backgrounds. My goal as IVP will be to greatly strengthen our internal community through a variety of both internal events and other measures to create opportunities for members to interact! In doing so, I also think we'll be able to create new ways for ICSSC to collaborate in better serving the UCI ICS community as a whole."
     }
   ],
   "evp": [
     {
-      "name": "Rebecca Ahn",
-      "src": "/assets/img/board/RebeccaAhn.png",
-      "email": "rebeca2@uci.edu",
+      "name": "Aaditya Borse",
+      "src": "/assets/img/candidates/cand_adi.jpg",
+      "email": "borsea@uci.edu",
       "year": "2",
       "major": "Computer Science",
-      "statement": "Hello, my name is Rebecca Ahn, and I'm currently the Events Committee Co-Chair of ICSSC. You may recognize me if you participated in WebJam, Brain Games, and/or weekly events; if not, I hope to meet you at a future event! When directing our big events from the past two quarters, I had the pleasure of working with other ICS clubs. So, I would love to continue the responsibility of actively interacting with all the ICS clubs and organizations, such as creating more inter-ICS club events, throughout next school year."
-    },
-    {
-      "name": "Meenakshi Mynampati",
-      "src": "/assets/img/candidates/meena.jpg",
-      "email": "mmynampa@uci.edu",
-      "year": "2",
-      "major": "ICS Undeclared, plan on declaring either CS or Informatics",
-      "statement": "Hi! My name is Meena Mynampati, and I'm running for EVP this upcoming year! I believe that I am a good fit for this position because it is very people-facing, and I really enjoy getting to meet and work with new people and groups! In terms of past experience, my position as Academic and Alumni Affairs Chair, as well as my position as Logistics coordinator for my acappella group, prove that I am a good communicator and team player. If I am elected, I would like to collaborate more with the other ICS clubs on campus, perhaps doing more socials or networking events with them! "
+      "statement": "Hi! My name is Aaditya Borse and I'm a second year C.S. major at UCI! I am currently the Corporate Chairman at ICSSC and am excited to run for EVP to help our club expand and grow. Networking with other organizations at UCI and other universities is something I want to prioritize to continue ICSSC's mission of supporting the ICS community. Outside of school, I love trying new boba shops and watching sports."
     }
   ]
 }
