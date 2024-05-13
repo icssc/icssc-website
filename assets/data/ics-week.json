@@ -1,67 +1,77 @@
 {
   "row1": [
     {
-      "club": "WICS x CTC",
-      "name": "Git Workshop",
-      "time": "6:30 - 8 PM",
-      "desc": "Always hear people use Git for their projects but don’t know exactly what that is? 🤨 Look no further! 😍 WICS is collaborating with CTC for a Git workshop where you will learn the essentials of version control which you can use in your next project. 🙌 Join us on 5/15/23 from 6:30 - 8:00 pm in DBH 6011 and don’t forget to RSVP! Looking forward to seeing you all there! Please come prepared with your favorite IDE, a GitHub account, and git downloaded on your laptop :)",
-      "location": "DBH 6011",
+      "club": "Video Game Development Club",
+      "name": "Playtesting Night",
+      "time": "5 - 6 PM",
+      "desc": "",
+      "location": "DBH 5011",
       "rsvp": "",
-      "img": "/assets/img/ics-week/wicsctc.jpg",
+      "img": "",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
-      "club":"VGDC @ UCI",
-      "name": "Game Board Workshop",
-      "time": "1 - 2 PM",
-      "desc": "If you want more from ICS week, stop by for our Game Board Workshop on May 16th at the DBH 1412 from 1 to 2pm! We are also boothing for ICS Fair later this week on May 19th as well! See you there!",
-      "location": "DBH 1412",
+      "club":"Blockchain @ UCI",
+      "name": "Blockchain Wallets in Your Web App Workshop",
+      "time": "3:30 PM",
+      "desc": "",
+      "location": "ISEB 1310",
       "rsvp": "",
-      "img": "/assets/img/ics-week/vgdc.jpg",
+      "img": "",
+      "location_link": "https://maps.app.goo.gl/4ffpb5HopZM96Swr7"
+    },
+    {
+      "club": "ICSSC",
+      "name": "Musical Madness",
+      "time": "7 - 8 PM",
+      "desc": "What if we ended up doing type type revolution on the 15th in order to get away from midterm stress 👉👈??? Or maybe we guessed songs in DBH 4011 together during ICS Week 🥺❤️‍🔥 ?? Dont be shy and join the fun in ICSSC's Musical Madness x Type Type Revolution event during ICS Week, and see if you can win 🏆",
+      "location": "DBH 4011",
+      "rsvp": "https://docs.google.com/forms/d/e/1FAIpQLSd3tKklRNvaSUwjopterPqpd6J1M10rZpU91l7wNcCNjWPmvg/viewform",
+      "img": "/assets/img/ics-week/icssc_event.jpg",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
-      "club": "Uber",
-      "name": "Info-Session",
-      "time": "12 - 1 PM",
-      "desc": "Are you interested in learning about one of the world's largest ride-sharing companies? Join us for an Uber Info Session at UCI, where you'll hear from Uber representatives and learn about the opportunities available at Uber! Don't miss out on this chance to learn more and get started on your Uber journey!",
-      "location": "ONLINE",
+      "club": "Commit the Change",
+      "name": "ICS Trivia Night",
+      "time": "6 - 7 PM",
+      "desc": "",
+      "location": "DBH 1300",
       "rsvp": "",
-      "img": "/assets/img/sponsors/uber.png",
-      "location_link": ""
-    },
-    {
-      "club": "Data @ UCI",
-      "name": "Intro to Data Engineering Workshop",
-      "time": "6:30 - 7:30 PM",
-      "desc": "You've heard of Data Science, Data Analytics, but what is Data Engineering? 🤔 Come learn about the field of Data Engineering with a previous panelist, Jacob Emerson, on Thursday 10/18 at ISEB 1200!! Jacob, a Data Engineer ⚙️ at Pacific Life will take you through the purpose and processes of Data Engineering and will also demonstrate a fun demo for a special insight. See you there! 📊",
-      "location": "ISEB 1200",
-      "rsvp": "https://docs.google.com/forms/d/e/1FAIpQLSeuOw78zm0_22kcL2ivEP9RbiW_4uM3e3RPP2x-yR7Lj7C44w/viewform",
-      "img": "/assets/img/ics-week/data.jpg",
-      "location_link": "https://goo.gl/maps/FRDh8rsRNQSWJZyN9"
+      "img": "",
+      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
       "club": "",
       "name": "ICS Fair",
       "time": "10 AM - 2 PM",
-      "desc": "The carnival is coming to town! Get ready for ICS Fair🎠🎡🎪! ICS Fair is the culmination of a week long celebration of ICS events! We're featuring booths from all ICS-affiliated organizations, and different activities dedicated to ICS students! Join us in playing carnival games, winning prizes, and checking out all of the booths! There will be free snacks, stickers and shirts!",
+      "desc": "Are YOU 🫵 READY FOR THE BIGGEST ICS EVENT OF THE QUARTER!!! join the whole ICS crew for ICS WEEK! Starting on the 13th, join us on a fun filled safari 🦜 themed adventure, with the chance to join a raffle! Then on the 17th come to the Engineering Gateway for our annual ICS Fair 🎡!!",
       "location": "Engineering Gateway",
       "rsvp": "",
-      "img": "/assets/img/ics-week/icssc.jpg",
+      "img": "/assets/img/ics-week/fair.jpg",
       "location_link": "https://goo.gl/maps/MpgvkZmAPADX8F1F9"
     }
   ],
 
   "row2": [
     {
-      "club": "Design at UCI",
-      "name": "Zine-Making Potluck",
-      "time": "8 - 9 PM",
-      "desc": "Are you looking for a fun art or design project to add to your portfolio? Come join us for a zine-making social! Please fill out the RSVP form if you plan on attending. This social will also be a potluck, so please state what item you will be bringing on the RSVP form as well! . Any contribution is greatly appreciated! We hope to see you there 🤩",
-      "location": "SSL 228",
+      "club": "",
+      "name": "",
+      "time": "",
+      "desc": "",
+      "location": "",
       "rsvp": "",
-      "img": "/assets/img/ics-week/design.jpg",
-      "location_link": "https://goo.gl/maps/uzf5mZpvcTqKDELu5"
+      "img": "",
+      "location_link": ""
+    },
+    {
+      "club": "Data @ UCI",
+      "name": "AI/ML Panel",
+      "time": "6:30 - 7:30 PM",
+      "desc": "Discover the cutting-edge world of AI and machine learning with Data@UCI’s upcoming event! Dive into the latest research, learn from distinguished researchers about opportunities to explore the endless possibilities of AI and ML!",
+      "location": "DBH 6011",
+      "rsvp": "",
+      "img": "/assets/img/ics-week/data.jpg",
+      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
     {
       "club": "",
@@ -74,22 +84,12 @@
       "location_link": ""
     },
     {
-      "club": "ICSSC",
-      "name": "Type Type Revolution",
-      "time": "7 - 8 PM",
-      "desc": "So you think you can type?? Come to ICSSC’s Type Type Revolution competition, where you can show off your mad typing skills and lyrical abilities. Come to DBH 6011 at 7pm on Wednesday, May 17th to type your heart out! The top three competitors will be winning some super cool prizes, so make sure to RSVP to compete!",
+      "club": "WICS X Hack @ UCI",
+      "name": "Hacker Hangout: Brainstorming Big IDeas",
+      "time": "6:30 PM - 8 PM",
+      "desc": "Do you want to do a hackathon but find yourself intimidated and unsure of what to expect? Join us on Monday, May 13 at 6:30 PM - 8 PM in DBH 6011 for our WICS x Hack@UCI to practice brainstorming for hackathons and also talk to those who have done hackathons to hear more about it. Come with questions and leave ready to participate in your first hackathon!",
       "location": "DBH 6011",
-      "rsvp": "",
-      "img": "/assets/img/ics-week/icssc.png",
-      "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
-    },
-    {
-      "club": "Hack @ UCI",
-      "name": "HackNights Competition",
-      "time": "7 - 9 PM",
-      "desc": "👨‍💻👩‍💻 Get ready to code without the stress! HackNights is back 🔙 and this time, as a competitive mini-hackathon 🏆 Come develop a project based on a surprise prompt 👀 and compete for the chance to win Google Home Minis 🤩 If you’re tired from competitive coding, feel free to meet new people, work on your homework or other projects, or chill and relax with us 😎 Snacks and drinks 🍫🥤 will also be provided throughout the event, so stop by for a good time to destress! 🧘",
-      "location": "DBH 6011",
-      "rsvp": "https://tinyurl.com/hacknights-competition",
+      "rsvp": "https://docs.google.com/forms/d/e/1FAIpQLScAulTyiTC0Q3ENc0E8swIQB4NmwgfXE3xNeP1RTrK_Vo_nCQ/viewform",
       "img": "/assets/img/ics-week/hack.jpg",
       "location_link": "https://goo.gl/maps/KEqptt9wDw18MKsv8"
     },
