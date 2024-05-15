@@ -185,6 +185,10 @@
     margin: 2rem;
 }
 
+.elementListItem a img{
+    object-fit: contain;
+}
+
 /* Extra small devices (phones, 380px and down) */
 @media only screen and (max-width: 380px) {
     .heroTitle {font-size: calc(1em + 1vmax);}

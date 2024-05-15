@@ -1,19 +1,19 @@
 import Sponsors from '../assets/data/sponsors.json'
-import { Col, Row, Button, Carousel, Alert } from 'react-bootstrap';
+import { Col, Row, Carousel, Alert } from 'react-bootstrap';
 import EventsData from '../assets/data/events.json';
 import ProjectsData from '../assets/data/projects.json';
 
 import styles from '/styles/Index.module.scss';
 
 function SponsorLogo(props) {
-  const { id, logo, name } = props;
+  const { id, logo, link, name } = props;
   return (
     <div className={`${styles.elementListItem}`}>
-      <a href={`sponsors.html#${id}`}>
+      <a href={link} rel="noreferrer" target="_blank">
         <img 
           src={logo} 
           alt={`${name} Logo`}
-          height="auto"
+          height="110px"
           width="300px"
         />
       </a>
@@ -142,14 +142,13 @@ export default function Home() {
             <p>
             Thanks to the help of our sponsors, ICSSC continues to fulfill our mission of supporting students when they seek for exceptional opportunities at the University of California, Irvine.
             </p>
+            <div className={`${styles.elementList}`}>
+              {Sponsors.map(sponsor => <SponsorLogo {...sponsor} key={sponsor.id}/>)}
+            </div>
             <p><a href="/sponsors">See All Sponsors ></a></p>
             </Col>
         </Row>
-
-        {/* As of 2022-2023 we do not have any sponsors to display */}
-        {/* <div className={`${styles.elementList}`}>
-              {Sponsors.map(sponsor => <SponsorLogo {...sponsor} key={sponsor.id}/>)}
-        </div> */}
+        
       </div>
 
       {/* Footer Graphic */}

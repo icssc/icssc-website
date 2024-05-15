@@ -5,5 +5,19 @@
         "logo": "/assets/img/sponsors/Glub_Gradient.png",
         "link": "https://www.glub.xyz/ ",
         "description": "Glub is a group social platform where your group's adventures come to life. Express your group's unique vibe through Glub. And revisit your group's most memorable moments with our weekly recap! More than an app, Glub is a vibrant way of life — join now and start crafting your unforgettable Glub story!"
+    },
+    {
+        "id": "np",
+        "name": "Northrop Grumman",
+        "logo": "/assets/img/sponsors/logo-np.png",
+        "link": "https://www.northropgrumman.com/",
+        "description": "Northrop Grumman, a global leader in aerospace, defense, and security, partners with organizations like ours to drive innovation and advance technology. Their unwavering commitment to excellence, cutting-edge solutions, and mission-critical work sets them apart. As our valued sponsor, Northrop Grumman empowers us to achieve our goals and make a lasting impact."
+    },
+    {
+        "id": "obsidian",
+        "name": "Obsidian Entertainment",
+        "logo": "/assets/img/sponsors/obsidian.webp",
+        "link": "https://www.obsidian.net/",
+        "description": "Obsidian, a renowned video game developer based in Irvine, crafts immersive worlds, epic quests, and unforgettable characters. From Star Wars: Knights of the Old Republic II to Fallout: New Vegas, their legacy of storytelling excellence shines through. Proudly sponsored by Obsidian, we’re leveling up together!"
     }
 ]

@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import SponsorsData from '../assets/data/sponsors.json';
+import SponsorsData from '../../assets/data/sponsors.json';
 
 function Sponsor(props) {
   const {id, name, description, link, logo} = props;
@@ -8,7 +8,7 @@ function Sponsor(props) {
     <div id={id}>
       <>
         <Row className="mb-5">
-          <Col lg={6} className='align-self-center text-centerS'>
+          <Col lg={6} className='align-self-center text-center'>
             <a href={link}>
               <img 
                 src={logo}
@@ -33,7 +33,7 @@ function Sponsor(props) {
 
 export default function Sponsors() {
   return (
-    <Container style={{height:"calc(80vh)"}}>
+    <Container style={{minHeight:"calc(80vh)"}}>
       <div className="banner">
         <h1>Sponsors</h1>
       </div>
