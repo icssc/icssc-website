@@ -6,10 +6,10 @@ import ProjectsData from '../assets/data/projects.json';
 import styles from '/styles/Index.module.scss';
 
 function SponsorLogo(props) {
-  const { id, logo, link, name } = props;
+  const { id, logo, link, name, isPremium } = props;
   return (
     <div className={`${styles.elementListItem}`}>
-      <a href={link} rel="noreferrer" target="_blank">
+      <a href={isPremium ? `sponsors/${id}` : link} rel="noreferrer" target="_blank">
         <img 
           src={logo} 
           alt={`${name} Logo`}

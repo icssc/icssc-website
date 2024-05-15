@@ -2,14 +2,14 @@ import { Col, Container, Row } from "react-bootstrap";
 import SponsorsData from '../../assets/data/sponsors.json';
 
 function Sponsor(props) {
-  const {id, name, description, link, logo} = props;
+  const {id, name, description, isPremium, link, logo} = props;
 
   return (
     <div id={id}>
       <>
         <Row className="mb-5">
           <Col lg={6} className='align-self-center text-center'>
-            <a href={link}>
+            <a href={isPremium ? `sponsors/${id}` : link}>
               <img 
                 src={logo}
                 alt={`${name} logo`}
