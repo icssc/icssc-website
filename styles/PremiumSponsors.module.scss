@@ -1,0 +1,55 @@
+.title {
+  margin: 2rem 0;
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.company {
+  margin-bottom: 4rem;
+}
+
+ .company p {
+  max-width: 800px;
+  display: inline;
+  vertical-align: middle;
+  font-size: 1.4rem;
+
+}
+
+.company .logoContainer img {
+  width: 90vw;
+  max-height: 200px;
+  max-width: 600px;
+  display: block;
+  margin-top: 20px;
+
+}
+
+.company .logoContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.company .bodyImage {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+
+}
+
+.company .visitLink {
+  display: block;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background-color: gainsboro;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+}
+
+.company .visitLink:hover {
+  text-decoration: none;
+}
