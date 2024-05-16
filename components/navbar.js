@@ -30,19 +30,22 @@ export default function NavBar() {
                         <NavDropdown.Divider />
                         <NavDropdown.Item href="/get-involved">Join Us</NavDropdown.Item>
                     </NavDropdown>
-                    {/* <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0">
+                    <Nav.Item title="Events" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/events">Events</Nav.Link>
-                    </Nav.Item> */}
-                    <NavDropdown title="Events" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0" >
+                    </Nav.Item>
+                    {/* <NavDropdown title="Events" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0" >
                         <NavDropdown.Item href="/events">Our Events</NavDropdown.Item>
                         <NavDropdown.Item href="/ics-week">ICS Week</NavDropdown.Item>
-                    </NavDropdown>
+                    </NavDropdown> */}
                     <Nav.Item title="Projects" className="mr-4 mb-2 mb-lg-0">
                         <Nav.Link href="/projects">Projects</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item title="Sponsors" className="mr-4 mb-2 mb-lg-0">
-                        <Nav.Link href="/sponsors">Sponsors</Nav.Link>
-                    </Nav.Item>
+                    <NavDropdown title="Sponsors" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0" >
+                        <NavDropdown.Item href="/sponsors/glub-inc">Glub Inc.</NavDropdown.Item>
+                        <NavDropdown.Item href="/sponsors/northrup-grumman">Northrup Grumman</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="/sponsors">All Sponsors</NavDropdown.Item>
+                    </NavDropdown>
                     {/* <NavDropdown title='Election' id='election-dropdown' className="mr-4 mb-2 mb-lg-0">
                         <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
                         <NavDropdown.Item href="">Vote!</NavDropdown.Item>

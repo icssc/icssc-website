@@ -1,6 +1,7 @@
 import EventsData from '../assets/data/ics-week.json';
 import { Container, Modal, Button } from 'react-bootstrap';
 import React, { useState } from 'react';
+import SponsorsData from '../assets/data/sponsors.json';
 
 import styles from '/styles/ICSWeek.module.scss';
 
@@ -120,35 +121,26 @@ export default function ICSWeek() {
             </div>
             
             <div className={styles.sponsorSection}>
-                {/* <h2>
+                <h2>
                     Thank You to Our Sponsors
                 </h2>
                 <div className={styles.sponsorContainer}>
-                    <a
-                        href= "https://mule.to/p3z8"
-                        title=""
-                        target="_blank"
-                        rel="noreferrer"
+                    {SponsorsData.map((sponsor, index) => (
+                        <a
+                            key={index}
+                            href={sponsor.link}
+                            title={sponsor.name}
+                            target="_blank"
+                            rel="noreferrer"
                         >
-                        <img 
-                            src='/assets/img/sponsors/sticker-mule-logo-light.png'
-                            alt="Sticker Mule"
-                        />
-                    </a>
-
-                    <a
-                        href= "https://www.uber.com/"
-                        title=""
-                        target="_blank"
-                        rel="noreferrer"
-                        >
-                        <img 
-                            src='/assets/img/sponsors/uber.png'
-                            alt="Uber"
-                        />
-                    </a>
+                            <img 
+                                src={sponsor.logo}
+                                alt={sponsor.name}
+                            />
+                        </a>
+                    ))}
                     
-                </div>   */}
+                </div>  
             </div>
 
             <div style={{textAlign:"center"}}>
