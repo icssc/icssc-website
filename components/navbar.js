@@ -44,7 +44,7 @@ export default function NavBar() {
                         <NavDropdown.Item href="/sponsors/glub-inc">Glub Inc.</NavDropdown.Item>
                         <NavDropdown.Item href="/sponsors/northrup-grumman">Northrup Grumman</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/sponsors">All Sponsors</NavDropdown.Item>
+                        <NavDropdown.Item href="/sponsors/all">All Sponsors</NavDropdown.Item>
                     </NavDropdown>
                     {/* <NavDropdown title='Election' id='election-dropdown' className="mr-4 mb-2 mb-lg-0">
                         <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
