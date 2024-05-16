@@ -1,0 +1,61 @@
+[
+  {
+    "img": "/assets/img/humans-of-ics/2021-2022/nathan_nguyen.jpeg",
+    "name": "Nathan Nguyen",
+    "date": "January 2022",
+    "desc": "Read more about Nathan’s passion to help others through pursuing Informatics, victory in placing 3rd at ZotHacks, and experience as a top 1% autochess player",
+    "year": "2nd",
+    "major": "",
+    "src": "/humans-of-ics/2021-2022/nathan-nguyen"
+  },
+
+  {
+    "img": "/assets/img/humans-of-ics/2021-2022/sebastian_carbajal.jpg",
+    "name": "Sebastian Carbajal",
+    "date": "February 2022",
+    "desc": "Today we have Sebastian Carbajal! We hope you enjoy reading about Sebastian and his experience as an upcoming video game developer, Brazilian Jiu Jitsu debut, and epic Minecraft speed-bridging skills!",
+    "year":"3rd",
+    "major": "Game Design and Interactive Media",
+    "src": ""
+  },
+
+  {
+    "img": "/assets/img/humans-of-ics/2021-2022/kevin_xu.png",
+    "name": "Kevin Xu",
+    "date": "March 2022",
+    "desc": "Read more about Kevin's experience as computer engineer and his hackathon experiences!",
+    "year":"",
+    "major": "",
+    "src": ""
+  },
+
+  {
+    "img": "/assets/img/humans-of-ics/2021-2022/ellise_limjoco.jpeg",
+    "name": "Ellise Limjoco",
+    "date": "April 2022",
+    "desc": "Read more about Ellise's experience coordinating fundraisers through Fusion at UCI, managing hackathons as the logistics co-director for Hack at UCI, and helping professors run virtual courses on Minecraft!",
+    "year":"",
+    "major": "",
+    "src": ""
+  },
+
+  {
+    "img": "/assets/img/humans-of-ics/2021-2022/erick_gutierrez.jpg",
+    "name": "Erick Gutierrez",
+    "date": "April 2022",
+    "desc": " Read more about Erick's passions regarding music, board games, and quesadillas!",
+    "year":"",
+    "major": "",
+    "src": ""
+  },
+
+  {
+    "img": "/assets/img/humans-of-ics/2021-2022/patrick-nguyen.jpg",
+    "name": "Patrick Nguyen",
+    "date": "June 2022",
+    "desc": "Hear more about Patrick's experiences with ICSSC & ZotBins, and his passions regarding fried chicken, the BTS Meal, and embedded systems!",
+    "year":"",
+    "major": "",
+    "src": ""
+  }
+]

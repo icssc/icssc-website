@@ -25,6 +25,7 @@ export default function NavBar() {
                     <Nav.Link className="nav-unique-element pr-4 mr-4 mb-2 mb-lg-0" href="/election">Election</Nav.Link>
                     <NavDropdown title="About" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0" >
                         <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
+                        <NavDropdown.Item href="/humans-of-ics/home">Humans of ICS</NavDropdown.Item>
                         <NavDropdown.Item href="/committees">Committees</NavDropdown.Item>
                         <NavDropdown.Item href="/board">Board</NavDropdown.Item>
                         <NavDropdown.Divider />
