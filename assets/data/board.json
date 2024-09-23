@@ -1,98 +1,104 @@
 [
     {
-        "name": "Kirby Ammari", 
-        "position": "Co-President",
-        "email": "kammari@uci.edu",
-        "image": "/assets/img/board/KirbyAmmari.png"
-    },
-    {
-        "name": "Rithvij Pochampally",
-        "position": "Co-President",
-        "email": "rpochamp@uci.edu",
-        "image": "/assets/img/board/RithvijPochampally.png"
-    },
-    {
         "name": "Taylor Quach",
-        "position": "Internal Vice President",
+        "position": "Co-President",
         "email": "taylorq1@uci.edu",
-        "image": "/assets/img/board/TaylorQuach.png"
+        "image": "/assets/img/board/taylor-quach.jpg"
     },
     {
-        "name": "Rebecca Ahn",
-        "position": "External Vice President",
-        "email": "rebeca2@uci.edu",
-        "image": "/assets/img/board/RebeccaAhn.png"
-    },
-    {
-        "name": "Adhiti Chandramohan",
-        "position": "Public Relations Chair",
-        "email": "adhitic@uci.edu",
-        "image": "/assets/img/board/adihiti.jpg"
+        "name": "Meenakshi Mynampati",
+        "position": "Co-President",
+        "email": "mmynampa@uci.edu",
+        "image": "/assets/img/board/meenakshi-mynampati.jpg"
     },
     {
         "name": "Jeffrey Meng",
-        "position": "Events Co-Chair",
+        "position": "Internal Vice President",
         "email": "jkm@uci.edu",
-        "image": "/assets/img/board/jeffrey.jpg"
+        "image": "/assets/img/board/jeffrey-meng.jpg"
     },
     {
-        "name": "Calvin Nguyen",
+        "name": "Nicole Nguyen",
+        "position": "External Vice President",
+        "email": "nicolvn1@uci.edu",
+        "image": "/assets/img/board/nicole-nguyen.jpg"
+    },
+    {
+        "name": "Jeremiah Soe",
+        "position": "Public Relations Chair",
+        "email": "soej@uci.edu",
+        "image": "/assets/img/board/jeremiah-soe.jpg"
+    },
+    {
+        "name": "Rachel Kline",
         "position": "Events Co-Chair",
-        "email": "calvinn7@uci.edu",
-        "image": "/assets/img/board/calvin.jpg"
+        "email": "klinerm@uci.edu",
+        "image": "/assets/img/board/rachel-kline.jpg"
+    },
+    {
+        "name": "Anna Lee",
+        "position": "Events Co-Chair",
+        "email": "chaeeul3@uci.edu",
+        "image": "/assets/img/board/anna-lee.jpg"
     },
     {
         "name": "Alexander Liu",
         "position": "Projects Co-Chair",
         "email": "liual2@uci.edu",
-        "image": "/assets/img/board/alex.jpg"
+        "image": "/assets/img/board/alexander-liu.jpg"
     },
     {
         "name": "Eddy Chen",
         "position": "Projects Co-Chair",
         "email": "chenx43@uci.edu",
-        "image": "/assets/img/board/eddy.jpg"
+        "image": "/assets/img/board/eddy-chen.jpg"
     },
     {
-        "name": "Aaditya Borse",
+        "name": "Minh Nguyen",
+        "position": "Projects Co-Chair",
+        "email": "mxnguye1@uci.edu",
+        "image": "/assets/img/board/minh-nguyen.jpg"
+    },
+    {
+        "name": "Rish Sharma",
         "position": "Corporate Outreach Chair",
         "email": "borsea@uci.edu",
-        "image": "/assets/img/board/aaditya.jpg"
+        "image": "/assets/img/board/rish-sharma.jpg"
     },
     {
-        "name": "Meenakshi Mynampati",
+        "name": "Ashley Zhou",
         "position": "Academic and Alumni Affairs Chair",
-        "email": "mmynampa@uci.edu",
-        "image": "/assets/img/board/MeenaMynampati.png"
+        "email": "ashlejz1@uci.edu",
+        "image": "/assets/img/board/ashley-zhou.jpg"
     },
     {
         "name": "Nathan Yang",
         "position": "Treasurer",
         "email": "npyang@uci.edu",
-        "image": "/assets/img/board/nathan.jpg"
+        "image": "/assets/img/board/nathan-yang.jpg"
     },
     {
-        "name": "Nicole Nguyen",
+        "name": "Ethan Wang",
         "position": "Secretary",
-        "email": "nicolvn1@uci.edu",
-        "image": "/assets/img/board/nicole.jpg"
+        "email": "ethannw@uci.edu",
+        "image": "/assets/img/board/ethan-wang.jpg"
     },
     {
         "name": "Michelle Huang",
         "position": "Graphics Co-Chair",
         "email": "huangm10@uci.edu",
-        "image": "/assets/img/board/MichelleHuang.png"
+        "image": "/assets/img/board/michelle-huang.jpg"
     },
     {
         "name": "Alaina Klaes",
         "position": "Graphics Co-Chair",
         "email": "klaesa@uci.edu",
-        "image": "/assets/img/board/AlainaKlaes.png"
+        "image": "/assets/img/board/alaina-klaes.jpg"
     },
     {
-        "name": "Avent Chiu",
+        "name": "Kevin Wu",
         "position": "Webmaster",
-        "email": "chiual@uci.edu",
-        "image": "/assets/img/board/AventChiu.png"
+        "email": "kwu21@uci.edu",
+        "image": "/assets/img/board/kevin-wu.jpg"
     }
 ]
