@@ -176,7 +176,7 @@ export default function Mission() {
       <div className="section">
         <h2>What Are ICSSC Committees?</h2>
         <p>
-          ICSSC is comprised of five committees — each serving a different topic
+          ICSSC is comprised of six committees — each serving a different topic
           and mission. We strive to cover a plethora of interests and encourage
           members to learn new skills, too!
         </p>
