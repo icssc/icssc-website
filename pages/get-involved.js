@@ -27,7 +27,7 @@ export default function GetInvolved() {
         <div className={styles.oneContainer}>
           <h2>Our Newsletter</h2>
           <p>
-            Sign up to recieve email updates on our events, promotions,
+            Sign up to receive email updates on our events, promotions,
             announcements, and more!
           </p>
 
@@ -42,16 +42,14 @@ export default function GetInvolved() {
 
         <div className={styles.oneContainer}>
           <h2>Apply To Our Committees</h2>
-          <b>Applications are closed. Check back in Fall Quarter for recruitment.</b>
           {/* <b>
-            <a
-              href="https://forms.gle/oXRCES81JUihBy789"
-              target="_blank"
-              rel="noreferrer"
-            >
+            Applications are closed. Check back in Fall Quarter for recruitment.
+          </b> */}
+          <b>
+            <a href="https://join.icssc.club" target="_blank" rel="noreferrer">
               Applications are open!
             </a>
-          </b> */}
+          </b>
           <p> ICS Students can apply to any of the following committees.</p>
           <div className={styles.committeeContainer}>
             {CommitteesJSON.map((committee) => (
