@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "src":"/assets/img/events/event_meet-the-bytes.jpg",
+            "title":"Meet the Bytes",
+            "time":"2024-10-09",
+            "location": "DBH 6011 7-8 PM",
+            "desc": "Don't miss out on an opportunity to make mentor connections this year! ‼️ Come out and meet our \"Bytes\" so that you can find the Byte best fitted to support you as a \"Bit\"! 👾 Take this chance to meet new friends and stay connected with the ICS community through events that promote academic success and community bonding.👨‍💻👩‍💻🧑‍💻"
+        },
+        {
             "src":"/assets/img/events/spacex.png",
             "title":"Space X + Obsidian Entertainment Office Tours",
             "time":"2024-01-31",
