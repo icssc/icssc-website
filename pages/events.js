@@ -86,7 +86,7 @@ export default function Events() {
       return false;
     }
 
-    return currentDate < event.time;
+    return currentDate <= event.time;
   });
 
   const pastEvents = eventsData.filter((event) => {
