@@ -159,9 +159,8 @@ export default function Mission() {
         </a>
       </div>
 
-      {/* Member Club Section */}
       <div className="sectionAlt">
-        <h2>Our Member Clubs</h2>
+        <h2>Affiliated Clubs</h2>
         <Row>
           <div className={`${styles.horizontalGallery}`}>
             {/* Map project data onto ProjectDisplay. Placeholder for now */}

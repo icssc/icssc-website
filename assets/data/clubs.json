@@ -8,7 +8,7 @@
     },
     {
         "id": "ai",
-        "name": "AI at UCI",
+        "name": "Artificial Intelligence @ UCI",
         "logo": "/assets/img/clubs/ai.png",
         "website": "https://aiclub.ics.uci.edu/",
         "description": ""
@@ -35,6 +35,20 @@
         "description": ""
     },
     {
+        "id": "data",
+        "name": "Data @ UCI",
+        "logo": "/assets/img/clubs/data.svg",
+        "website": "https://www.dataatuci.com/",
+        "description": ""
+    },
+    {
+        "id": "design",
+        "name": "Design at UCI",
+        "logo": "/assets/img/clubs/dauci.svg",
+        "website": "https://designatuci.com/",
+        "description": ""
+    },
+    {
         "id": "hack",
         "name": "Hack at UCI",
         "logo": "/assets/img/clubs/hack.png",
@@ -42,17 +56,10 @@
         "description": ""
     },
     {
-        "id": "ieee",
-        "name": "Institute of Electrical and Electronics Engineers",
-        "logo": "/assets/img/clubs/ieee.png",
-        "website": "https://ieee.ics.uci.edu/",
-        "description": ""
-    },
-    {
-        "id": "maiss",
-        "name": "Management Information Student Society",
-        "logo": "/assets/img/clubs/maiss.png",
-        "website": "https://www.maissuci.com/",
+        "id": "qc",
+        "name": "Quantum Computing @ UCI",
+        "logo": "/assets/img/clubs/qc.png",
+        "website": "https://www.qc-uci.club/",
         "description": ""
     },
     {
@@ -61,11 +68,6 @@
         "logo": "/assets/img/clubs/vgdc.png",
         "website": "https://sites.google.com/uci.edu/vgdcuci/",
         "description": ""
-    },
-    {
-        "id": "vrdc",
-        "name": "Virtual Reality Development Club",
-        "logo": "/assets/img/clubs/vrdc.png"
     },
     {
         "id": "wics",
