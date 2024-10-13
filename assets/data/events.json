@@ -1,6 +1,13 @@
 {
     "events": [
         {
+            "src":"/assets/img/events/event_internship-panel.png",
+            "title":"Internship Panel",
+            "time":"2024-10-16",
+            "location": "DBH 6011 7-8 PM",
+            "desc": "Looking for advice in applying for internships this application season ❓ Come meet our panelists and receive insight/listen to personal experiences about the application process at our ICSSC Internship Panel Wednesday (10/16) 7-8pm at DBH 6011! 😄 Feel free to bring in your resume 📋 to receive direct feedback from our panelists afterwards!"
+        },
+        {
             "src":"/assets/img/events/event_meet-the-bytes.jpg",
             "title":"Meet the Bytes",
             "time":"2024-10-09",
