@@ -1,6 +1,20 @@
 {
   "events": [
     {
+      "src": "/assets/img/events/event_research-panel.png",
+      "title": "Research Panel",
+      "time": "2025-02-26",
+      "location": "DBH 6011 7-8 PM",
+      "desc": "💡 Ever wondered what drives your professor’s passion for research? Now’s your chance to find out! 📢 Join us for an engaging ICS research panel! 🗣️ 👩‍💻👨‍💻 ✨ This is your opportunity to hear from Professor Shen, Professor Hayes, Professor Garcia, and student researchers about their work, experiences, and advice for getting involved in research. Don’t miss out! 🎙️🤩 📌 Come with questions and curiosity! We can’t wait to see you there. 👀🙌"
+    },
+    {
+      "src": "/assets/img/events/event_planning-your-academic-journey.png",
+      "title": "Planning Your Academic Journey",
+      "time": "2025-02-19",
+      "location": "DBH 6011 7-8 PM",
+      "desc": "Struggling to choose your courses for the next year? 🤯 Come and hear from ICSSC Projects, where we tell you about our own experiences and tools that we’ve developed to ease the course planning process. 📘📔📗 Join us to learn how to visualize your 4 year plan, avoid scheduling conflicts, and stay on track for graduation! 🎢"
+    },
+    {
       "src": "/assets/img/events/event_cupids-mailbox-crafts.png",
       "title": "Cupid's Mailbox Crafts",
       "time": "2025-02-12",
