@@ -1,6 +1,20 @@
 {
   "events": [
     {
+      "src": "/assets/img/events/event_chapman-mixer.png",
+      "title": "Chapman x ICSSC UTC Mixer",
+      "time": "2025-03-07",
+      "location": "University Town Center 6-8 PM",
+      "desc": "💌 Want to make new friends? Need a study buddy? Look no further! Find them at our upcoming Chapman CS Club x UCI ICSSC Mixer! 🛒 Join us at University Town Center next Friday for an intercollegiate social event! Meet new students, participate in a special icebreaker to find your 'perfect match,' and shop around UTC before kicking off your weekend!"
+    },
+    {
+      "src": "/assets/img/events/event_squid-game.png",
+      "title": "Squid Game Social",
+      "time": "2025-03-05",
+      "location": "DBH 6011 6:30-8 PM",
+      "desc": "No need to wait for the green light 🟢 — join ICSSC and IEEE for a Squid Game inspired social night 💃 ! Test your skills, compete in fun games 🏅 , and make new friends 👯 along the way (losers will make it out alive... or will they?🔪🔪 ). Challenge yourself in a friendly competition and see who comes out on top! 🏆 🦑"
+    },
+    {
       "src": "/assets/img/events/event_research-panel.png",
       "title": "Research Panel",
       "time": "2025-02-26",

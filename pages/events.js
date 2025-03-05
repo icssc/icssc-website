@@ -60,7 +60,11 @@ function Event(props) {
     <>
       <div className={`${styles.eventBox}`} onClick={() => setModalShow(true)}>
         {/*eslint-disable-next-line @next/next/no-img-element*/}
-        <img src={src} alt="Event Image" />
+        <img
+          src={src}
+          alt="Event Image"
+          style={{ objectFit: "cover", objectPosition: "top", width: "100%" }}
+        />
         <h4 style={{ marginTop: "10px", fontWeight: "600" }}>{title}</h4>
 
         <p>{location}</p>
