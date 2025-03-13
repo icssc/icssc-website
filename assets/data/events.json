@@ -1,6 +1,13 @@
 {
   "events": [
     {
+      "src": "/assets/img/events/event_aux-battle.png",
+      "title": "Aux Battle",
+      "time": "2025-03-12",
+      "location": "DBH 6011 7-8 PM",
+      "desc": "🎶 🎧 🔊 Feeling groovy before Finals? Maybe even a bit competitive too? Come join us for the LAST event of the quarter 🎊 in a battle of musical knowledge 🎼 🧠 where you and your friends can prove who has the more refined, cultured audio palette! 🎶 ✨"
+    },
+    {
       "src": "/assets/img/events/event_chapman-mixer.png",
       "title": "Chapman x ICSSC UTC Mixer",
       "time": "2025-03-07",
