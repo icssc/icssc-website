@@ -68,8 +68,8 @@ export default function NavBar() {
             <NavDropdown.Item href="/sponsors/glub-inc">
               Glub Inc.
             </NavDropdown.Item>
-            <NavDropdown.Item href="/sponsors/northrup-grumman">
-              Northrup Grumman
+            <NavDropdown.Item href="/sponsors/northrop-grumman">
+              Northrop Grumman
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/sponsors/all">
