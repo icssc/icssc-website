@@ -1,3 +1,4 @@
+// NB: Sorted alphabetically, with respect to co-runners
 export const CANDIDATES_DATA = {
   president: [
     {
