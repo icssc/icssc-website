@@ -24,17 +24,17 @@ export default function NavBar() {
                         <Nav.Link href="/ics-week">ICS Week</Nav.Link>
                     </Nav.Item> */}
 
-          {/* <NavDropdown title="Election" id="nav-dropdown" className="mr-4 mb-2 mb-lg-0 nav-unique-element" >
-                        <NavDropdown.Item href="/election">About the Election</NavDropdown.Item>
-                        <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
-                    </NavDropdown> */}
+          <NavDropdown
+            title="Election"
+            id="nav-dropdown"
+            className="mr-4 mb-2 mb-lg-0 nav-unique-element"
+          >
+            <NavDropdown.Item href="/election">
+              About the Election
+            </NavDropdown.Item>
+            <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
+          </NavDropdown>
 
-          {/* <Nav.Link
-                        className="nav-unique-element pr-4 mr-4 mb-2 mb-lg-0"
-                        href="/election"
-                    >
-                        Election
-                    </Nav.Link> */}
           <NavDropdown
             title="About"
             id="nav-dropdown"
@@ -76,14 +76,7 @@ export default function NavBar() {
               All Sponsors
             </NavDropdown.Item>
           </NavDropdown>
-          {/* <NavDropdown
-            title="Election"
-            id="election-dropdown"
-            className="mr-4 mb-2 mb-lg-0"
-          >
-            <NavDropdown.Item href="/candidates">Candidates</NavDropdown.Item>
-            <NavDropdown.Item href="">Vote!</NavDropdown.Item>
-          </NavDropdown> */}
+
           <Nav.Item title="Contact Us" className="mr-4 mb-2 mb-lg-0">
             <Nav.Link href="/contacts">Contact</Nav.Link>
           </Nav.Item>
