@@ -1,6 +1,24 @@
 export const CANDIDATES_DATA = {
   president: [
     {
+      name: "Anna Lee",
+      src: "/assets/img/candidates/cand_anna.jpg",
+      email: "chaeeul3@uci.edu",
+      year: "2",
+      major: "Computer Science and Engineering",
+      statement:
+        "Hello, everyone! My name is Anna Lee, and I am running for Co-President of ICSSC with Ashley Zhou. I've been a member of ICSSC for two years, and I am currently serving as Co-Chair of the Events Committee. As Co-Chair, I've worked to bring ICS students opportunities to connect and grow through big quarterly events (WebJam, Brain Games), and general weekly events (Internship Panel, Resume Workshop, Pickleball @ the Arc). From the very moment I applied to become a member of internal, what's continued to draw me to ICSSC has been the community that never hesitates to support each other socially, academically, and professionally. As a student council, we are in the unique position to cater to all ICS students, regardless of major or specialty. I hope to have the opportunity to expand that role of ICSSC as Co-President, fostering this lovely organization into something that further grows and supports the entire ICS community.",
+    },
+    {
+      name: "Ashley Zhou",
+      src: "/assets/img/candidates/cand_ashley.jpg",
+      email: "ashlejz1@uci.edu",
+      year: "2",
+      major: "Computer Science",
+      statement:
+        "Hi, I'm Ashley Zhou, and I'm running for Co-President of ICSSC with Anna Lee. After attending 13 schools across 9 cities, I've learned how to build community wherever I go. This year, as Academic & Alumni Affairs Chair, I've focused on connecting students with faculty and alumni in meaningful ways—whether that's building relationships with alumni and faculty, spearheading the Alumni Mentorship Program, planning guest speaker panels, or organizing LeetCode Study Groups. With experience in both people-focused and technical roles, I'm committed to leading ICSSC to be more connected, supportive, and reflective of the incredible people who make it all happen.",
+    },
+    {
       name: "Arnav Nigam",
       src: "/assets/img/candidates/cand_arnav.jpg",
       email: "anigam2@uci.edu",
@@ -72,29 +90,11 @@ export const CANDIDATES_DATA = {
         </>
       ),
     },
-    {
-      name: "Ashley Zhou",
-      src: "/assets/img/candidates/cand_ashley_anna.jpg",
-      email: "ashlejz1@uci.edu",
-      year: "2",
-      major: "Computer Science",
-      statement:
-        "Hi, I'm Ashley Zhou, and I'm running for Co-President of ICSSC with Anna Lee. After attending 13 schools across 9 cities, I've learned how to build community wherever I go. This year, as Academic & Alumni Affairs Chair, I've focused on connecting students with faculty and alumni in meaningful ways—whether that's building relationships with alumni and faculty, spearheading the Alumni Mentorship Program, planning guest speaker panels, or organizing LeetCode Study Groups. With experience in both people-focused and technical roles, I'm committed to leading ICSSC to be more connected, supportive, and reflective of the incredible people who make it all happen.",
-    },
-    {
-      name: "Anna Lee",
-      src: "/assets/img/candidates/cand_ashley_anna.jpg",
-      email: "chaeeul3@uci.edu",
-      year: "2",
-      major: "Computer Science and Engineering",
-      statement:
-        "Hello, everyone! My name is Anna Lee, and I am running for Co-President of ICSSC with Ashley Zhou. I've been a member of ICSSC for two years, and I am currently serving as Co-Chair of the Events Committee. As Co-Chair, I've worked to bring ICS students opportunities to connect and grow through big quarterly events (WebJam, Brain Games), and general weekly events (Internship Panel, Resume Workshop, Pickleball @ the Arc). From the very moment I applied to become a member of internal, what's continued to draw me to ICSSC has been the community that never hesitates to support each other socially, academically, and professionally. As a student council, we are in the unique position to cater to all ICS students, regardless of major or specialty. I hope to have the opportunity to expand that role of ICSSC as Co-President, fostering this lovely organization into something that further grows and supports the entire ICS community.",
-    },
   ],
   ivp: [
     {
       name: "Ethan Wang",
-      src: "/assets/img/candidates/cand_ethan.jpg",
+      src: "/assets/img/candidates/cand_ethan.jpeg",
       email: "ethannw@uci.edu",
       year: "3",
       major: "Computer Science",
@@ -105,7 +105,7 @@ export const CANDIDATES_DATA = {
   evp: [
     {
       name: "Pranavi Gollanapalli",
-      src: "/assets/img/candidates/cand_pranavi.jpg",
+      src: "/assets/img/candidates/cand_pranavi.png",
       email: "pgollana@uci.edu",
       year: "2",
       major: "Computer Science",

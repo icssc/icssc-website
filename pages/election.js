@@ -25,16 +25,12 @@ export default function Election() {
         </div> */}
 
           <div className={styles.oneContainer}>
-            <b>
+            {/* <b>
               Candidate declarations begin on Week 1, Monday and close on Friday
               at 11:59 PM.
-            </b>
+            </b> */}
             <b>
-              Candidates are out! View them{" "}
-              <a target="_blank" rel="noreferrer" href="/candidates">
-                here
-              </a>
-              !
+              Candidates are out! View them <a href="/candidates">here</a>!
             </b>
             <p>
               Note: Other board positions will be filled through application
