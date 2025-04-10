@@ -7,7 +7,6 @@ export default function Election() {
       <Container>
         <div className={styles.section}>
           <h1>&apos;25-&apos;26 Executive Board Elections</h1>
-          {/* Voting Form:  https://icssc.link/election-candidacy-declaration */}
           <img
             src="/assets/img/graphics/anteater_election.png"
             alt="Anteater on Podium"
@@ -23,7 +22,6 @@ export default function Election() {
             <u>External Vice President</u>: Rebecca Ahn <br/>
           </p>
         </div> */}
-
           <div className={styles.oneContainer}>
             {/* <b>
               Candidate declarations begin on Week 1, Monday and close on Friday
@@ -47,19 +45,15 @@ export default function Election() {
               .
             </p>
             <br />
-            {/* <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://icssc.link/election-voting-form"
-            >
+            <a target="_blank" rel="noreferrer" href="https://icssc.link/vote">
               <button
                 className="pinkButton"
-                style={{ marginTop: "10px" }}
+                style={{ marginTop: "10px", padding: "8px 16px" }}
                 type="button"
               >
                 Cast your Vote
               </button>
-            </a> */}
+            </a>
           </div>
           {/* <div className={styles.oneContainer}>
             <b>Election has ended! Thank you to everyone who voted! </b>
@@ -69,7 +63,6 @@ export default function Election() {
               <u>External Vice President</u>: Nicole Nguyen <br />
             </p>
           </div> */}
-
           <div className={styles.oneContainer}>
             <div>
               <h3>President</h3>
