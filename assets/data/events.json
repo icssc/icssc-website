@@ -1,6 +1,27 @@
 {
   "events": [
     {
+      "src": "/assets/img/events/event_egghunt2025.png",
+      "title": "Egg Hunt",
+      "time": "2025-04-16",
+      "location": "DBH 6011 7-8 PM",
+      "desc": "Spring has sprung - and you know what that means… EGG HUNT TIME! 🐣🌸 Join ICSSC during Week 3 for a super fun 🕵️‍♀️ partner egg hunt adventure through DBH! Work together, out-sleuth other teams, and see who can collect the most eggs hidden throughout the building! 🧺✨ 🥇The winning team gets a special prize — and eternal ICSSC bragging rights 😉"
+    },
+    {
+      "src": "/assets/img/events/event_elections.png",
+      "title": "ICSSC Elections",
+      "time": "2025-04-09",
+      "location": "DBH 6011 7-8 PM",
+      "desc": "ARE YOU 🫵 READY FOR ICSSC ELECTIONS⁉️ Starting today, the positions for Executive Board (President, Internal Vice President, and External Vice President) of ICS Student Council are available for election for the 2025-26 school year."
+    },
+    {
+      "src": "/assets/img/events/event_pickleball.png",
+      "title": "Pickleball",
+      "time": "2025-04-02",
+      "location": "ARC Upper Field Pickleball Courts 7-8 PM",
+      "desc": "🥒🏓 Start off your Spring Quarter with a new hobby: Pickleball! We’ll have experienced players on hand to show you the ropes, and extra equipment available to borrow. Whether you're looking to learn or just have a good time, it's the perfect opportunity to meet new people, enjoy the game, and touch grass. See you on the courts!!😎"
+    },
+    {
       "src": "/assets/img/events/event_aux-battle.png",
       "title": "Aux Battle",
       "time": "2025-03-12",
